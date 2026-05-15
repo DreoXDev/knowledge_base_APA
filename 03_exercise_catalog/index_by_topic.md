@@ -5,6 +5,12 @@
 - [[exam_2026_01_12_e01]] - zaino 0/1 con vincolo colore rosso
 - [[exam_2026_01_12_e02]] - cammini pari in grafo
 - [[exam_2026_01_12_e05]] - ricorrenza zaino 0/1
+- [[exam_2025_07_03_p1_e01]] - LCS con vincolo di ingombro
+- [[exam_2025_07_03_p1_e02]] - cammini con conteggi esatti di colori
+
+## LCS / Sottosequenze comuni
+
+- [[exam_2025_07_03_p1_e01]]
 
 ## Zaino 0/1
 
@@ -16,6 +22,12 @@
 - [[exam_2026_01_12_e02]]
 - [[exam_2026_01_12_e03]]
 - [[exam_2026_01_12_e04]]
+- [[exam_2025_07_03_p1_e02]]
+
+## DP booleana su grafi
+
+- [[exam_2026_01_12_e02]]
+- [[exam_2025_07_03_p1_e02]]
 
 ## Greedy / MST
 
@@ -29,4 +41,3 @@
 ## Matroidi
 
 - [[exam_2026_01_12_bonus_matroidi]]
-

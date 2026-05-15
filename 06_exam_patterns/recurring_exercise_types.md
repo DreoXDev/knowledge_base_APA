@@ -6,11 +6,13 @@
   - [[exam_2026_01_12_e01]]
   - [[exam_2026_01_12_e02]]
   - [[exam_2026_01_12_e05]]
-- Frequenza osservata: `1 appello`
+  - [[exam_2025_07_03_p1_e01]]
+  - [[exam_2025_07_03_p1_e02]]
+- Frequenza osservata: `2 appelli`
 - Priorita: `altissima`
 - Descrizione:
-  - Il compito chiede spesso di impostare la programmazione dinamica formalmente, non solo di dare il risultato.
-  - Ricorrono: coefficienti, caso base, passo ricorsivo, soluzione finale e talvolta ricostruzione.
+  - Il compito chiede spesso di impostare formalmente una DP: coefficienti, casi base, passo ricorsivo, soluzione finale e talvolta ricostruzione.
+  - Gli esercizi della Parte I sembrano fortemente centrati su questa struttura.
 
 ## Zaino 0/1
 
@@ -23,12 +25,25 @@
   - versione classica;
   - versione con vincolo aggiuntivo di presenza di un oggetto rosso.
 
-## DP su grafi e proprieta dei cammini
+## DP su sequenze con vincolo aggiuntivo
+
+- Esercizi collegati:
+  - [[exam_2025_07_03_p1_e01]]
+- Frequenza osservata: `1 appello`
+- Priorita: `alta`
+- Varianti osservate:
+  - LCS con vincolo di ingombro massimo.
+
+## DP booleana su grafi con proprieta del cammino
 
 - Esercizi collegati:
   - [[exam_2026_01_12_e02]]
-- Frequenza osservata: `1 appello`
-- Priorita: `alta`
+  - [[exam_2025_07_03_p1_e02]]
+- Frequenza osservata: `2 appelli`
+- Priorita: `altissima`
+- Varianti osservate:
+  - esistenza di cammino con numero pari di archi;
+  - esistenza di cammino con esattamente 2 archi rossi e 2 archi blu.
 
 ## Simulazione Kruskal / MST
 

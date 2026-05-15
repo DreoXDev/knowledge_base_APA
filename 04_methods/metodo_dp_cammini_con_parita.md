@@ -26,6 +26,11 @@ Per stabilire proprieta di esistenza di cammini quando conta anche la parita del
 ## Esercizi collegati
 
 - [[exam_2026_01_12_e02]]
+- [[exam_2025_07_03_p1_e02]]
+
+## Varianti collegate
+
+- [[metodo_dp_cammini_colori_conteggi]]
 
 ## Teoria necessaria
 
@@ -36,4 +41,3 @@ Per stabilire proprieta di esistenza di cammini quando conta anche la parita del
 
 > [!Warning]
 > Verificare la notazione attesa dal corso prima di completare il metodo.
-

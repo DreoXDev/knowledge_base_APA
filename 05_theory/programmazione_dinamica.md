@@ -19,7 +19,8 @@ Tecnica per risolvere problemi con sottoproblemi sovrapposti e struttura ottima,
 - [[exam_2026_01_12_e01]]
 - [[exam_2026_01_12_e02]]
 - [[exam_2026_01_12_e05]]
+- [[exam_2025_07_03_p1_e01]]
+- [[exam_2025_07_03_p1_e02]]
 
 > [!Warning]
 > Nota scaffold: completare dopo altri appelli o appunti.
-

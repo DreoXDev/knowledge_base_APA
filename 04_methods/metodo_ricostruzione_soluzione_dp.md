@@ -24,6 +24,7 @@ Quando l'esercizio non chiede solo il valore ottimo, ma anche di stampare o rico
 ## Esercizi collegati
 
 - [[exam_2026_01_12_e01]]
+- [[exam_2025_07_03_p1_e01]]
 
 ## Teoria necessaria
 
@@ -33,4 +34,3 @@ Quando l'esercizio non chiede solo il valore ottimo, ma anche di stampare o rico
 
 > [!Warning]
 > Metodo da completare dopo analisi di altri appelli o degli appunti.
-

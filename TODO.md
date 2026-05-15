@@ -17,27 +17,22 @@
 - [x] Update `AI_CONTEXT.md` with ingestion workflow
 - [x] Update `PROJECT_STATUS.md` with PDF processing status
 
-## First ingestion report
+## Applied ingestion reports
 
-- [x] Save first ingestion report
-- [x] Create transcription for `2026-01-12`
-- [x] Create exercise notes for `2026-01-12`
-- [x] Update exercise indexes
-- [x] Update theory indexes
-- [x] Create method scaffolds
-- [x] Create theory scaffolds
-- [x] Update recurring pattern notes
-- [x] Update `01_sources/source_inventory.md` with report link
+- [x] Apply `2026-01-12` full exam report
+- [x] Apply `2025-07-03 Parte I` report
 
 ## Prossimi step
 
+- [ ] Verificare manualmente trascrizione dell'appello `2025-07-03 Parte I`
+- [ ] Risolvere `exam_2025_07_03_p1_e01` LCS con vincolo di ingombro
+- [ ] Risolvere `exam_2025_07_03_p1_e02` cammini con conteggi di colori
+- [ ] Consolidare metodo comune per DP booleana su grafi
 - [ ] Verificare manualmente trascrizione dell'appello `2026-01-12`
 - [ ] Risolvere `exam_2026_01_12_e05` come base per zaino 0/1
 - [ ] Risolvere `exam_2026_01_12_e01` come variante con vincolo rosso
 - [ ] Risolvere `exam_2026_01_12_e03` Kruskal
-- [ ] Risolvere `exam_2026_01_12_e04` riduzione CLIQUE/VERTEX-COVER
-- [ ] Risolvere `exam_2026_01_12_e06` CLIQUE NP-completo
-- [ ] Verificare `exam_2026_01_12_e02` DP cammini pari con notazione del corso
+- [ ] Aggiornare mappa pattern dopo almeno 3 appelli
 - [ ] Analizzare prossimo PDF in `01_sources/exams_raw/`
 
 ## Cataloging

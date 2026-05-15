@@ -19,7 +19,7 @@ Strutture composte da vertici e archi, orientati o non orientati, pesati o non p
 - [[exam_2026_01_12_e02]]
 - [[exam_2026_01_12_e03]]
 - [[exam_2026_01_12_e04]]
+- [[exam_2025_07_03_p1_e02]]
 
 > [!Warning]
 > Nota scaffold: completare solo con teoria effettivamente richiesta dagli appelli.
-
