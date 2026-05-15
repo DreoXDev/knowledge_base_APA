@@ -1,0 +1,6 @@
+# Flashcards
+
+| Fronte | Retro | Collegamento |
+|---|---|---|
+| ... | ... | ... |
+
