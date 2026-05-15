@@ -1,26 +1,22 @@
 # Esercizi per difficolta
 
-## Base
+## Alta
 
-| Esercizio | Appello | Argomento | Stato |
-|---|---|---|---|
-| ... | ... | ... | ... |
+- [[exam_2026_01_12_e01]]
+- [[exam_2026_01_12_e02]]
+- [[exam_2026_01_12_e06]]
+- [[exam_2026_01_12_bonus_matroidi]]
 
 ## Media
 
-| Esercizio | Appello | Argomento | Stato |
-|---|---|---|---|
-| ... | ... | ... | ... |
+- [[exam_2026_01_12_e04]]
 
-## Alta
+## Bassa-media
 
-| Esercizio | Appello | Argomento | Stato |
-|---|---|---|---|
-| ... | ... | ... | ... |
+- [[exam_2026_01_12_e03]]
+- [[exam_2026_01_12_e05]]
 
-## Esame
+## Base
 
-| Esercizio | Appello | Argomento | Stato |
-|---|---|---|---|
-| ... | ... | ... | ... |
+Nessun esercizio catalogato.
 

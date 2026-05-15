@@ -41,11 +41,37 @@ Transform raw sources into a structured knowledge base:
 
 ## Current Priority
 
-Initialize the repository structure, create templates, write folder README files, and define the workflow.
+Complete the PDF ingestion setup, then process sources one by one through ingestion reports.
+
+## PDF Ingestion Workflow
+
+The repository uses a staged ingestion workflow.
+
+ChatGPT or another AI may analyze one PDF at a time and produce an ingestion report file inside `09_ingestion_reports/`.
+
+Codex should then apply that report to the knowledge base by creating or updating:
+
+- exercise notes;
+- method notes;
+- theory notes;
+- exam pattern notes;
+- solved examples;
+- indexes;
+- project status files.
+
+Codex should not independently interpret handwritten PDFs unless explicitly instructed. Its main role is to apply structured ingestion reports.
+
+## Ingestion Rules
+
+- Every source must have a stable Source ID in `01_sources/source_inventory.md`.
+- Every ingestion report must reference one or more Source IDs.
+- Every exercise, method, theory note or pattern created from a PDF must preserve the source reference.
+- Ambiguous interpretation must be marked with `[!Warning]`.
+- Do not invent missing steps, solutions or theory.
+- If an instruction in an ingestion report is unclear, create a TODO entry instead of guessing.
 
 ## Standard Chain
 
 ```txt
 Appello -> Esercizio -> Pattern -> Metodo -> Teoria -> Esempio svolto -> Errori comuni
 ```
-

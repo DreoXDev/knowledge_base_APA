@@ -25,10 +25,18 @@ La base di conoscenza serve a riconoscere rapidamente:
 - `06_exam_patterns/`: pattern ricorrenti negli appelli.
 - `07_solved_examples/`: esempi svolti.
 - `08_review/`: materiale di ripasso.
+- `09_ingestion_reports/`: report intermedi generati dall'analisi dei PDF e usati da Codex per aggiornare la knowledge base.
 - `templates/`: template Markdown.
+
+## Workflow PDF
+
+1. I PDF originali vengono salvati in `01_sources/`.
+2. Ogni PDF riceve un Source ID in `01_sources/source_inventory.md`.
+3. Un'AI analizza il PDF e produce un ingestion report.
+4. Codex applica il report alla knowledge base.
+5. Gli indici e lo stato progetto vengono aggiornati.
 
 ## Regola guida
 
 > [!Summary]
 > Appello -> Esercizio -> Pattern -> Metodo -> Teoria -> Esempio svolto -> Errori comuni.
-
