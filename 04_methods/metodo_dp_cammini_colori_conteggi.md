@@ -34,7 +34,12 @@ dove:
 ## Esercizi collegati
 
 - [[exam_2025_07_03_p1_e02]]
+- [[exam_2025_06_09_p1_e02]]
 - [[exam_2026_01_12_e02]]
+
+## Varianti collegate
+
+- [[metodo_dp_cammini_colori_precedenze]]
 
 ## Teoria necessaria
 
@@ -51,4 +56,3 @@ dove:
 
 > [!Warning]
 > Verificare la notazione specifica del corso prima di trasformarlo in metodo definitivo.
-

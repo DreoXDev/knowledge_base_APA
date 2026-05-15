@@ -8,11 +8,36 @@
   - [[exam_2026_01_12_e05]]
   - [[exam_2025_07_03_p1_e01]]
   - [[exam_2025_07_03_p1_e02]]
-- Frequenza osservata: `2 appelli`
+  - [[exam_2025_06_09_p1_e01]]
+  - [[exam_2025_06_09_p1_e02]]
+- Frequenza osservata: `3 appelli`
 - Priorita: `altissima`
 - Descrizione:
-  - Il compito chiede spesso di impostare formalmente una DP: coefficienti, casi base, passo ricorsivo, soluzione finale e talvolta ricostruzione.
-  - Gli esercizi della Parte I sembrano fortemente centrati su questa struttura.
+  - Gli esercizi di Parte I sono quasi interamente basati sull'impostazione formale della DP: coefficienti, casi base, passo ricorsivo, soluzione finale e spesso ricostruzione.
+
+## LCS con vincoli aggiuntivi
+
+- Esercizi collegati:
+  - [[exam_2025_07_03_p1_e01]]
+  - [[exam_2025_06_09_p1_e01]]
+- Frequenza osservata: `2 appelli`
+- Priorita: `altissima`
+- Varianti osservate:
+  - LCS con vincolo di ingombro massimo;
+  - LCS con vincoli sul numero massimo di simboli rossi e blu.
+
+## DP booleana su grafi con proprieta del cammino
+
+- Esercizi collegati:
+  - [[exam_2026_01_12_e02]]
+  - [[exam_2025_07_03_p1_e02]]
+  - [[exam_2025_06_09_p1_e02]]
+- Frequenza osservata: `3 appelli`
+- Priorita: `altissima`
+- Varianti osservate:
+  - esistenza di cammino con numero pari di archi;
+  - esistenza di cammino con esattamente 2 archi rossi e 2 archi blu;
+  - esistenza di cammino senza certe precedenze tra colori di archi.
 
 ## Zaino 0/1
 
@@ -24,26 +49,6 @@
 - Varianti:
   - versione classica;
   - versione con vincolo aggiuntivo di presenza di un oggetto rosso.
-
-## DP su sequenze con vincolo aggiuntivo
-
-- Esercizi collegati:
-  - [[exam_2025_07_03_p1_e01]]
-- Frequenza osservata: `1 appello`
-- Priorita: `alta`
-- Varianti osservate:
-  - LCS con vincolo di ingombro massimo.
-
-## DP booleana su grafi con proprieta del cammino
-
-- Esercizi collegati:
-  - [[exam_2026_01_12_e02]]
-  - [[exam_2025_07_03_p1_e02]]
-- Frequenza osservata: `2 appelli`
-- Priorita: `altissima`
-- Varianti osservate:
-  - esistenza di cammino con numero pari di archi;
-  - esistenza di cammino con esattamente 2 archi rossi e 2 archi blu.
 
 ## Simulazione Kruskal / MST
 

@@ -26,6 +26,11 @@ dove $i$ e $j$ indicano i prefissi delle due sequenze e $k$ indica il budget mas
 ## Esercizi collegati
 
 - [[exam_2025_07_03_p1_e01]]
+- [[exam_2025_06_09_p1_e01]]
+
+## Varianti collegate
+
+- [[metodo_programmazione_dinamica_lcs_vincoli_colori]]
 
 ## Teoria necessaria
 
@@ -41,4 +46,3 @@ dove $i$ e $j$ indicano i prefissi delle due sequenze e $k$ indica il budget mas
 
 > [!Warning]
 > Metodo da completare durante la fase di soluzione.
-

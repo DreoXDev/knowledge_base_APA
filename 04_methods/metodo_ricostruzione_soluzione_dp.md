@@ -25,6 +25,7 @@ Quando l'esercizio non chiede solo il valore ottimo, ma anche di stampare o rico
 
 - [[exam_2026_01_12_e01]]
 - [[exam_2025_07_03_p1_e01]]
+- [[exam_2025_06_09_p1_e01]]
 
 ## Teoria necessaria
 

@@ -21,18 +21,21 @@
 
 - [x] Apply `2026-01-12` full exam report
 - [x] Apply `2025-07-03 Parte I` report
+- [x] Apply `2025-06-09 Parte I` report
 
 ## Prossimi step
 
+- [ ] Verificare manualmente trascrizione dell'appello `2025-06-09 Parte I`
+- [ ] Risolvere `exam_2025_06_09_p1_e01` LCS con vincoli sui colori
+- [ ] Risolvere `exam_2025_06_09_p1_e02` cammini con vincoli di precedenza tra colori
+- [ ] Consolidare metodo comune per LCS con vincoli aggiuntivi
+- [ ] Consolidare metodo comune per DP booleana su grafi con stato esteso
+- [ ] Creare una nota di sintesi sui pattern di Parte I
 - [ ] Verificare manualmente trascrizione dell'appello `2025-07-03 Parte I`
 - [ ] Risolvere `exam_2025_07_03_p1_e01` LCS con vincolo di ingombro
 - [ ] Risolvere `exam_2025_07_03_p1_e02` cammini con conteggi di colori
-- [ ] Consolidare metodo comune per DP booleana su grafi
 - [ ] Verificare manualmente trascrizione dell'appello `2026-01-12`
 - [ ] Risolvere `exam_2026_01_12_e05` come base per zaino 0/1
-- [ ] Risolvere `exam_2026_01_12_e01` come variante con vincolo rosso
-- [ ] Risolvere `exam_2026_01_12_e03` Kruskal
-- [ ] Aggiornare mappa pattern dopo almeno 3 appelli
 - [ ] Analizzare prossimo PDF in `01_sources/exams_raw/`
 
 ## Cataloging

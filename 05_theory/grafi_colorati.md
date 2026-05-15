@@ -18,6 +18,7 @@ Grafo in cui a ogni arco, o vertice, e associata un'etichetta colore usata nei v
 ## Collegamenti agli esercizi
 
 - [[exam_2025_07_03_p1_e02]]
+- [[exam_2025_06_09_p1_e02]]
 
 ## Collegamenti ai metodi
 
@@ -25,4 +26,3 @@ Grafo in cui a ogni arco, o vertice, e associata un'etichetta colore usata nei v
 
 > [!Warning]
 > Nota scaffold: completare solo con i vincoli di colore effettivamente richiesti.
-

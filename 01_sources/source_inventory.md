@@ -14,7 +14,7 @@
 | SRC-EXAM-003 | appello | `01_sources/exams_raw/parteI-11feb25-completo.pdf` | Parte I, appello completo 11 febbraio 2025 | da analizzare |  |  |
 | SRC-EXAM-004 | appello | `01_sources/exams_raw/parteI-11feb25-recupero.pdf` | Parte I, recupero 11 febbraio 2025 | da analizzare |  |  |
 | SRC-EXAM-005 | appello | `01_sources/exams_raw/parteII-11feb25-completo-recupero.pdf` | Parte II, completo e recupero 11 febbraio 2025 | da analizzare |  | Contiene probabilmente piu varianti nello stesso PDF |
-| SRC-EXAM-006 | appello | `01_sources/exams_raw/parteI-09giu25.pdf` | Parte I, appello 9 giugno 2025 | da analizzare |  |  |
+| SRC-EXAM-006 | appello | `01_sources/exams_raw/parteI-09giu25.pdf` | Parte I, appello 9 giugno 2025 | applicato | `09_ingestion_reports/ingestion_report_exam_2025_06_09_part1.md` | Parte I catalogata: 2 esercizi di programmazione dinamica |
 | SRC-EXAM-007 | appello | `01_sources/exams_raw/parteII-09giu25.pdf` | Parte II, appello 9 giugno 2025 | da analizzare |  |  |
 | SRC-EXAM-008 | appello | `01_sources/exams_raw/parteI-03lug25.pdf` | Parte I, appello 3 luglio 2025 | applicato | `09_ingestion_reports/ingestion_report_exam_2025_07_03_part1.md` | Parte I catalogata: 2 esercizi di programmazione dinamica |
 | SRC-EXAM-009 | appello | `01_sources/exams_raw/parteII-03lug25.pdf` | Parte II, appello 3 luglio 2025 | da analizzare |  |  |

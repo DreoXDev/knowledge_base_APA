@@ -19,6 +19,7 @@ Uso di stati e ricorrenze per decidere o ottimizzare proprieta su vertici, archi
 
 - [[exam_2026_01_12_e02]]
 - [[exam_2025_07_03_p1_e02]]
+- [[exam_2025_06_09_p1_e02]]
 
 > [!Warning]
 > Nota scaffold: verificare la notazione del corso.

@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-Second exam report applied.
+Third exam report applied.
 
 ## Completed
 
@@ -17,29 +17,30 @@ Second exam report applied.
 - [x] Extra source material added to `01_sources/extra_materials/`
 - [x] Source inventory populated
 - [x] Ingestion report workflow created
-- [x] First ingestion report saved: `09_ingestion_reports/ingestion_report_exam_2026_01_12.md`
-- [x] First exam cataloged: `01_sources/exams_raw/esame_apa_12_01_2026.pdf`
-- [x] Second ingestion report saved: `09_ingestion_reports/ingestion_report_exam_2025_07_03_part1.md`
-- [x] Second appello catalogato: `01_sources/exams_raw/parteI-03lug25.pdf`
-- [x] Exercise indexes updated for two appelli
+- [x] First ingestion report applied: `09_ingestion_reports/ingestion_report_exam_2026_01_12.md`
+- [x] Second ingestion report applied: `09_ingestion_reports/ingestion_report_exam_2025_07_03_part1.md`
+- [x] Third ingestion report applied: `09_ingestion_reports/ingestion_report_exam_2025_06_09_part1.md`
+- [x] Three appelli catalogati
+- [x] Exercise indexes updated for three appelli
 - [x] Method and theory scaffolds updated
 - [x] Exam pattern files updated
 
 ## Stato aggiornato
 
-- Appello analizzato: `01_sources/exams_raw/parteI-03lug25.pdf`
-- Source ID: `SRC-EXAM-008`
-- Data: `2025-07-03`
+- Appello analizzato: `01_sources/exams_raw/parteI-09giu25.pdf`
+- Source ID: `SRC-EXAM-006`
+- Data: `2025-06-09`
 - Parte: `Parte I`
-- Report applicato: `09_ingestion_reports/ingestion_report_exam_2025_07_03_part1.md`
-- Trascrizione creata: `02_transcriptions/exams/exam_2025_07_03_part1.md`
+- Report applicato: `09_ingestion_reports/ingestion_report_exam_2025_06_09_part1.md`
+- Trascrizione creata: `02_transcriptions/exams/exam_2025_06_09_part1.md`
 - Esercizi catalogati: `2`
-- Stato: `secondo appello catalogato`
+- Stato: `terzo appello catalogato`
 
 ## In Progress
 
 - [ ] Verifica manuale delle trascrizioni
 - [ ] Soluzione dei primi esercizi prioritari
+- [ ] Consolidamento dei metodi comuni per Parte I
 
 ## PDF Processing Status
 
@@ -50,7 +51,7 @@ Second exam report applied.
 | SRC-EXAM-003 | `parteI-11feb25-completo.pdf` | appello | da analizzare | Fonte censita | Creare ingestion report |
 | SRC-EXAM-004 | `parteI-11feb25-recupero.pdf` | appello | da analizzare | Fonte censita | Creare ingestion report |
 | SRC-EXAM-005 | `parteII-11feb25-completo-recupero.pdf` | appello | da analizzare | Fonte censita | Creare ingestion report |
-| SRC-EXAM-006 | `parteI-09giu25.pdf` | appello | da analizzare | Fonte censita | Creare ingestion report |
+| SRC-EXAM-006 | `parteI-09giu25.pdf` | appello | applicato | Report applicato e Parte I catalogata | Verificare trascrizione e risolvere esercizi |
 | SRC-EXAM-007 | `parteII-09giu25.pdf` | appello | da analizzare | Fonte censita | Creare ingestion report |
 | SRC-EXAM-008 | `parteI-03lug25.pdf` | appello | applicato | Report applicato e Parte I catalogata | Verificare trascrizione e risolvere esercizi |
 | SRC-EXAM-009 | `parteII-03lug25.pdf` | appello | da analizzare | Fonte censita | Creare ingestion report |
@@ -64,16 +65,17 @@ Second exam report applied.
 
 ## Next Actions
 
-1. Verificare manualmente trascrizione dell'appello `2025-07-03 Parte I`.
-2. Risolvere [[exam_2025_07_03_p1_e01]] LCS con vincolo di ingombro.
-3. Risolvere [[exam_2025_07_03_p1_e02]] cammini con conteggi di colori.
-4. Consolidare il metodo comune per DP booleana su grafi.
-5. Analizzare il prossimo PDF in `01_sources/exams_raw/`.
+1. Verificare manualmente trascrizione dell'appello `2025-06-09 Parte I`.
+2. Risolvere [[exam_2025_06_09_p1_e01]] LCS con vincoli sui colori.
+3. Risolvere [[exam_2025_06_09_p1_e02]] cammini con vincoli di precedenza tra colori.
+4. Consolidare il metodo comune per LCS con vincoli aggiuntivi.
+5. Consolidare il metodo comune per DP booleana su grafi con stato esteso.
+6. Analizzare il prossimo PDF in `01_sources/exams_raw/`.
 
 ## Open Questions
 
-- Quale PDF analizzare per terzo?
-- Conviene processare subito `parteII-03lug25.pdf` per completare l'appello del 3 luglio 2025?
-- Gli appelli Parte I e Parte II degli altri giorni devono essere catalogati separatamente o come parti dello stesso appello?
+- Quale PDF analizzare per quarto?
+- Conviene processare subito `parteII-09giu25.pdf` per completare l'appello del 9 giugno 2025?
+- Conviene creare una nota di sintesi sui pattern di Parte I dopo tre appelli?
 - `esercizi APA.pdf` va mantenuto come materiale extra o riclassificato dopo analisi?
 

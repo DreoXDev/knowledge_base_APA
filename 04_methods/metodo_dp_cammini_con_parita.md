@@ -27,10 +27,12 @@ Per stabilire proprieta di esistenza di cammini quando conta anche la parita del
 
 - [[exam_2026_01_12_e02]]
 - [[exam_2025_07_03_p1_e02]]
+- [[exam_2025_06_09_p1_e02]]
 
 ## Varianti collegate
 
 - [[metodo_dp_cammini_colori_conteggi]]
+- [[metodo_dp_cammini_colori_precedenze]]
 
 ## Teoria necessaria
 
