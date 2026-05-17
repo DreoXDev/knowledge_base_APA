@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-Fourth exam report applied.
+Fifth exam report applied.
 
 ## Completed
 
@@ -21,21 +21,22 @@ Fourth exam report applied.
 - [x] Second ingestion report applied: `09_ingestion_reports/ingestion_report_exam_2025_07_03_part1.md`
 - [x] Third ingestion report applied: `09_ingestion_reports/ingestion_report_exam_2025_06_09_part1.md`
 - [x] Fourth ingestion report applied: `09_ingestion_reports/ingestion_report_exam_2025_11_10_part1_tema_a.md`
-- [x] Four appelli catalogati
-- [x] Exercise indexes updated for four appelli
+- [x] Fifth ingestion report applied: `09_ingestion_reports/ingestion_report_exam_2025_02_11_part1_completo.md`
+- [x] Five appelli catalogati
+- [x] Exercise indexes updated for five appelli
 - [x] Method and theory scaffolds updated
 - [x] Exam pattern files updated
 
 ## Stato aggiornato
 
-- Appello analizzato: `01_sources/exams_raw/parte-I-10nov25-A.pdf`
-- Source ID: `SRC-EXAM-012`
-- Data: `2025-11-10`
-- Parte: `Parte I (Tema A)`
-- Report applicato: `09_ingestion_reports/ingestion_report_exam_2025_11_10_part1_tema_a.md`
-- Trascrizione creata: `02_transcriptions/exams/exam_2025_11_10_part1_tema_a.md`
+- Appello analizzato: `01_sources/exams_raw/parteI-11feb25-completo.pdf`
+- Source ID: `SRC-EXAM-003`
+- Data: `2025-02-11`
+- Parte: `Parte I (completo)`
+- Report applicato: `09_ingestion_reports/ingestion_report_exam_2025_02_11_part1_completo.md`
+- Trascrizione creata: `02_transcriptions/exams/exam_2025_02_11_part1_completo.md`
 - Esercizi catalogati: `2`
-- Stato: `quarto appello catalogato`
+- Stato: `quinto appello catalogato`
 
 ## In Progress
 
@@ -49,7 +50,7 @@ Fourth exam report applied.
 |---|---|---|---|---|---|
 | SRC-EXAM-001 | `parteI-13gen25.pdf` | appello | da analizzare | Fonte censita | Creare ingestion report |
 | SRC-EXAM-002 | `parteII-13gen25.pdf` | appello | da analizzare | Fonte censita | Creare ingestion report |
-| SRC-EXAM-003 | `parteI-11feb25-completo.pdf` | appello | da analizzare | Fonte censita | Creare ingestion report |
+| SRC-EXAM-003 | `parteI-11feb25-completo.pdf` | appello | applicato | Report applicato e Parte I catalogata | Verificare trascrizione e risolvere esercizi |
 | SRC-EXAM-004 | `parteI-11feb25-recupero.pdf` | appello | da analizzare | Fonte censita | Creare ingestion report |
 | SRC-EXAM-005 | `parteII-11feb25-completo-recupero.pdf` | appello | da analizzare | Fonte censita | Creare ingestion report |
 | SRC-EXAM-006 | `parteI-09giu25.pdf` | appello | applicato | Report applicato e Parte I catalogata | Verificare trascrizione e risolvere esercizi |
@@ -75,8 +76,7 @@ Fourth exam report applied.
 
 ## Open Questions
 
-- Quale PDF analizzare per quinto?
-- Conviene processare subito `parteII-09giu25.pdf` per completare l'appello del 9 giugno 2025?
-- Conviene creare una nota di sintesi sui pattern di Parte I dopo quattro appelli? (Risolta con la creazione di [[parte_i_dynamic_programming_patterns]])
+- Quale PDF analizzare per sesto?
+- Conviene processare subito `parteII-09giu25.pdf` o `parteII-11feb25-completo-recupero.pdf` per completare la seconda parte degli appelli già inseriti?
 - `esercizi APA.pdf` va mantenuto come materiale extra o riclassificato dopo analisi?
 

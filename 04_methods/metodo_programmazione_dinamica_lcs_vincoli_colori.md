@@ -18,7 +18,7 @@ Quando si cerca una sottosequenza comune massima tra due sequenze, ma la soluzio
 
 ## Stato tipico
 
-Un possibile stato e:
+Un possibile stato per due sequenze è:
 
 $$
 c_{i,j,r,b}
@@ -29,6 +29,12 @@ dove:
 - $i$ e $j$ indicano i prefissi delle due sequenze;
 - $r$ e il numero massimo di simboli rossi utilizzabili;
 - $b$ e il numero massimo di simboli blu utilizzabili.
+
+Nel caso di tre sequenze (vedi [[exam_2025_02_11_p1_completo_e01]]), lo stato si estende aggiungendo un terzo indice di prefisso $k$:
+
+$$
+c_{i,j,k,r}
+$$
 
 ## Soluzione finale tipica
 
@@ -49,6 +55,7 @@ $$
 - [[exam_2025_06_09_p1_e01]]
 - [[exam_2025_07_03_p1_e01]]
 - [[exam_2025_11_10_p1_tema_a_e01]]
+- [[exam_2025_02_11_p1_completo_e01]]
 
 ## Teoria necessaria
 

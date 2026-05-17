@@ -22,13 +22,13 @@ Quando bisogna stabilire l'esistenza di un cammino tra coppie di vertici che ris
 Nel caso dell'appello 2025-06-09 non sono ammesse le coppie consecutive:
 
 $$
-(R,N)
+(R,N) \quad \text{e} \quad (B,R)
 $$
 
-e
+Nel caso dell'appello 2025-02-11 (completo), non sono ammesse le coppie consecutive identiche di colore nero o blu:
 
 $$
-(B,R)
+(N,N) \quad \text{e} \quad (B,B)
 $$
 
 ## Problema ausiliario
@@ -49,6 +49,7 @@ Queste informazioni permettono di verificare se due sottocammini possono essere 
 - [[exam_2025_06_09_p1_e02]]
 - [[exam_2025_07_03_p1_e02]]
 - [[exam_2026_01_12_e02]]
+- [[exam_2025_02_11_p1_completo_e02]]
 
 ## Teoria necessaria
 
