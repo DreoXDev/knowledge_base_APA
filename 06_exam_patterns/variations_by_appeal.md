@@ -10,6 +10,7 @@
 | 2025-02-11 Parte I completo | [[exam_2025_02_11_p1_completo_e01]] | LCS a tre sequenze con al massimo 2 rossi |
 | 2025-02-11 Parte I recupero | [[exam_2025_02_11_p1_recupero_e01]] | LCS a tre sequenze con al massimo 2 rossi (coincidente con lo scritto completo) |
 | 2025-01-13 Parte I | [[exam_2025_01_13_p1_e01]] | LCS con al massimo 3 rossi e 2 blu |
+| 2025-09-17 Parte I | [[exam_2025_09_17_p1_e01]] | LCS a tre sequenze con al massimo 2 rossi (ripetizione dell'11 Febbraio 2025) |
 
 ## Programmazione dinamica su grafi
 
@@ -22,6 +23,7 @@
 | 2025-02-11 Parte I completo | [[exam_2025_02_11_p1_completo_e02]] | cammino senza due neri consecutivi e senza due blu consecutivi |
 | 2025-02-11 Parte I recupero | [[exam_2025_02_11_p1_recupero_e02]] | cammino minimo con numero dispari di archi blu e senza due vertici rossi consecutivi |
 | 2025-01-13 Parte I | [[exam_2025_01_13_p1_e02]] | cammino in cui nero non è seguito da rosso e rosso non è seguito da blu |
+| 2025-09-17 Parte I | [[exam_2025_09_17_p1_e02]] | cammino con numero dispari di archi blu |
 
 ## Programmazione dinamica su zaino
 

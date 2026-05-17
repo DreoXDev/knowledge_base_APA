@@ -18,7 +18,7 @@
 | SRC-EXAM-007 | appello | `01_sources/exams_raw/parteII-09giu25.pdf` | Parte II, appello 9 giugno 2025 | da analizzare |  |  |
 | SRC-EXAM-008 | appello | `01_sources/exams_raw/parteI-03lug25.pdf` | Parte I, appello 3 luglio 2025 | applicato | `09_ingestion_reports/ingestion_report_exam_2025_07_03_part1.md` | Parte I catalogata: 2 esercizi di programmazione dinamica |
 | SRC-EXAM-009 | appello | `01_sources/exams_raw/parteII-03lug25.pdf` | Parte II, appello 3 luglio 2025 | da analizzare |  |  |
-| SRC-EXAM-010 | appello | `01_sources/exams_raw/parteI-17set25.pdf` | Parte I, appello 17 settembre 2025 | da analizzare |  |  |
+| SRC-EXAM-010 | appello | `01_sources/exams_raw/parteI-17set25.pdf` | Parte I, appello 17 settembre 2025 | applicato | `09_ingestion_reports/ingestion_report_exam_2025_09_17_part1.md` | Catalogata Parte I con 2 esercizi DP (LCS a 3 sequenze budget rossi e cammini con parità archi blu) |
 | SRC-EXAM-011 | appello | `01_sources/exams_raw/parteII-17set25.pdf` | Parte II, appello 17 settembre 2025 | da analizzare |  |  |
 | SRC-EXAM-012 | appello | `01_sources/exams_raw/parte-I-10nov25-A.pdf` | Parte I, appello 10 novembre 2025, variante A | applicato | `09_ingestion_reports/ingestion_report_exam_2025_11_10_part1_tema_a.md` | Catalogata variante A della Parte I con 2 esercizi DP |
 | SRC-EXAM-013 | appello | `01_sources/exams_raw/parteII-10nov25.pdf` | Parte II, appello 10 novembre 2025 | da analizzare |  |  |

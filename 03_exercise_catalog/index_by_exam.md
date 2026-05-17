@@ -54,4 +54,11 @@
 | [[exam_2025_01_13_p1_e01]] | Parte I | DP LCS con budget rossi e blu | 31 | alta | cataloged |
 | [[exam_2025_01_13_p1_e02]] | Parte I | DP cammini con vincoli di precedenza tra colori | 31 | alta | cataloged |
 
+## 2025-09-17 - Parte I
+
+| Esercizio | Parte | Argomento | Punti | Difficolta | Stato |
+|---|---|---|---:|---|---|
+| [[exam_2025_09_17_p1_e01]] | Parte I | DP LCS a tre sequenze con budget rossi | 31 | alta | cataloged |
+| [[exam_2025_09_17_p1_e02]] | Parte I | DP cammini con parità dispari di archi blu | 31 | alta | cataloged |
+
 

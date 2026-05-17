@@ -18,7 +18,9 @@
   - [[exam_2025_02_11_p1_recupero_e02]]
   - [[exam_2025_01_13_p1_e01]]
   - [[exam_2025_01_13_p1_e02]]
-- Frequenza osservata: `7 appelli`
+  - [[exam_2025_09_17_p1_e01]]
+  - [[exam_2025_09_17_p1_e02]]
+- Frequenza osservata: `8 appelli`
 - Priorita: `altissima`
 - Descrizione:
   - Gli esercizi di Parte I sono quasi interamente basati sull'impostazione formale della DP: coefficienti, casi base, passo ricorsivo, soluzione finale e spesso ricostruzione.
@@ -32,7 +34,8 @@
   - [[exam_2025_02_11_p1_completo_e01]]
   - [[exam_2025_02_11_p1_recupero_e01]]
   - [[exam_2025_01_13_p1_e01]]
-- Frequenza osservata: `6 appelli`
+  - [[exam_2025_09_17_p1_e01]]
+- Frequenza osservata: `7 appelli`
 - Priorita: `altissima`
 - Varianti osservate:
   - LCS con vincolo di ingombro massimo;
@@ -50,7 +53,8 @@
   - [[exam_2025_02_11_p1_completo_e02]]
   - [[exam_2025_02_11_p1_recupero_e02]]
   - [[exam_2025_01_13_p1_e02]]
-- Frequenza osservata: `7 appelli`
+  - [[exam_2025_09_17_p1_e02]]
+- Frequenza osservata: `8 appelli`
 - Priorita: `altissima`
 - Varianti osservate:
   - esistenza di cammino con numero pari di archi;

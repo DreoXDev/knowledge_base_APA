@@ -23,11 +23,13 @@ Grafo in cui a ogni arco, o vertice, e associata un'etichetta colore usata nei v
 - [[exam_2025_02_11_p1_completo_e02]]
 - [[exam_2025_02_11_p1_recupero_e02]]
 - [[exam_2025_01_13_p1_e02]]
+- [[exam_2025_09_17_p1_e02]]
 
 ## Collegamenti ai metodi
 
 - [[metodo_dp_cammini_colori_conteggi]]
 - [[metodo_dp_cammini_colori_precedenze]]
+- [[metodo_dp_cammini_colori_parita]]
 - [[metodo_cammini_minimi_vincoli_colori_parita]]
 
 > [!Warning]

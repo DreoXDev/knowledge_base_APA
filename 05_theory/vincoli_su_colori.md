@@ -35,6 +35,8 @@ Vincoli che dipendono dal colore di simboli o archi e richiedono di aggiungere c
 - [[exam_2025_02_11_p1_recupero_e02]]
 - [[exam_2025_01_13_p1_e01]]
 - [[exam_2025_01_13_p1_e02]]
+- [[exam_2025_09_17_p1_e01]]
+- [[exam_2025_09_17_p1_e02]]
 
 ## Collegamenti ai metodi
 
@@ -42,6 +44,7 @@ Vincoli che dipendono dal colore di simboli o archi e richiedono di aggiungere c
 - [[metodo_lcs_tre_sequenze_vincolo_colori]]
 - [[metodo_dp_cammini_colori_conteggi]]
 - [[metodo_dp_cammini_colori_precedenze]]
+- [[metodo_dp_cammini_colori_parita]]
 - [[metodo_cammini_minimi_vincoli_colori_parita]]
 
 > [!Warning]

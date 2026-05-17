@@ -26,6 +26,7 @@
 - [x] Apply `2025-02-11 Parte I completo` report
 - [x] Apply `2025-02-11 Parte I recupero` report
 - [x] Apply `2025-01-13 Parte I` report
+- [x] Apply `2025-09-17 Parte I` report
 
 ## Prossimi step
 
@@ -49,6 +50,8 @@
 - [ ] Verificare deduplicazione tra `exam_2025_02_11_p1_completo_e01` ed `exam_2025_02_11_p1_recupero_e01`
 - [ ] Risolvere completamente `exam_2025_01_13_p1_e01` (LCS budget 3R/2B)
 - [ ] Risolvere completamente `exam_2025_01_13_p1_e02` (cammini con esclusione transizioni)
+- [ ] Risolvere completamente `exam_2025_09_17_p1_e02` (cammini con parità dispari di archi blu)
+- [ ] Verificare deduplicazione tra `exam_2025_09_17_p1_e01`, `exam_2025_02_11_p1_completo_e01` ed `exam_2025_02_11_p1_recupero_e01`
 - [ ] Creare tabella comparativa varianti LCS con budget (2R/3B, 3R/2B, 3 sequenze con 2R, rosso obbligatorio)
 - [ ] Creare tabella comparativa varianti DP su grafi (esistenza, parità, cammini minimi, precedenze di sequenza, consecutività)
 - [ ] Analizzare prossimo PDF in `01_sources/exams_raw/`
