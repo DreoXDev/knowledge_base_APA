@@ -12,7 +12,7 @@ tags:
 
 ## Quando si usa
 
-Per esercizi che chiedono di massimizzare valore sotto vincolo di capacita, scegliendo ogni oggetto al piu una volta.
+Per esercizi che chiedono di massimizzare valore sotto vincolo di capacità, scegliendo ogni oggetto al più una volta.
 
 ## Schema ricorrente
 

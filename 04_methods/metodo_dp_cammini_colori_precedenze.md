@@ -33,7 +33,7 @@ $$
 
 ## Problema ausiliario
 
-Il problema principale "esiste un cammino valido da $i$ a $j$?" puo richiedere un problema ausiliario che tenga traccia di informazioni aggiuntive sui colori agli estremi del cammino.
+Il problema principale "esiste un cammino valido da $i$ a $j$?" può richiedere un problema ausiliario che tenga traccia di informazioni aggiuntive sui colori agli estremi del cammino.
 
 Un possibile stato contiene:
 

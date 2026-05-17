@@ -50,7 +50,7 @@ Per ogni PDF manoscritto:
 
 ## Fase 6 - Creazione metodi
 
-Ogni volta che un pattern ricorre piu di una volta, creare una nota metodo in `04_methods/`.
+Ogni volta che un pattern ricorre più di una volta, creare una nota metodo in `04_methods/`.
 
 ## Fase 7 - Creazione teoria
 

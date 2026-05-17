@@ -12,7 +12,7 @@ tags:
 
 ## Definizione minima
 
-Problema di selezione di oggetti, ciascuno scelto al piu una volta, per massimizzare valore rispettando un vincolo di capacita.
+Problema di selezione di oggetti, ciascuno scelto al più una volta, per massimizzare valore rispettando un vincolo di capacità.
 
 ## Collegamenti agli esercizi
 
