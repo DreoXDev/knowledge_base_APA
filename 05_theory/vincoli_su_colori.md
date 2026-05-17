@@ -33,6 +33,8 @@ Vincoli che dipendono dal colore di simboli o archi e richiedono di aggiungere c
 - [[exam_2025_02_11_p1_completo_e02]]
 - [[exam_2025_02_11_p1_recupero_e01]]
 - [[exam_2025_02_11_p1_recupero_e02]]
+- [[exam_2025_01_13_p1_e01]]
+- [[exam_2025_01_13_p1_e02]]
 
 ## Collegamenti ai metodi
 

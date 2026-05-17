@@ -22,6 +22,7 @@ La Longest Common Subsequence e una sottosequenza comune di lunghezza massima tr
 - [[exam_2025_11_10_p1_tema_a_e01]]
 - [[exam_2025_02_11_p1_completo_e01]]
 - [[exam_2025_02_11_p1_recupero_e01]]
+- [[exam_2025_01_13_p1_e01]]
 
 ## Collegamenti ai metodi
 

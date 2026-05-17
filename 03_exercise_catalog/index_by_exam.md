@@ -47,4 +47,11 @@
 | [[exam_2025_02_11_p1_recupero_e01]] | Parte I | DP LCS a tre sequenze con budget rossi | 31 | alta | cataloged |
 | [[exam_2025_02_11_p1_recupero_e02]] | Parte I | DP cammini minimi con parità blu e vincoli sui vertici | 31 | alta | cataloged |
 
+## 2025-01-13 - Parte I
+
+| Esercizio | Parte | Argomento | Punti | Difficolta | Stato |
+|---|---|---|---:|---|---|
+| [[exam_2025_01_13_p1_e01]] | Parte I | DP LCS con budget rossi e blu | 31 | alta | cataloged |
+| [[exam_2025_01_13_p1_e02]] | Parte I | DP cammini con vincoli di precedenza tra colori | 31 | alta | cataloged |
+
 

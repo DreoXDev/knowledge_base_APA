@@ -22,6 +22,7 @@ Grafo in cui a ogni arco, o vertice, e associata un'etichetta colore usata nei v
 - [[exam_2025_11_10_p1_tema_a_e02]]
 - [[exam_2025_02_11_p1_completo_e02]]
 - [[exam_2025_02_11_p1_recupero_e02]]
+- [[exam_2025_01_13_p1_e02]]
 
 ## Collegamenti ai metodi
 

@@ -50,6 +50,12 @@ $$
 c_{m,n,1}
 $$
 
+Per il caso dell'appello 2025-01-13 (al massimo 3 rossi e al massimo 2 blu):
+
+$$
+c_{m,n,3,2}
+$$
+
 ## Esercizi collegati
 
 - [[exam_2025_06_09_p1_e01]]
@@ -57,6 +63,7 @@ $$
 - [[exam_2025_11_10_p1_tema_a_e01]]
 - [[exam_2025_02_11_p1_completo_e01]]
 - [[exam_2025_02_11_p1_recupero_e01]]
+- [[exam_2025_01_13_p1_e01]]
 
 ## Teoria necessaria
 

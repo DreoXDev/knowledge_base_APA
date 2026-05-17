@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-Sixth exam report applied.
+Seventh exam report applied.
 
 ## Completed
 
@@ -23,21 +23,22 @@ Sixth exam report applied.
 - [x] Fourth ingestion report applied: `09_ingestion_reports/ingestion_report_exam_2025_11_10_part1_tema_a.md`
 - [x] Fifth ingestion report applied: `09_ingestion_reports/ingestion_report_exam_2025_02_11_part1_completo.md`
 - [x] Sixth ingestion report applied: `09_ingestion_reports/ingestion_report_exam_2025_02_11_part1_recupero.md`
-- [x] Six appelli catalogati
-- [x] Exercise indexes updated for six appelli
+- [x] Seventh ingestion report applied: `09_ingestion_reports/ingestion_report_exam_2025_01_13_part1.md`
+- [x] Seven appelli catalogati
+- [x] Exercise indexes updated for seven appelli
 - [x] Method and theory scaffolds updated
 - [x] Exam pattern files updated
 
 ## Stato aggiornato
 
-- Appello analizzato: `01_sources/exams_raw/parteI-11feb25-recupero.pdf`
-- Source ID: `SRC-EXAM-004`
-- Data: `2025-02-11`
-- Parte: `Parte I (recupero)`
-- Report applicato: `09_ingestion_reports/ingestion_report_exam_2025_02_11_part1_recupero.md`
-- Trascrizione creata: `02_transcriptions/exams/exam_2025_02_11_part1_recupero.md`
+- Appello analizzato: `01_sources/exams_raw/parteI-13gen25.pdf`
+- Source ID: `SRC-EXAM-001`
+- Data: `2025-01-13`
+- Parte: `Parte I`
+- Report applicato: `09_ingestion_reports/ingestion_report_exam_2025_01_13_part1.md`
+- Trascrizione creata: `02_transcriptions/exams/exam_2025_01_13_part1.md`
 - Esercizi catalogati: `2`
-- Stato: `sesto appello catalogato`
+- Stato: `settimo appello catalogato`
 
 ## In Progress
 
@@ -49,7 +50,7 @@ Sixth exam report applied.
 
 | Source ID | File | Tipo | Stato | Ultima azione | Prossimo step |
 |---|---|---|---|---|---|
-| SRC-EXAM-001 | `parteI-13gen25.pdf` | appello | da analizzare | Fonte censita | Creare ingestion report |
+| SRC-EXAM-001 | `parteI-13gen25.pdf` | appello | applicato | Report applicato e Parte I catalogata | Verificare trascrizione e risolvere esercizi |
 | SRC-EXAM-002 | `parteII-13gen25.pdf` | appello | da analizzare | Fonte censita | Creare ingestion report |
 | SRC-EXAM-003 | `parteI-11feb25-completo.pdf` | appello | applicato | Report applicato e Parte I catalogata | Verificare trascrizione e risolvere esercizi |
 | SRC-EXAM-004 | `parteI-11feb25-recupero.pdf` | appello | applicato | Report applicato e Parte I catalogata | Verificare trascrizione e risolvere esercizi |

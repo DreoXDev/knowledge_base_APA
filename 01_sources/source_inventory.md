@@ -9,7 +9,7 @@
 
 | Source ID | Tipo | Percorso | Descrizione | Stato | Report ingestione | Note |
 |---|---|---|---|---|---|---|
-| SRC-EXAM-001 | appello | `01_sources/exams_raw/parteI-13gen25.pdf` | Parte I, appello 13 gennaio 2025 | da analizzare |  |  |
+| SRC-EXAM-001 | appello | `01_sources/exams_raw/parteI-13gen25.pdf` | Parte I, appello 13 gennaio 2025 | applicato | `09_ingestion_reports/ingestion_report_exam_2025_01_13_part1.md` | Catalogata Parte I con 2 esercizi DP (LCS budget 3R/2B e cammini con esclusione transizioni) |
 | SRC-EXAM-002 | appello | `01_sources/exams_raw/parteII-13gen25.pdf` | Parte II, appello 13 gennaio 2025 | da analizzare |  |  |
 | SRC-EXAM-003 | appello | `01_sources/exams_raw/parteI-11feb25-completo.pdf` | Parte I, appello completo 11 febbraio 2025 | applicato | `09_ingestion_reports/ingestion_report_exam_2025_02_11_part1_completo.md` | Catalogata Parte I scritto completo con 2 esercizi DP (LCS 3 sequenze e cammini NN/BB) |
 | SRC-EXAM-004 | appello | `01_sources/exams_raw/parteI-11feb25-recupero.pdf` | Parte I, recupero 11 febbraio 2025 | applicato | `09_ingestion_reports/ingestion_report_exam_2025_02_11_part1_recupero.md` | Catalogato recupero della Parte I con 2 esercizi DP (LCS a 3 sequenze e cammini minimi con parità) |

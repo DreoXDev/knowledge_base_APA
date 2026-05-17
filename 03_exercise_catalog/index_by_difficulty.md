@@ -16,6 +16,8 @@
 - [[exam_2025_02_11_p1_completo_e02]]
 - [[exam_2025_02_11_p1_recupero_e01]]
 - [[exam_2025_02_11_p1_recupero_e02]]
+- [[exam_2025_01_13_p1_e01]]
+- [[exam_2025_01_13_p1_e02]]
 
 ## Media
 

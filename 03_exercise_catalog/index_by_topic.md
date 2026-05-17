@@ -15,6 +15,8 @@
 - [[exam_2025_02_11_p1_completo_e02]] - cammini con divieto di consecutività NN/BB
 - [[exam_2025_02_11_p1_recupero_e01]] - LCS a tre sequenze con budget rossi
 - [[exam_2025_02_11_p1_recupero_e02]] - cammini minimi con parità blu e vincoli sui vertici
+- [[exam_2025_01_13_p1_e01]] - LCS con budget rossi e blu
+- [[exam_2025_01_13_p1_e02]] - cammini con vincoli di precedenza tra colori
 
 ## LCS / Sottosequenze comuni
 
@@ -23,6 +25,7 @@
 - [[exam_2025_11_10_p1_tema_a_e01]]
 - [[exam_2025_02_11_p1_completo_e01]]
 - [[exam_2025_02_11_p1_recupero_e01]]
+- [[exam_2025_01_13_p1_e01]]
 
 ## Zaino 0/1
 
@@ -39,6 +42,7 @@
 - [[exam_2025_11_10_p1_tema_a_e02]]
 - [[exam_2025_02_11_p1_completo_e02]]
 - [[exam_2025_02_11_p1_recupero_e02]]
+- [[exam_2025_01_13_p1_e02]]
 
 ## Grafi colorati
 
@@ -47,6 +51,7 @@
 - [[exam_2025_11_10_p1_tema_a_e02]]
 - [[exam_2025_02_11_p1_completo_e02]]
 - [[exam_2025_02_11_p1_recupero_e02]]
+- [[exam_2025_01_13_p1_e02]]
 
 ## DP booleana su grafi
 
@@ -56,6 +61,7 @@
 - [[exam_2025_11_10_p1_tema_a_e02]]
 - [[exam_2025_02_11_p1_completo_e02]]
 - [[exam_2025_02_11_p1_recupero_e02]]
+- [[exam_2025_01_13_p1_e02]]
 
 ## Greedy / MST
 

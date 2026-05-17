@@ -44,7 +44,7 @@ dove:
 *   **Vincolo di ingombro massimo (Budget)**: $C[i,j,w]$ = lunghezza LCS con ingombro $\le w$. 
     *   *Appello*: [[exam_2025_07_03_p1_e01]]
 *   **Vincoli di conteggio massimo**: $C[i,j,r,b]$ = lunghezza LCS con al più $r$ rossi e $b$ blu.
-    *   *Appello*: [[exam_2025_06_09_p1_e01]]
+    *   *Appelli*: [[exam_2025_06_09_p1_e01]], [[exam_2025_01_13_p1_e01]]
 *   **Vincolo di presenza obbligatoria**: $C[i,j,r]$ con $r \in \{0,1\}$ dove $r=1$ indica presenza obbligatoria di almeno un rosso.
     *   *Appello*: [[exam_2025_11_10_p1_tema_a_e01]]
 *   **LCS a tre sequenze con budget massimo**: $C[i,j,k,r]$ = lunghezza LCS a tre sequenze con al più $r$ rossi.
@@ -71,8 +71,8 @@ dove:
     *   *Appello*: [[exam_2026_01_12_e02]]
 *   **Conteggio esatto di archi colorati**: $D[k,i,j,r,b]$ = esistenza cammino con esattamente $r$ rossi e $b$ blu.
     *   *Appello*: [[exam_2025_07_03_p1_e02]]
-*   **Regole locali tra archi consecutivi**: Esistenza cammino senza transizioni vietate (es. $(R,N)$ o $(B,R)$, oppure divieto di consecutivi identici $NN$ e $BB$). Richiede di salvare il colore del primo e dell'ultimo arco dello stato.
-    *   *Appelli*: [[exam_2025_06_09_p1_e02]], [[exam_2025_02_11_p1_completo_e02]]
+*   **Regole locali tra archi consecutivi**: Esistenza cammino senza transizioni vietate (es. $(R,N)$ o $(B,R)$, divieto di consecutivi identici $NN$ e $BB$, o divieto di $(N,R)$ e $(R,B)$). Richiede di salvare il colore del primo e dell'ultimo arco dello stato.
+    *   *Appelli*: [[exam_2025_06_09_p1_e02]], [[exam_2025_02_11_p1_completo_e02]], [[exam_2025_01_13_p1_e02]]
 *   **Somma aggregata di archi specifici**: $D[k,i,j,h]$ con $h \in \{0,1,2,3\}$ indicante che la somma degli archi A e B è esattamente $h$.
     *   *Appello*: [[exam_2025_11_10_p1_tema_a_e02]]
 *   **Cammini minimi pesati con vincolo di parità ed esclusione locale**: $D[k,i,j,p]$ = peso minimo di un cammino con parità $p$ modulo 2 di archi blu, senza due vertici rossi consecutivi.

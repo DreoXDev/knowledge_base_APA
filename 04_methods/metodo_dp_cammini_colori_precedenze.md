@@ -31,6 +31,12 @@ $$
 (N,N) \quad \text{e} \quad (B,B)
 $$
 
+Nel caso dell'appello 2025-01-13, non sono ammesse le coppie consecutive nero-rosso o rosso-blu:
+
+$$
+(N,R) \quad \text{e} \quad (R,B)
+$$
+
 ## Problema ausiliario
 
 Il problema principale "esiste un cammino valido da $i$ a $j$?" può richiedere un problema ausiliario che tenga traccia di informazioni aggiuntive sui colori agli estremi del cammino.
@@ -50,6 +56,7 @@ Queste informazioni permettono di verificare se due sottocammini possono essere 
 - [[exam_2025_07_03_p1_e02]]
 - [[exam_2026_01_12_e02]]
 - [[exam_2025_02_11_p1_completo_e02]]
+- [[exam_2025_01_13_p1_e02]]
 
 ## Teoria necessaria
 
