@@ -27,9 +27,53 @@
 - [x] Apply `2025-02-11 Parte I recupero` report
 - [x] Apply `2025-01-13 Parte I` report
 - [x] Apply `2025-09-17 Parte I` report
+- [x] Apply `2025-07-03 Parte II` report
+- [x] Apply `2025-06-09 Parte II` report
+- [x] Apply `2025-11-10 Parte II` report
+- [x] Apply `2025-02-11 Parte II completo/recupero` report
+- [x] Apply `2025-01-13 Parte II` report
+- [x] Apply `2025-09-17 Parte II` report
+
 
 ## Prossimi step
 
+- [x] Verificare manualmente trascrizione dell'appello `2025-11-10 Parte II`
+- [x] Risolvere `exam_2025_11_10_p2_e01` Kruskal step-by-step
+- [x] Risolvere `exam_2025_11_10_p2_e02` riduzione 3-SAT to CLIQUE
+- [x] Risolvere `exam_2025_11_10_p2_e03` ricorrenza chiusura transitiva (Warshall)
+- [x] Risolvere `exam_2025_11_10_p2_e04` requisiti formali per NP-completezza di A
+- [x] Risolvere `exam_2025_11_10_p2_e05` dimostrazione del matroide grafico
+- [x] Verificare manualmente trascrizione dell'appello `2025-06-09 Parte II`
+- [x] Risolvere `exam_2025_06_09_p2_e01` Dijkstra step-by-step
+- [x] Risolvere `exam_2025_06_09_p2_e02` riduzione CLIQUE to VERTEX-COVER
+- [x] Risolvere `exam_2025_06_09_p2_e03` algoritmo GREEDY-MAX e Teorema di Rado
+- [x] Risolvere `exam_2025_06_09_p2_e04` requisiti formali per NP-completezza di A
+- [x] Risolvere `exam_2025_06_09_p2_e05` dimostrazione del matroide grafico
+- [x] Verificare manualmente trascrizione dell'appello `2025-07-03 Parte II`
+- [x] Risolvere `exam_2025_07_03_p2_e01` Dijkstra step-by-step
+- [x] Risolvere `exam_2025_07_03_p2_e02` riduzione CLIQUE to VERTEX-COVER
+- [x] Risolvere `exam_2025_07_03_p2_e03` ricorrenza chiusura transitiva (Warshall)
+- [x] Risolvere `exam_2025_07_03_p2_e05` dimostrazione Safe Edge Theorem
+- [x] Verificare manualmente trascrizione dell'appello `2025-02-11 Parte II`
+- [x] Risolvere `exam_2025_02_11_p2_completo_recupero_e01` Kruskal step-by-step
+- [x] Risolvere `exam_2025_02_11_p2_completo_recupero_e02` riduzione CLIQUE to VERTEX-COVER
+- [x] Risolvere `exam_2025_02_11_p2_completo_recupero_e03` ricorrenza zaino 0/1
+- [x] Risolvere `exam_2025_02_11_p2_completo_recupero_e04` riduzione 3-SAT to CLIQUE / INDEPENDENT SET
+- [x] Risolvere `exam_2025_02_11_p2_completo_recupero_e05` dimostrazione Safe Edge Theorem
+- [x] Risolvere `exam_2025_02_11_p2_completo_recupero_bonus` domande bonus (Greedy-Matroidi, CLIQUE-VC, Dijkstra)
+- [x] Verificare manualmente trascrizione dell'appello `2025-01-13 Parte II`
+- [x] Risolvere `exam_2025_01_13_p2_e01` Dijkstra step-by-step
+- [x] Risolvere `exam_2025_01_13_p2_e02` riduzione 3-SAT to CLIQUE
+- [x] Risolvere `exam_2025_01_13_p2_e03` ricorrenza chiusura transitiva (Warshall)
+- [x] Risolvere `exam_2025_01_13_p2_e04` requisiti formali per NP-completezza di A
+- [x] Risolvere `exam_2025_01_13_p2_e05` dimostrazione del matroide grafico
+- [x] Risolvere `exam_2025_01_13_p2_bonus` domande bonus (LCS, matroidi, 3-SAT-IS, CLIQUE-VC)
+- [x] Verificare manualmente trascrizione dell'appello `2025-09-17 Parte II`
+- [x] Risolvere `exam_2025_09_17_p2_e01` Kruskal MST step-by-step
+- [x] Risolvere `exam_2025_09_17_p2_e02` riduzione 3-SAT to CLIQUE (C1=C3)
+- [x] Risolvere `exam_2025_09_17_p2_e03` GREEDY-MAX e Teorema di Rado
+- [x] Risolvere `exam_2025_09_17_p2_e04` requisiti formali per NP-completezza di A
+- [x] Risolvere `exam_2025_09_17_p2_e05` dimostrazione del matroide grafico
 - [ ] Verificare manualmente trascrizione dell'appello `2025-06-09 Parte I`
 - [ ] Risolvere `exam_2025_06_09_p1_e01` LCS con vincoli sui colori
 - [ ] Risolvere `exam_2025_06_09_p1_e02` cammini con vincoli di precedenza tra colori

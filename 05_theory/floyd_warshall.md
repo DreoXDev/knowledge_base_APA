@@ -26,6 +26,7 @@ Nei problemi di esame APA, l'algoritmo viene spesso esteso aggiungendo indici di
 - [[exam_2025_02_11_p1_recupero_e02]]
 - [[exam_2026_01_12_e02]]
 - [[exam_2025_07_03_p1_e02]]
+- [[exam_2025_07_03_p2_e03]]
 - [[exam_2025_06_09_p1_e02]]
 - [[exam_2025_11_10_p1_tema_a_e02]]
 - [[exam_2025_02_11_p1_completo_e02]]
@@ -35,6 +36,7 @@ Nei problemi di esame APA, l'algoritmo viene spesso esteso aggiungendo indici di
 - [[metodo_cammini_minimi_vincoli_colori_parita]]
 - [[metodo_dp_cammini_colori_conteggi]]
 - [[metodo_dp_cammini_colori_precedenze]]
+- [[metodo_equazioni_ricorrenza_chiusura_transitiva]]
 
 > [!Warning]
 > Nota scaffold: completare con la ricorrenza standard per il confronto nei riassunti di teoria.

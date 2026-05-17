@@ -25,10 +25,13 @@ In presenza di vincoli (es. parità del numero di archi di un certo tipo o conse
 ## Collegamenti agli esercizi
 
 - [[exam_2025_02_11_p1_recupero_e02]]
+- [[exam_2025_07_03_p2_e01]]
+- [[exam_2025_06_09_p2_e01]]
 
 ## Collegamenti ai metodi
 
 - [[metodo_cammini_minimi_vincoli_colori_parita]]
+- [[metodo_dijkstra]]
 
 > [!Warning]
 > Nota scaffold: completare con definizioni formali se richiesto da altre tracce d'esame.

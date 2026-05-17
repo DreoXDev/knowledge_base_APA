@@ -69,7 +69,8 @@
 - Esercizi collegati:
   - [[exam_2026_01_12_e01]]
   - [[exam_2026_01_12_e05]]
-- Frequenza osservata: `1 appello`
+  - [[exam_2025_02_11_p2_completo_recupero_e03]]
+- Frequenza osservata: `2 appelli`
 - Priorita: `altissima`
 - Varianti:
   - versione classica;
@@ -79,7 +80,19 @@
 
 - Esercizi collegati:
   - [[exam_2026_01_12_e03]]
-- Frequenza osservata: `1 appello`
+  - [[exam_2025_11_10_p2_e01]]
+  - [[exam_2025_02_11_p2_completo_recupero_e01]]
+  - [[exam_2025_09_17_p2_e01]]
+- Frequenza osservata: `4 appelli`
+- Priorita: `alta`
+
+## Simulazione Dijkstra / Cammini minimi
+
+- Esercizi collegati:
+  - [[exam_2025_07_03_p2_e01]]
+  - [[exam_2025_06_09_p2_e01]]
+  - [[exam_2025_01_13_p2_e01]]
+- Frequenza osservata: `3 appelli`
 - Priorita: `alta`
 
 ## Riduzioni CLIQUE / VERTEX-COVER
@@ -87,20 +100,67 @@
 - Esercizi collegati:
   - [[exam_2026_01_12_e04]]
   - [[exam_2026_01_12_e06]]
-- Frequenza osservata: `1 appello`
+  - [[exam_2025_07_03_p2_e02]]
+  - [[exam_2025_06_09_p2_e02]]
+  - [[exam_2025_02_11_p2_completo_recupero_e02]]
+- Frequenza osservata: `4 appelli`
 - Priorita: `altissima`
 
-## Dimostrazione NP-completezza
+## Dimostrazione NP-completezza e Definizioni
 
 - Esercizi collegati:
   - [[exam_2026_01_12_e06]]
-- Frequenza osservata: `1 appello`
+  - [[exam_2025_07_03_p2_e04]]
+  - [[exam_2025_06_09_p2_e04]]
+  - [[exam_2025_11_10_p2_e04]]
+  - [[exam_2025_01_13_p2_e04]]
+  - [[exam_2025_09_17_p2_e04]]
+- Frequenza osservata: `6 appelli`
 - Priorita: `altissima`
 
 ## Matroidi e greedy
 
 - Esercizi collegati:
   - [[exam_2026_01_12_bonus_matroidi]]
-- Frequenza osservata: `1 appello`
-- Priorita: `media`
+  - [[exam_2025_06_09_p2_e03]]
+  - [[exam_2025_02_11_p2_completo_recupero_bonus]]
+  - [[exam_2025_09_17_p2_e03]]
+- Frequenza osservata: `4 appelli`
+- Priorita: `media-alta`
+
+## Dimostrazioni teoriche formali (MST / Matroidi)
+
+- Esercizi collegati:
+  - [[exam_2025_07_03_p2_e05]] (Teorema dell'arco sicuro)
+  - [[exam_2026_01_12_bonus_matroidi]] (Teorema di correttezza greedy-matroidi)
+  - [[exam_2025_06_09_p2_e05]] (Dimostrazione matroide grafico)
+  - [[exam_2025_11_10_p2_e05]] (Dimostrazione matroide grafico)
+  - [[exam_2025_02_11_p2_completo_recupero_e05]] (Teorema dell'arco sicuro)
+  - [[exam_2025_02_11_p2_completo_recupero_bonus]] (Dimostrazioni Greedy-Matroidi, CLIQUE-VC, Dijkstra)
+  - [[exam_2025_01_13_p2_e05]] (Dimostrazione matroide grafico)
+  - [[exam_2025_01_13_p2_bonus]] (Dimostrazioni Greedy-Matroidi, LCS, CLIQUE-VC, 3-SAT-IS)
+  - [[exam_2025_09_17_p2_e05]] (Dimostrazione matroide grafico)
+  - [[exam_2025_09_17_p2_e03]] (GREEDY-MAX e Teorema di Rado)
+- Frequenza osservata: `7 appelli`
+- Priorita: `alta`
+
+## Chiusura transitiva (Floyd-Warshall booleano)
+
+- Esercizi collegati:
+  - [[exam_2025_07_03_p2_e03]]
+  - [[exam_2025_11_10_p2_e03]]
+  - [[exam_2025_01_13_p2_e03]]
+- Frequenza osservata: `3 appelli`
+- Priorita: `alta`
+
+## Riduzioni 3-SAT / CLIQUE
+
+- Esercizi collegati:
+  - [[exam_2025_11_10_p2_e02]]
+  - [[exam_2025_02_11_p2_completo_recupero_e04]]
+  - [[exam_2025_01_13_p2_e02]]
+  - [[exam_2025_09_17_p2_e02]]
+- Frequenza osservata: `4 appelli`
+- Priorita: `alta`
+
 

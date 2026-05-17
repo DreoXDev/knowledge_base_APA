@@ -27,6 +27,8 @@ Per esercizi che collegano clique e vertex cover tramite grafo complementare.
 
 - [[exam_2026_01_12_e04]]
 - [[exam_2026_01_12_e06]]
+- [[exam_2025_07_03_p2_e02]]
+- [[exam_2025_06_09_p2_e02]]
 
 ## Teoria necessaria
 
