@@ -31,11 +31,18 @@ dove:
 - $r$ e il numero di archi rossi usati;
 - $b$ e il numero di archi blu usati.
 
+Nel caso di somme o conteggi aggregati (es. appello 2025-11-10, somma archi A e B uguale a 3), lo stato si semplifica riducendo le dimensioni a una sola variabile di budget aggregato $h \in \{0,\dots,W\}$:
+
+$$
+c_{k,i,j,h}
+$$
+
 ## Esercizi collegati
 
 - [[exam_2025_07_03_p1_e02]]
 - [[exam_2025_06_09_p1_e02]]
 - [[exam_2026_01_12_e02]]
+- [[exam_2025_11_10_p1_tema_a_e02]]
 
 ## Varianti collegate
 

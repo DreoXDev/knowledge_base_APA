@@ -25,3 +25,11 @@
 |---|---|---|---:|---|---|
 | [[exam_2025_06_09_p1_e01]] | Parte I | DP LCS con vincoli sui colori | 31 | alta | cataloged |
 | [[exam_2025_06_09_p1_e02]] | Parte I | DP cammini con vincoli di precedenza tra colori | 31 | alta | cataloged |
+
+## 2025-11-10 - Parte I Tema A
+
+| Esercizio | Parte | Argomento | Punti | Difficolta | Stato |
+|---|---|---|---:|---|---|
+| [[exam_2025_11_10_p1_tema_a_e01]] | Parte I | DP LCS con presenza obbligatoria del rosso | 31 | alta | cataloged |
+| [[exam_2025_11_10_p1_tema_a_e02]] | Parte I | DP cammini con #A + #B = 3 | 31 | alta | cataloged |
+

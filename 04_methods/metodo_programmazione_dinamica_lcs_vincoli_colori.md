@@ -38,10 +38,17 @@ $$
 c_{m,n,2,3}
 $$
 
+Per il caso dell'appello 2025-11-10 (presenza obbligatoria, stato booleano):
+
+$$
+c_{m,n,1}
+$$
+
 ## Esercizi collegati
 
 - [[exam_2025_06_09_p1_e01]]
 - [[exam_2025_07_03_p1_e01]]
+- [[exam_2025_11_10_p1_tema_a_e01]]
 
 ## Teoria necessaria
 

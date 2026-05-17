@@ -18,13 +18,16 @@ Vincoli che dipendono dal colore di simboli o archi e richiedono di aggiungere c
 ## Quando compare negli appelli
 
 - LCS con numero massimo di simboli rossi e blu.
-- Cammini in grafi colorati con conteggi esatti o vincoli di precedenza.
+- Cammini in grafi colorati con conteggi esatti, vincoli di precedenza o somme aggregate.
+- LCS con presenza obbligatoria di almeno un simbolo rosso.
 
 ## Collegamenti agli esercizi
 
 - [[exam_2025_06_09_p1_e01]]
 - [[exam_2025_06_09_p1_e02]]
 - [[exam_2025_07_03_p1_e02]]
+- [[exam_2025_11_10_p1_tema_a_e01]]
+- [[exam_2025_11_10_p1_tema_a_e02]]
 
 ## Collegamenti ai metodi
 

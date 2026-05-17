@@ -20,7 +20,7 @@
 | SRC-EXAM-009 | appello | `01_sources/exams_raw/parteII-03lug25.pdf` | Parte II, appello 3 luglio 2025 | da analizzare |  |  |
 | SRC-EXAM-010 | appello | `01_sources/exams_raw/parteI-17set25.pdf` | Parte I, appello 17 settembre 2025 | da analizzare |  |  |
 | SRC-EXAM-011 | appello | `01_sources/exams_raw/parteII-17set25.pdf` | Parte II, appello 17 settembre 2025 | da analizzare |  |  |
-| SRC-EXAM-012 | appello | `01_sources/exams_raw/parte-I-10nov25-A.pdf` | Parte I, appello 10 novembre 2025, variante A | da analizzare |  |  |
+| SRC-EXAM-012 | appello | `01_sources/exams_raw/parte-I-10nov25-A.pdf` | Parte I, appello 10 novembre 2025, variante A | applicato | `09_ingestion_reports/ingestion_report_exam_2025_11_10_part1_tema_a.md` | Catalogata variante A della Parte I con 2 esercizi DP |
 | SRC-EXAM-013 | appello | `01_sources/exams_raw/parteII-10nov25.pdf` | Parte II, appello 10 novembre 2025 | da analizzare |  |  |
 | SRC-EXAM-014 | appello | `01_sources/exams_raw/esame_apa_12_01_2026.pdf` | Esame APA 12 gennaio 2026 | applicato | `09_ingestion_reports/ingestion_report_exam_2026_01_12.md` | Contiene Parte I, Parte II e domanda bonus; alias report originale: `exam_2026_01_12` |
 | SRC-NOTE-001 | appunti | `01_sources/notes_raw/Analisi E Progettazione Di Algoritmi.pdf` | Appunti della compagna su Analisi e Progettazione di Algoritmi | da analizzare |  | PDF grande, probabilmente manoscritto o annotato |

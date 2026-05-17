@@ -10,7 +10,9 @@
   - [[exam_2025_07_03_p1_e02]]
   - [[exam_2025_06_09_p1_e01]]
   - [[exam_2025_06_09_p1_e02]]
-- Frequenza osservata: `3 appelli`
+  - [[exam_2025_11_10_p1_tema_a_e01]]
+  - [[exam_2025_11_10_p1_tema_a_e02]]
+- Frequenza osservata: `4 appelli`
 - Priorita: `altissima`
 - Descrizione:
   - Gli esercizi di Parte I sono quasi interamente basati sull'impostazione formale della DP: coefficienti, casi base, passo ricorsivo, soluzione finale e spesso ricostruzione.
@@ -20,11 +22,13 @@
 - Esercizi collegati:
   - [[exam_2025_07_03_p1_e01]]
   - [[exam_2025_06_09_p1_e01]]
-- Frequenza osservata: `2 appelli`
+  - [[exam_2025_11_10_p1_tema_a_e01]]
+- Frequenza osservata: `3 appelli`
 - Priorita: `altissima`
 - Varianti osservate:
   - LCS con vincolo di ingombro massimo;
-  - LCS con vincoli sul numero massimo di simboli rossi e blu.
+  - LCS con vincoli sul numero massimo di simboli rossi e blu;
+  - LCS con presenza obbligatoria di almeno un simbolo rosso.
 
 ## DP booleana su grafi con proprieta del cammino
 
@@ -32,12 +36,14 @@
   - [[exam_2026_01_12_e02]]
   - [[exam_2025_07_03_p1_e02]]
   - [[exam_2025_06_09_p1_e02]]
-- Frequenza osservata: `3 appelli`
+  - [[exam_2025_11_10_p1_tema_a_e02]]
+- Frequenza osservata: `4 appelli`
 - Priorita: `altissima`
 - Varianti osservate:
   - esistenza di cammino con numero pari di archi;
   - esistenza di cammino con esattamente 2 archi rossi e 2 archi blu;
-  - esistenza di cammino senza certe precedenze tra colori di archi.
+  - esistenza di cammino senza certe precedenze tra colori di archi;
+  - esistenza di cammino con somma aggregata di archi #A + #B = 3.
 
 ## Zaino 0/1
 

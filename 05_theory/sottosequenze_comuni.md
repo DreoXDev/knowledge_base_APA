@@ -18,6 +18,7 @@ Una sottosequenza mantiene l'ordine relativo degli elementi di una sequenza, sen
 
 - [[exam_2025_07_03_p1_e01]]
 - [[exam_2025_06_09_p1_e01]]
+- [[exam_2025_11_10_p1_tema_a_e01]]
 
 > [!Warning]
 > Nota scaffold: completare con differenza tra sottosequenza e sottostringa se emerge negli appelli.

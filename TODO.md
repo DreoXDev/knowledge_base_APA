@@ -22,6 +22,7 @@
 - [x] Apply `2026-01-12` full exam report
 - [x] Apply `2025-07-03 Parte I` report
 - [x] Apply `2025-06-09 Parte I` report
+- [x] Apply `2025-11-10 Parte I Tema A` report
 
 ## Prossimi step
 
@@ -30,12 +31,14 @@
 - [ ] Risolvere `exam_2025_06_09_p1_e02` cammini con vincoli di precedenza tra colori
 - [ ] Consolidare metodo comune per LCS con vincoli aggiuntivi
 - [ ] Consolidare metodo comune per DP booleana su grafi con stato esteso
-- [ ] Creare una nota di sintesi sui pattern di Parte I
+- [x] Creare una nota di sintesi sui pattern di Parte I (Risolto con [[parte_i_dynamic_programming_patterns]])
 - [ ] Verificare manualmente trascrizione dell'appello `2025-07-03 Parte I`
 - [ ] Risolvere `exam_2025_07_03_p1_e01` LCS con vincolo di ingombro
 - [ ] Risolvere `exam_2025_07_03_p1_e02` cammini con conteggi di colori
 - [ ] Verificare manualmente trascrizione dell'appello `2026-01-12`
 - [ ] Risolvere `exam_2026_01_12_e05` come base per zaino 0/1
+- [ ] Risolvere completamente `exam_2025_11_10_p1_tema_a_e01` (presenza del rosso nella LCS)
+- [ ] Risolvere completamente `exam_2025_11_10_p1_tema_a_e02` (cammini con #A + #B = 3)
 - [ ] Analizzare prossimo PDF in `01_sources/exams_raw/`
 
 ## Cataloging

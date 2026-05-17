@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-Third exam report applied.
+Fourth exam report applied.
 
 ## Completed
 
@@ -20,21 +20,22 @@ Third exam report applied.
 - [x] First ingestion report applied: `09_ingestion_reports/ingestion_report_exam_2026_01_12.md`
 - [x] Second ingestion report applied: `09_ingestion_reports/ingestion_report_exam_2025_07_03_part1.md`
 - [x] Third ingestion report applied: `09_ingestion_reports/ingestion_report_exam_2025_06_09_part1.md`
-- [x] Three appelli catalogati
-- [x] Exercise indexes updated for three appelli
+- [x] Fourth ingestion report applied: `09_ingestion_reports/ingestion_report_exam_2025_11_10_part1_tema_a.md`
+- [x] Four appelli catalogati
+- [x] Exercise indexes updated for four appelli
 - [x] Method and theory scaffolds updated
 - [x] Exam pattern files updated
 
 ## Stato aggiornato
 
-- Appello analizzato: `01_sources/exams_raw/parteI-09giu25.pdf`
-- Source ID: `SRC-EXAM-006`
-- Data: `2025-06-09`
-- Parte: `Parte I`
-- Report applicato: `09_ingestion_reports/ingestion_report_exam_2025_06_09_part1.md`
-- Trascrizione creata: `02_transcriptions/exams/exam_2025_06_09_part1.md`
+- Appello analizzato: `01_sources/exams_raw/parte-I-10nov25-A.pdf`
+- Source ID: `SRC-EXAM-012`
+- Data: `2025-11-10`
+- Parte: `Parte I (Tema A)`
+- Report applicato: `09_ingestion_reports/ingestion_report_exam_2025_11_10_part1_tema_a.md`
+- Trascrizione creata: `02_transcriptions/exams/exam_2025_11_10_part1_tema_a.md`
 - Esercizi catalogati: `2`
-- Stato: `terzo appello catalogato`
+- Stato: `quarto appello catalogato`
 
 ## In Progress
 
@@ -57,7 +58,7 @@ Third exam report applied.
 | SRC-EXAM-009 | `parteII-03lug25.pdf` | appello | da analizzare | Fonte censita | Creare ingestion report |
 | SRC-EXAM-010 | `parteI-17set25.pdf` | appello | da analizzare | Fonte censita | Creare ingestion report |
 | SRC-EXAM-011 | `parteII-17set25.pdf` | appello | da analizzare | Fonte censita | Creare ingestion report |
-| SRC-EXAM-012 | `parte-I-10nov25-A.pdf` | appello | da analizzare | Fonte censita | Creare ingestion report |
+| SRC-EXAM-012 | `parte-I-10nov25-A.pdf` | appello | applicato | Report applicato e Parte I catalogata | Verificare trascrizione e risolvere esercizi |
 | SRC-EXAM-013 | `parteII-10nov25.pdf` | appello | da analizzare | Fonte censita | Creare ingestion report |
 | SRC-EXAM-014 | `esame_apa_12_01_2026.pdf` | appello | applicato | Report applicato e appello catalogato | Verificare trascrizione e risolvere esercizi |
 | SRC-NOTE-001 | `Analisi E Progettazione Di Algoritmi.pdf` | appunti | da analizzare | Fonte censita | Analisi visuale PDF |
@@ -74,8 +75,8 @@ Third exam report applied.
 
 ## Open Questions
 
-- Quale PDF analizzare per quarto?
+- Quale PDF analizzare per quinto?
 - Conviene processare subito `parteII-09giu25.pdf` per completare l'appello del 9 giugno 2025?
-- Conviene creare una nota di sintesi sui pattern di Parte I dopo tre appelli?
+- Conviene creare una nota di sintesi sui pattern di Parte I dopo quattro appelli? (Risolta con la creazione di [[parte_i_dynamic_programming_patterns]])
 - `esercizi APA.pdf` va mantenuto come materiale extra o riclassificato dopo analisi?
 
