@@ -56,6 +56,7 @@ $$
 - [[exam_2025_07_03_p1_e01]]
 - [[exam_2025_11_10_p1_tema_a_e01]]
 - [[exam_2025_02_11_p1_completo_e01]]
+- [[exam_2025_02_11_p1_recupero_e01]]
 
 ## Teoria necessaria
 

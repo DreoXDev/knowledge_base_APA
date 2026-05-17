@@ -10,6 +10,8 @@
 | [[grafi]] | Grafi | alta | scaffold |
 | [[grafi_colorati]] | Grafi colorati | media | scaffold |
 | [[vincoli_su_colori]] | Vincoli su colori | alta | scaffold |
+| [[cammini_minimi]] | Cammini minimi | alta | scaffold |
+| [[floyd_warshall]] | Floyd-Warshall | alta | scaffold |
 | [[minimum_spanning_tree]] | Minimum spanning tree | media | scaffold |
 | [[kruskal]] | Kruskal | media | scaffold |
 | [[np_completezza]] | NP-completezza | alta | scaffold |

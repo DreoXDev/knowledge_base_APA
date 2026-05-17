@@ -24,6 +24,7 @@
 - [x] Apply `2025-06-09 Parte I` report
 - [x] Apply `2025-11-10 Parte I Tema A` report
 - [x] Apply `2025-02-11 Parte I completo` report
+- [x] Apply `2025-02-11 Parte I recupero` report
 
 ## Prossimi step
 
@@ -43,6 +44,9 @@
 - [ ] Verificare manualmente trascrizione dell'appello `2025-02-11 Parte I`
 - [ ] Risolvere completamente `exam_2025_02_11_p1_completo_e01` (LCS a tre sequenze)
 - [ ] Risolvere completamente `exam_2025_02_11_p1_completo_e02` (cammini senza NN/BB consecutivi)
+- [ ] Risolvere completamente `exam_2025_02_11_p1_recupero_e02` (cammini minimi con parità ed esclusione)
+- [ ] Verificare deduplicazione tra `exam_2025_02_11_p1_completo_e01` ed `exam_2025_02_11_p1_recupero_e01`
+- [ ] Creare tabella comparativa varianti DP su grafi (esistenza, parità, cammino minimo, consecutività)
 - [ ] Analizzare prossimo PDF in `01_sources/exams_raw/`
 
 ## Cataloging

@@ -108,6 +108,7 @@ $$
 ## Esercizi collegati
 
 - [[exam_2025_02_11_p1_completo_e01]]
+- [[exam_2025_02_11_p1_recupero_e01]]
 
 ## Teoria e Pattern collegati
 

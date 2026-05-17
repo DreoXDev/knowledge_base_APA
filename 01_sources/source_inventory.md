@@ -12,7 +12,7 @@
 | SRC-EXAM-001 | appello | `01_sources/exams_raw/parteI-13gen25.pdf` | Parte I, appello 13 gennaio 2025 | da analizzare |  |  |
 | SRC-EXAM-002 | appello | `01_sources/exams_raw/parteII-13gen25.pdf` | Parte II, appello 13 gennaio 2025 | da analizzare |  |  |
 | SRC-EXAM-003 | appello | `01_sources/exams_raw/parteI-11feb25-completo.pdf` | Parte I, appello completo 11 febbraio 2025 | applicato | `09_ingestion_reports/ingestion_report_exam_2025_02_11_part1_completo.md` | Catalogata Parte I scritto completo con 2 esercizi DP (LCS 3 sequenze e cammini NN/BB) |
-| SRC-EXAM-004 | appello | `01_sources/exams_raw/parteI-11feb25-recupero.pdf` | Parte I, recupero 11 febbraio 2025 | da analizzare |  |  |
+| SRC-EXAM-004 | appello | `01_sources/exams_raw/parteI-11feb25-recupero.pdf` | Parte I, recupero 11 febbraio 2025 | applicato | `09_ingestion_reports/ingestion_report_exam_2025_02_11_part1_recupero.md` | Catalogato recupero della Parte I con 2 esercizi DP (LCS a 3 sequenze e cammini minimi con parità) |
 | SRC-EXAM-005 | appello | `01_sources/exams_raw/parteII-11feb25-completo-recupero.pdf` | Parte II, completo e recupero 11 febbraio 2025 | da analizzare |  | Contiene probabilmente piu varianti nello stesso PDF |
 | SRC-EXAM-006 | appello | `01_sources/exams_raw/parteI-09giu25.pdf` | Parte I, appello 9 giugno 2025 | applicato | `09_ingestion_reports/ingestion_report_exam_2025_06_09_part1.md` | Parte I catalogata: 2 esercizi di programmazione dinamica |
 | SRC-EXAM-007 | appello | `01_sources/exams_raw/parteII-09giu25.pdf` | Parte II, appello 9 giugno 2025 | da analizzare |  |  |

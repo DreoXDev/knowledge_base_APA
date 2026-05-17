@@ -40,4 +40,11 @@
 | [[exam_2025_02_11_p1_completo_e01]] | Parte I | DP LCS a tre sequenze con budget rossi | 31 | alta | cataloged |
 | [[exam_2025_02_11_p1_completo_e02]] | Parte I | DP cammini con divieto di consecutività NN/BB | 31 | alta | cataloged |
 
+## 2025-02-11 - Parte I recupero parziale
+
+| Esercizio | Parte | Argomento | Punti | Difficolta | Stato |
+|---|---|---|---:|---|---|
+| [[exam_2025_02_11_p1_recupero_e01]] | Parte I | DP LCS a tre sequenze con budget rossi | 31 | alta | cataloged |
+| [[exam_2025_02_11_p1_recupero_e02]] | Parte I | DP cammini minimi con parità blu e vincoli sui vertici | 31 | alta | cataloged |
+
 

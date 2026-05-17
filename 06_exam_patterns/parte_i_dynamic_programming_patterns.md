@@ -48,7 +48,7 @@ dove:
 *   **Vincolo di presenza obbligatoria**: $C[i,j,r]$ con $r \in \{0,1\}$ dove $r=1$ indica presenza obbligatoria di almeno un rosso.
     *   *Appello*: [[exam_2025_11_10_p1_tema_a_e01]]
 *   **LCS a tre sequenze con budget massimo**: $C[i,j,k,r]$ = lunghezza LCS a tre sequenze con al più $r$ rossi.
-    *   *Appello*: [[exam_2025_02_11_p1_completo_e01]]
+    *   *Appelli*: [[exam_2025_02_11_p1_completo_e01]], [[exam_2025_02_11_p1_recupero_e01]]
 
 ---
 
@@ -75,3 +75,5 @@ dove:
     *   *Appelli*: [[exam_2025_06_09_p1_e02]], [[exam_2025_02_11_p1_completo_e02]]
 *   **Somma aggregata di archi specifici**: $D[k,i,j,h]$ con $h \in \{0,1,2,3\}$ indicante che la somma degli archi A e B è esattamente $h$.
     *   *Appello*: [[exam_2025_11_10_p1_tema_a_e02]]
+*   **Cammini minimi pesati con vincolo di parità ed esclusione locale**: $D[k,i,j,p]$ = peso minimo di un cammino con parità $p$ modulo 2 di archi blu, senza due vertici rossi consecutivi.
+    *   *Appello*: [[exam_2025_02_11_p1_recupero_e02]]

@@ -31,6 +31,8 @@ Vincoli che dipendono dal colore di simboli o archi e richiedono di aggiungere c
 - [[exam_2025_11_10_p1_tema_a_e02]]
 - [[exam_2025_02_11_p1_completo_e01]]
 - [[exam_2025_02_11_p1_completo_e02]]
+- [[exam_2025_02_11_p1_recupero_e01]]
+- [[exam_2025_02_11_p1_recupero_e02]]
 
 ## Collegamenti ai metodi
 
@@ -38,6 +40,7 @@ Vincoli che dipendono dal colore di simboli o archi e richiedono di aggiungere c
 - [[metodo_lcs_tre_sequenze_vincolo_colori]]
 - [[metodo_dp_cammini_colori_conteggi]]
 - [[metodo_dp_cammini_colori_precedenze]]
+- [[metodo_cammini_minimi_vincoli_colori_parita]]
 
 > [!Warning]
 > Nota scaffold: completare solo dopo aver risolto almeno un esercizio per variante.
