@@ -1,5 +1,9 @@
 # 02_transcriptions
 
+## Extra
+
+- [[esercizi_APA_SRC_EXTRA_001]]
+
 Contiene trascrizioni e prime interpretazioni delle fonti.
 
 ## Sottocartelle
@@ -17,4 +21,3 @@ Contiene trascrizioni e prime interpretazioni delle fonti.
 - Non catalogare gli esercizi solo qui.
 - Non perdere il riferimento alla fonte originale.
 - Segnare ambiguita con `[!Warning]`.
-

@@ -77,3 +77,24 @@ dove:
     *   *Appello*: [[exam_2025_11_10_p1_tema_a_e02]]
 *   **Cammini minimi pesati con vincolo di parità ed esclusione locale**: $D[k,i,j,p]$ = peso minimo di un cammino con parità $p$ modulo 2 di archi blu, senza due vertici rossi consecutivi.
     *   *Appello*: [[exam_2025_02_11_p1_recupero_e02]]
+
+---
+
+## 4. Integrazione SRC-EXTRA-001
+
+Fonte: [[source_inventory]] / SRC-EXTRA-001 / esercizi APA.pdf.
+
+Pattern operativi aggiunti:
+
+- LCS base: [[metodo_lcs_base]]
+- LIS/LDS: [[metodo_lis_lds]]
+- LICS: [[metodo_lics]]
+- LCS con esattamente $R$ rossi: [[metodo_programmazione_dinamica_lcs_vincoli_colori]]
+- LCS con quantificatore "tutte le LCS": [[metodo_programmazione_dinamica_lcs_vincoli_colori]]
+- LCS con ingombro: [[metodo_programmazione_dinamica_lcs_vincolo_ingombro]]
+- Zaino 0/1 con massimo numero di oggetti rossi: [[metodo_programmazione_dinamica_zaino_01]]
+- Hateville con vincoli sui colori: [[metodo_hateville_vincoli_colori]]
+- LCS con alternanza pari/dispari: [[metodo_lcs_alternanza_pari_dispari]]
+
+> [!Warning]
+> Restano draft Hateville e LCS alternanza pari/dispari per ambiguita nella fonte manoscritta.

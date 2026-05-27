@@ -169,3 +169,12 @@ $$
 - [[vincoli_su_colori]]
 - [[metodo_programmazione_dinamica_lcs_vincoli_colori]]
 - [[metodo_lcs_tre_sequenze_vincolo_colori]]
+
+## Metodo collegato dagli appunti SRC-EXTRA-001
+
+> [!Info]
+> Questo esercizio e collegato alla metodologia manoscritta in `esercizi APA.pdf`, pagine 04-10.
+
+- Metodo: [[metodo_programmazione_dinamica_lcs_vincoli_colori]]
+- Esempio svolto collegato: [[lcs_esattamente_3_rossi_SRC_EXTRA_001]]
+- Pattern: [[parte_i_dynamic_programming_patterns]]

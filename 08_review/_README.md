@@ -9,9 +9,11 @@ Contiene materiale per il ripasso finale.
 - `common_mistakes.md`
 - `checklist_pre_exam.md`
 - `last_week_plan.md`
+- `parte_i_dp_checklist.md`
+- `varianti_lcs_con_vincoli.md`
+- `flashcards_parte_i_dp.md`
 
 ## Errori da evitare
 
 - Non aggiungere materiale non verificato senza segnalarlo.
 - Non lasciare domande senza collegamento a teoria o metodi.
-

@@ -16,3 +16,6 @@ Usare `templates/exercise_template.md` come base, marcando `status: solved` o `s
 - Non inserire soluzioni non verificate come definitive.
 - Non scollegare gli esempi dal catalogo esercizi.
 
+## Da SRC-EXTRA-001
+
+Vedi [[by_topic]] per gli esempi svolti derivati da `esercizi APA.pdf`.

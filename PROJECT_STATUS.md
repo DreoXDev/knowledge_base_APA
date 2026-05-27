@@ -72,7 +72,16 @@ Fourteenth exam report applied.
 | SRC-EXAM-013 | `parteII-10nov25.pdf` | appello | applicato | Report applicato e Parte II catalogata | Verificare trascrizione e risolvere esercizi |
 | SRC-EXAM-014 | `esame_apa_12_01_2026.pdf` | appello | applicato | Report applicato e appello catalogato | Verificare trascrizione e risolvere esercizi |
 | SRC-NOTE-001 | `Analisi E Progettazione Di Algoritmi.pdf` | appunti | da analizzare | Fonte censita | Analisi visuale PDF |
-| SRC-EXTRA-001 | `esercizi APA.pdf` | extra | da analizzare | Fonte censita | Verificare classificazione e creare ingestion report |
+| SRC-EXTRA-001 | `esercizi APA.pdf` | extra | applicato | Trascrizione e integrazione metodi Parte I | Verifica manuale punti ambigui + confronto con SRC-NOTE-001 |
+
+## Stato aggiornato SRC-EXTRA-001
+
+- Fonte analizzata: `01_sources/extra_materials/esercizi APA.pdf`
+- Source ID: `SRC-EXTRA-001`
+- Tipo: appunti/esercizi manoscritti
+- Report creato: `09_ingestion_reports/ingestion_report_extra_esercizi_APA_SRC_EXTRA_001.md`
+- Trascrizione creata: `02_transcriptions/extra/esercizi_APA_SRC_EXTRA_001.md`
+- Stato: prima fonte manoscritta corta trascritta e integrata
 
 ## Next Actions
 
@@ -87,4 +96,3 @@ Fourteenth exam report applied.
 
 - Conviene proseguire con l'ingestione della seconda parte degli appelli (es. `parteII-09giu25.pdf`, `parteII-11feb25-completo-recupero.pdf`) per completare il quadro dei pattern della Parte II?
 - `esercizi APA.pdf` va mantenuto come materiale extra o riclassificato dopo analisi?
-

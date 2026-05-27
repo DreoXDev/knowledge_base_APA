@@ -110,3 +110,16 @@
 | [[exam_2025_09_17_p2_e05]] | Parte II | Teoria: Dimostrazione matroide grafico | 7 | alta | cataloged |
 
 
+## SRC-EXTRA-001 - esercizi APA.pdf
+
+- [[lcs_crescente_esempio_SRC_EXTRA_001]]
+- [[lis_esempio_SRC_EXTRA_001]]
+- [[lds_esempio_SRC_EXTRA_001]]
+- [[lcs_esattamente_3_rossi_SRC_EXTRA_001]]
+- [[lcs_tutte_almeno_3_rossi_SRC_EXTRA_001]]
+- [[lcs_tutte_parita_rossi_SRC_EXTRA_001]]
+- [[lcs_ingombro_SRC_EXTRA_001]]
+- [[hateville_senza_due_rossi_consecutivi_SRC_EXTRA_001]]
+- [[knapsack_max_R_rossi_SRC_EXTRA_001]]
+- [[lics_SRC_EXTRA_001]]
+- [[lcs_alternanza_pari_dispari_SRC_EXTRA_001]]

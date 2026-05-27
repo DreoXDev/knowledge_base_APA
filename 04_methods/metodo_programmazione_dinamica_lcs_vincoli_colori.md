@@ -83,3 +83,65 @@ $$
 > [!Warning]
 > Metodo da completare durante la fase di soluzione.
 
+## Integrazione da SRC-EXTRA-001
+
+Fonte: [[source_inventory]] / SRC-EXTRA-001 / esercizi APA.pdf, pagine 04-10.
+
+### Esattamente $R$ rossi
+
+Per imporre esattamente $R$ simboli rossi nella LCS:
+
+$$
+C_{i,j,r} = \text{lunghezza di una LCS tra } X_i,Y_j \text{ con esattamente } r \text{ rossi}.
+$$
+
+Caso base:
+
+$$
+C_{0,j,0}=C_{i,0,0}=0,\qquad C_{0,j,r}=C_{i,0,r}=-\infty \text{ per } r>0.
+$$
+
+Passo chiave:
+
+$$
+C_{i,j,r} =
+\begin{cases}
+\max(C_{i-1,j,r}, C_{i,j-1,r}) & \text{se } x_i \ne y_j,\\
+\max(C_{i-1,j,r}, C_{i,j-1,r}, C_{i-1,j-1,r-1}+1) & \text{se } x_i=y_j,\ col(x_i)=rosso,\ r>0,\\
+\max(C_{i-1,j,r}, C_{i,j-1,r}) & \text{se } x_i=y_j,\ col(x_i)=rosso,\ r=0,\\
+\max(C_{i-1,j,r}, C_{i,j-1,r}, C_{i-1,j-1,r}+1) & \text{se } x_i=y_j,\ col(x_i)\ne rosso.
+\end{cases}
+$$
+
+### Quantificatore: tutte le LCS
+
+> [!Warning]
+> Non confondere "esiste una LCS con proprieta $P$" con "tutte le LCS hanno proprieta $P$".
+
+Per proprieta su tutte le LCS ottime conviene calcolare prima la tabella delle lunghezze standard $L_{i,j}$. Nel mismatch si ereditano solo i rami che producono la lunghezza ottima:
+
+- se un solo ramo e ottimo, si eredita quel ramo;
+- se entrambi i rami sono ottimi, si usa AND.
+
+Per "tutte le LCS hanno almeno $R$ rossi":
+
+$$
+B_{i,j,r}=true
+$$
+
+se tutte le LCS di $X_i,Y_j$ contengono almeno $r$ rossi.
+
+Per "tutte le LCS hanno parita $p$ di rossi", uso convenzione:
+
+$$
+p=0 \text{ pari},\qquad p=1 \text{ dispari}.
+$$
+
+> [!Todo]
+> Verificare manualmente la convenzione di parita nelle pagine 08-10 della fonte.
+
+### Esempi collegati
+
+- [[lcs_esattamente_3_rossi_SRC_EXTRA_001]]
+- [[lcs_tutte_almeno_3_rossi_SRC_EXTRA_001]]
+- [[lcs_tutte_parita_rossi_SRC_EXTRA_001]]

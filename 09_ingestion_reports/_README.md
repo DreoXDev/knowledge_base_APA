@@ -49,3 +49,6 @@ ingestion_SRC-NOTE-001.md
 ingestion_batch_appelli_2025.md
 ```
 
+## Report extra
+
+- [[ingestion_report_extra_esercizi_APA_SRC_EXTRA_001]]

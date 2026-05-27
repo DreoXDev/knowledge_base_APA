@@ -46,3 +46,37 @@ dove $i$ e $j$ indicano i prefissi delle due sequenze e $k$ indica il budget mas
 
 > [!Warning]
 > Metodo da completare durante la fase di soluzione.
+
+## Integrazione da SRC-EXTRA-001
+
+Fonte: [[source_inventory]] / SRC-EXTRA-001 / esercizi APA.pdf, pagina 11.
+
+### Coefficiente
+
+$$
+L_{i,j,c} = \text{lunghezza di una LCS tra } X_i,Y_j \text{ con ingombro complessivo al massimo } c.
+$$
+
+### Caso base
+
+$$
+L_{i,j,c}=0 \quad \text{se } i=0 \text{ oppure } j=0.
+$$
+
+### Passo ricorsivo
+
+$$
+L_{i,j,c} =
+\begin{cases}
+\max(L_{i-1,j,c},L_{i,j-1,c}) & \text{se } x_i \ne y_j,\\
+\max(L_{i-1,j,c},L_{i,j-1,c},L_{i-1,j-1,c-w(x_i)}+1) & \text{se } x_i=y_j,\ w(x_i)\le c,\\
+\max(L_{i-1,j,c},L_{i,j-1,c}) & \text{se } x_i=y_j,\ w(x_i)>c.
+\end{cases}
+$$
+
+> [!Info]
+> La forma con massimo a tre termini e prudente: anche quando c'e match, l'ottimo puo non usare quel simbolo.
+
+### Esempio collegato
+
+- [[lcs_ingombro_SRC_EXTRA_001]]

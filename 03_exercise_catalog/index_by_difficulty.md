@@ -64,3 +64,9 @@
 ## Base
 
 - [[exam_2025_07_03_p2_e04]]
+
+## Da verificare - SRC-EXTRA-001
+
+- [[lcs_tutte_parita_rossi_SRC_EXTRA_001]] - convenzione parita da verificare
+- [[hateville_senza_due_rossi_consecutivi_SRC_EXTRA_001]] - ricorrenza incompleta
+- [[lcs_alternanza_pari_dispari_SRC_EXTRA_001]] - metodo draft

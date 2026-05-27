@@ -102,6 +102,14 @@
 
 ## Cataloging
 
+## TODO da SRC-EXTRA-001
+
+- [ ] Verificare manualmente la ricorrenza di Hateville senza due rossi consecutivi.
+- [ ] Verificare la convenzione di parita nelle pagine 8-10.
+- [ ] Verificare e completare LCS con alternanza pari/dispari usando il PDF lungo `SRC-NOTE-001`.
+- [ ] Confrontare LCS esattamente 3 rossi con varianti "al massimo K rossi" e "budget 3R/2B".
+- [ ] Usare `SRC-EXTRA-001` per completare gli esercizi Parte I ancora aperti nel TODO.
+
 - [ ] Catalog each remaining exercise from past exams
 - [ ] Assign each remaining exercise a topic
 - [ ] Identify recurring patterns across multiple exams
@@ -113,4 +121,3 @@
 - [ ] Complete theory notes from applied ingestion reports
 - [ ] Write solved examples from applied ingestion reports
 - [ ] Create pre-exam checklist
-

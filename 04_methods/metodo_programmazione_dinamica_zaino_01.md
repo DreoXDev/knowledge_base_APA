@@ -79,3 +79,31 @@ Se richiesto, descrivere come recuperare l'insieme ottimo di oggetti $S$:
 > * **Dimensione indici**: Dimenticare di dichiarare gli intervalli di definizione per gli indici (es. $i \in \{0,\dots,n\}$ e $c \in \{0,\dots,C\}$).
 > * **Caso base incompleto**: Scrivere solo $OPT(0,c) = 0$ tralasciando $OPT(i,0) = 0$ (o viceversa) può costare punti preziosi.
 > * **Mancanza di spiegazione**: Non limitarsi a scrivere le formule matematiche; specificare sempre a parole il significato matematico del parametro $OPT(i,c)$.
+
+## Variante da SRC-EXTRA-001 - massimo numero di oggetti rossi
+
+Fonte: [[source_inventory]] / SRC-EXTRA-001 / esercizi APA.pdf, pagine 13-14 e 16-17.
+
+### Coefficiente
+
+$$
+OPT_{i,c,r} = \text{valore massimo usando i primi } i \text{ oggetti, capacita } c \text{ e al massimo } r \text{ oggetti rossi}.
+$$
+
+### Passo ricorsivo
+
+$$
+OPT_{i,c,r} =
+\begin{cases}
+OPT_{i-1,c,r} & \text{se } w_i>c,\\
+\max(OPT_{i-1,c,r},OPT_{i-1,c-w_i,r-1}+v_i) & \text{se } w_i\le c,\ col(i)=rosso,\ r>0,\\
+OPT_{i-1,c,r} & \text{se } w_i\le c,\ col(i)=rosso,\ r=0,\\
+\max(OPT_{i-1,c,r},OPT_{i-1,c-w_i,r}+v_i) & \text{se } w_i\le c,\ col(i)\ne rosso.
+\end{cases}
+$$
+
+### Ricostruzione
+
+Confrontare il valore della cella corrente con il ramo "non prendo". Se il valore coincide con il ramo di presa, aggiungere l'oggetto $i$ alla soluzione, scalare $c$ di $w_i$ e scalare $r$ solo se l'oggetto e rosso.
+
+Esempio collegato: [[knapsack_max_R_rossi_SRC_EXTRA_001]].
