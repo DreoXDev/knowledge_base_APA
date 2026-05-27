@@ -1,5 +1,9 @@
 # 06_exam_patterns
 
+## Mapping metodi
+
+- [[mapping_appelli_to_SRC_NOTE_001]]
+
 Contiene famiglie ricorrenti di esercizi e domande teoriche.
 
 ## Nomi file
@@ -17,4 +21,3 @@ Usare `templates/pattern_template.md`.
 - Non creare pattern prima di avere evidenze.
 - Non confondere pattern con metodo.
 - Indicare sempre appelli e varianti osservate.
-

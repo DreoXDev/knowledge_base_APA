@@ -52,3 +52,4 @@ ingestion_batch_appelli_2025.md
 ## Report extra
 
 - [[ingestion_report_extra_esercizi_APA_SRC_EXTRA_001]]
+- [[ingestion_report_note_analisi_e_progettazione_algoritmi]]

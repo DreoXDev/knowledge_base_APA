@@ -1,5 +1,12 @@
 # 05_theory
 
+## Integrazioni SRC-NOTE-001
+
+- [[bfs_tree_check]]
+- [[dijkstra_correttezza]]
+- [[floyd_warshall]]
+- [[np_completezza]]
+
 Contiene note teoriche sintetiche e orientate all'esame.
 
 ## Nomi file
@@ -17,4 +24,3 @@ Usare `templates/theory_template.md`.
 - Non scrivere dispense lunghe senza collegamento agli esercizi.
 - Non separare teoria e domande tipiche.
 - Non omettere una risposta breve da esame.
-

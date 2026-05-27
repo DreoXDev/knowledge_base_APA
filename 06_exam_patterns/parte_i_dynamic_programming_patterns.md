@@ -98,3 +98,13 @@ Pattern operativi aggiunti:
 
 > [!Warning]
 > Restano draft Hateville e LCS alternanza pari/dispari per ambiguita nella fonte manoscritta.
+
+## 5. Integrazione SRC-NOTE-001
+
+Fonte: [[source_inventory]] / SRC-NOTE-001 / `Analisi E Progettazione Di Algoritmi.pdf`.
+
+- Sequenze base: [[dp_lcs_base]], [[dp_interleaving_sequenze]], [[dp_lcs_lunghezza_esatta_booleana]]
+- Sequenze con vincoli: [[dp_lcs_vincoli_colore]], [[dp_lcs_vincolo_somma_ingombro]], [[dp_lcs_crescente_lics]]
+- Zaino: [[dp_knapsack_colori]]
+- Grafi: [[dp_grafi_floyd_warshall_stato_esteso]]
+- Mapping appelli: [[mapping_appelli_to_SRC_NOTE_001]]

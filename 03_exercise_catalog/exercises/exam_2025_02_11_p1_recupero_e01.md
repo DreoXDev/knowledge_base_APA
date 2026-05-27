@@ -128,3 +128,8 @@ $$
 - Metodo: [[metodo_programmazione_dinamica_lcs_vincoli_colori]]
 - Esempio svolto collegato: [[lcs_esattamente_3_rossi_SRC_EXTRA_001]]
 - Pattern: [[parte_i_dynamic_programming_patterns]]
+
+## Metodo collegato dagli appunti SRC-NOTE-001
+
+- Metodo: [[dp_lcs_vincoli_colore]]
+- Mapping: [[mapping_appelli_to_SRC_NOTE_001]]

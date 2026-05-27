@@ -4,6 +4,10 @@
 
 - [[esercizi_APA_SRC_EXTRA_001]]
 
+## Notes
+
+- [[note_analisi_e_progettazione_algoritmi]]
+
 Contiene trascrizioni e prime interpretazioni delle fonti.
 
 ## Sottocartelle

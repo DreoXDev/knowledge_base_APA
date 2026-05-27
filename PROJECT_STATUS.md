@@ -71,7 +71,7 @@ Fourteenth exam report applied.
 | SRC-EXAM-012 | `parte-I-10nov25-A.pdf` | appello | applicato | Report applicato e Parte I catalogata | Verificare trascrizione e risolvere esercizi |
 | SRC-EXAM-013 | `parteII-10nov25.pdf` | appello | applicato | Report applicato e Parte II catalogata | Verificare trascrizione e risolvere esercizi |
 | SRC-EXAM-014 | `esame_apa_12_01_2026.pdf` | appello | applicato | Report applicato e appello catalogato | Verificare trascrizione e risolvere esercizi |
-| SRC-NOTE-001 | `Analisi E Progettazione Di Algoritmi.pdf` | appunti | da analizzare | Fonte censita | Analisi visuale PDF |
+| SRC-NOTE-001 | `Analisi E Progettazione Di Algoritmi.pdf` | appunti | applicato | Trascrizione e metodi integrati | Verifica manuale formule ambigue |
 | SRC-EXTRA-001 | `esercizi APA.pdf` | extra | applicato | Trascrizione e integrazione metodi Parte I | Verifica manuale punti ambigui + confronto con SRC-NOTE-001 |
 
 ## Stato aggiornato SRC-EXTRA-001
@@ -82,6 +82,15 @@ Fourteenth exam report applied.
 - Report creato: `09_ingestion_reports/ingestion_report_extra_esercizi_APA_SRC_EXTRA_001.md`
 - Trascrizione creata: `02_transcriptions/extra/esercizi_APA_SRC_EXTRA_001.md`
 - Stato: prima fonte manoscritta corta trascritta e integrata
+
+## Stato aggiornato SRC-NOTE-001
+
+- Appunti analizzati: `01_sources/notes_raw/Analisi E Progettazione Di Algoritmi.pdf`
+- Source ID: `SRC-NOTE-001`
+- Tipo: appunti manoscritti metodologici
+- Report creato: `09_ingestion_reports/ingestion_report_note_analisi_e_progettazione_algoritmi.md`
+- Trascrizione creata: `02_transcriptions/notes/note_analisi_e_progettazione_algoritmi.md`
+- Stato: appunti metodologici integrati nella KB
 
 ## Next Actions
 

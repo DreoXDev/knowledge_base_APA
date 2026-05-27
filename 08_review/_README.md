@@ -12,6 +12,9 @@ Contiene materiale per il ripasso finale.
 - `parte_i_dp_checklist.md`
 - `varianti_lcs_con_vincoli.md`
 - `flashcards_parte_i_dp.md`
+- `flashcards_SRC_NOTE_001.md`
+- `checklist_metodi_DP.md`
+- `checklist_grafi_e_np.md`
 
 ## Errori da evitare
 

@@ -141,3 +141,16 @@
 - [[knapsack_max_R_rossi_SRC_EXTRA_001]]
 - [[lics_SRC_EXTRA_001]]
 - [[lcs_alternanza_pari_dispari_SRC_EXTRA_001]]
+
+## Metodi da SRC-NOTE-001
+
+- [[dp_interleaving]]
+- [[lcs_base_SRC_NOTE_001]]
+- [[interleaving_SRC_NOTE_001]]
+- [[lcs_al_massimo_k_rossi_SRC_NOTE_001]]
+- [[lcs_esattamente_k_rossi_SRC_NOTE_001]]
+- [[lcs_somma_leq_k_SRC_NOTE_001]]
+- [[lics_SRC_NOTE_001]]
+- [[knapsack_colori_SRC_NOTE_001]]
+- [[cammini_colori_floyd_warshall_SRC_NOTE_001]]
+- [[np_completezza_schema_SRC_NOTE_001]]

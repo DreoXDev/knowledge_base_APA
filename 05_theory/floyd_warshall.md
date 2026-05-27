@@ -40,3 +40,23 @@ Nei problemi di esame APA, l'algoritmo viene spesso esteso aggiungendo indici di
 
 > [!Warning]
 > Nota scaffold: completare con la ricorrenza standard per il confronto nei riassunti di teoria.
+
+## Integrazione SRC-NOTE-001
+
+Fonte: [[source_inventory]] / SRC-NOTE-001, pagine 24-32 e 38-39.
+
+## Ricorrenza classica
+
+$$
+D^k[i,j]=\min(D^{k-1}[i,j],D^{k-1}[i,k]+D^{k-1}[k,j]).
+$$
+
+Nella versione booleana:
+
+$$
+R^k[i,j]=R^{k-1}[i,j]\lor(R^{k-1}[i,k]\land R^{k-1}[k,j]).
+$$
+
+## Variante con stato esteso
+
+Vedi [[dp_grafi_floyd_warshall_stato_esteso]].

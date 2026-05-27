@@ -110,6 +110,13 @@
 - [ ] Confrontare LCS esattamente 3 rossi con varianti "al massimo K rossi" e "budget 3R/2B".
 - [ ] Usare `SRC-EXTRA-001` per completare gli esercizi Parte I ancora aperti nel TODO.
 
+## TODO da SRC-NOTE-001
+
+- [ ] Verificare manualmente le formule marcate come `Lettura incerta` in `note_analisi_e_progettazione_algoritmi.md`.
+- [ ] Confrontare i metodi SRC-NOTE-001 con gli esercizi degli appelli gia catalogati.
+- [ ] Completare gli esempi svolti mancanti derivati dagli appelli.
+- [ ] Verificare le pagine 51-65 del PDF lungo se servono a risolvere appelli specifici.
+
 - [ ] Catalog each remaining exercise from past exams
 - [ ] Assign each remaining exercise a topic
 - [ ] Identify recurring patterns across multiple exams

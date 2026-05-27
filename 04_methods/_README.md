@@ -25,3 +25,16 @@ Usare `templates/method_template.md`.
 - [[metodo_lics]]
 - [[metodo_hateville_vincoli_colori]]
 - [[metodo_lcs_alternanza_pari_dispari]]
+
+## Metodi aggiunti da SRC-NOTE-001
+
+- [[_index_methods_from_SRC_NOTE_001]]
+- [[dp_lcs_base]]
+- [[dp_interleaving_sequenze]]
+- [[dp_lcs_lunghezza_esatta_booleana]]
+- [[dp_lcs_vincoli_colore]]
+- [[dp_lcs_vincolo_somma_ingombro]]
+- [[dp_lcs_crescente_lics]]
+- [[dp_knapsack_colori]]
+- [[dp_grafi_floyd_warshall_stato_esteso]]
+- [[np_completezza_schema_dimostrazione]]

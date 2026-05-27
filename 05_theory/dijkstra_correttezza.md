@@ -52,3 +52,19 @@ La dimostrazione di correttezza fa uso di alcune proprietà teoriche dei cammini
 * **Guida alla Dimostrazione**: [[metodo_dimostrazione_correttezza_dijkstra]]
 * **Simulazioni pratiche**: [[exam_2025_06_09_p2_e01]], [[exam_2025_07_03_p2_e01]]
 * **Esercizio d'Esame collegato**: [[exam_2025_02_11_p2_completo_recupero_bonus]]
+
+## Integrazione SRC-NOTE-001
+
+Fonte: [[source_inventory]] / SRC-NOTE-001, pagine 33-35.
+
+## Domanda tipica
+
+Spiegare quando usare Dijkstra e perche la scelta greedy e corretta.
+
+## Risposta d'esame breve
+
+Dijkstra risolve cammini minimi da una sorgente in grafi con pesi non negativi. A ogni passo estrae il vertice non definitivo con distanza temporanea minima; grazie alla non negativita dei pesi, nessun cammino scoperto in seguito puo migliorare quella distanza.
+
+## Errore comune
+
+Applicare Dijkstra con archi di peso negativo.

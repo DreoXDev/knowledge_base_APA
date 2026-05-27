@@ -19,3 +19,9 @@ Usare `templates/exercise_template.md` come base, marcando `status: solved` o `s
 ## Da SRC-EXTRA-001
 
 Vedi [[by_topic]] per gli esempi svolti derivati da `esercizi APA.pdf`.
+
+## Da SRC-NOTE-001
+
+- `dp/`: esempi DP da appunti lunghi.
+- `graphs/`: esempi Floyd-Warshall esteso.
+- `theory/`: schemi NP-completezza.
