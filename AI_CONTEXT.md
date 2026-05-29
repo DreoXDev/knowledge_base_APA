@@ -32,7 +32,7 @@ Transform raw sources into a structured knowledge base:
 
 - Markdown must be Obsidian-compatible.
 - Use Obsidian callouts such as `[!Info]`, `[!Question]`, `[!Warning]`, `[!Todo]`, `[!Summary]`.
-- Use internal links with `[[Nome Nota]]`.
+- Use internal links with Obsidian wikilink syntax.
 - Use consistent tags.
 - Use LaTeX for math.
 - Never mix raw source material with processed notes.
@@ -41,7 +41,7 @@ Transform raw sources into a structured knowledge base:
 
 ## Current Priority
 
-Complete the PDF ingestion setup, then process sources one by one through ingestion reports.
+Final consolidation: use [[STUDY_DASHBOARD]] as the study entry point and [[AI_USAGE_GUIDE]] as the rulebook for AI-assisted use of the vault.
 
 ## PDF Ingestion Workflow
 
@@ -75,3 +75,7 @@ Codex should not independently interpret handwritten PDFs unless explicitly inst
 ```txt
 Appello -> Esercizio -> Pattern -> Metodo -> Teoria -> Esempio svolto -> Errori comuni
 ```
+
+## AI-safe Usage
+
+Before answering from this KB, read [[AI_USAGE_GUIDE]]. Do not invent formulas where handwritten sources contain warnings; preserve uncertainty and point to TODOs when needed.

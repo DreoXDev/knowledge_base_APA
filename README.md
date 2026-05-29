@@ -2,6 +2,13 @@
 
 Knowledge base Obsidian per preparare l'esame di Analisi e Progettazione di Algoritmi.
 
+## Punto di ingresso
+
+La KB e pronta per lo studio guidato a partire da:
+
+- [[STUDY_DASHBOARD]] per il percorso di ripasso.
+- [[AI_USAGE_GUIDE]] per usare la repo come contesto AI senza inventare formule o soluzioni.
+
 ## Obiettivo
 
 Studiare l'esame tramite appelli passati, appunti manoscritti di una studentessa che ha gia passato l'esame e catalogazione dei pattern ricorrenti.
@@ -35,6 +42,10 @@ La base di conoscenza serve a riconoscere rapidamente:
 3. Un'AI analizza il PDF e produce un ingestion report.
 4. Codex applica il report alla knowledge base.
 5. Gli indici e lo stato progetto vengono aggiornati.
+
+## Stato attuale
+
+Tutte le fonti note sono state ingestite o applicate. Le fonti manoscritte `SRC-NOTE-001` e `SRC-EXTRA-001` contengono warning espliciti dove la lettura e ambigua. La repo non contiene soluzioni ufficiali: contiene metodi, esempi e interpretazioni derivate da appelli e appunti.
 
 ## Regola guida
 

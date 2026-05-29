@@ -1,17 +1,29 @@
 # Varianti LCS con vincoli
 
-Fonte principale: [[source_inventory]] / SRC-EXTRA-001 / esercizi APA.pdf.
+Fonti: [[source_inventory]] / SRC-EXTRA-001 / SRC-NOTE-001.
 
-| Variante | Coefficiente | Stato extra | Caso base speciale | Passo chiave | Fonte |
-|---|---|---|---|---|---|
-| LCS base | $C_{i,j}$ | nessuno | $0$ su riga/colonna 0 | match/mismatch | SRC-EXTRA-001 p.3 |
-| LCS esattamente 3 rossi | $C_{i,j,r}$ | conteggio rossi | $-\infty$ per $r>0$ | match rosso scala $r-1$ | SRC-EXTRA-001 pp.4-6 |
-| Tutte le LCS almeno 3 rossi | $B_{i,j,r}$ | booleano + soglia | true per $r=0$ | AND sui rami ottimi | SRC-EXTRA-001 p.7 |
-| Tutte le LCS parita rossi | $B_{i,j,p}$ | parita | dipende da convenzione | flip parita se match rosso | SRC-EXTRA-001 pp.8-10 |
-| LCS ingombro $\le C$ | $L_{i,j,c}$ | budget | 0 su prefisso vuoto | match con peso | SRC-EXTRA-001 p.11 |
-| LICS | $C_{i,j}$ termina in match | ordine crescente | 0 se mismatch | max su predecessori minori | SRC-EXTRA-001 p.15 |
-| LCS alternanza pari/dispari | da verificare | parita ultimo elemento | da verificare | da verificare | SRC-EXTRA-001 pp.17-18 |
+| Variante | Stato | Dimensioni DP | Casi base | Match | Non match | Soluzione | Esempi |
+|---|---|---|---|---|---|---|---|
+| LCS base | $C[i,j]$ | 2D | prefisso vuoto a $0$ | $C[i-1,j-1]+1$ | max alto/sinistra | $C[m,n]$ | [[lcs_base_SRC_NOTE_001]] |
+| LCS esattamente K rossi | $C[i,j,k]$ | 3D | $-\infty$ per $k>0$ | consuma $k$ se rosso | max | $C[m,n,K]$ | [[lcs_esattamente_k_rossi_SRC_NOTE_001]] |
+| LCS al massimo K rossi | $C[i,j,k]$ | 3D | $0$ | consuma se possibile | max | $C[m,n,K]$ | [[lcs_al_massimo_k_rossi_SRC_NOTE_001]] |
+| Tutte le LCS almeno K rossi | booleano + lunghezze LCS | 3D/ausiliario | true per soglia 0 | attenzione a "tutte" | AND sui rami ottimi | booleano | [[lcs_tutte_almeno_3_rossi_SRC_EXTRA_001]] |
+| Parita rossi | $B[i,j,p]$ | 3D | convenzione pari/dispari | flip parita se rosso | dipende dai rami ottimi | $B[m,n,pari]$ | [[lcs_tutte_parita_rossi_SRC_EXTRA_001]] |
+| Ingombro/somma | $C[i,j,c]$ | 3D | $0$ | consuma peso | max | $C[m,n,C]$ | [[lcs_somma_leq_k_SRC_NOTE_001]] |
+| LICS | $C[i,j]$ che termina in match | 2D ausiliaria | $0$ se mismatch | max precedente minore | non si usa classico max | $\max C[i,j]$ | [[lics_SRC_NOTE_001]] |
+| 3 sequenze | $C[i,j,k,\dots]$ | 3D+ | prefisso vuoto | match triplo | max rami | valore finale | [[mapping_appelli_to_SRC_NOTE_001]] |
+
+## Come riconoscere quale variante usare
+
+- Se la consegna dice "piu lunga sottosequenza comune", partire da [[metodo_lcs_base]].
+- Se aggiunge conteggi di colori, aggiungere una dimensione per ogni budget.
+- Se dice "esattamente", usare stati impossibili con $-\infty$ nei massimi.
+- Se dice "tutte le LCS", calcolare prima le lunghezze ottime e usare AND solo sui rami ottimi.
+- Se chiede crescente/decrescente, usare il pattern LICS: la risposta e un massimo globale, non necessariamente $C[m,n]$.
+- Se chiede somma, peso o ingombro, aggiungere una dimensione di capacita residua.
+
+## Warning aperti
 
 > [!Warning]
-> Le varianti "tutte le LCS" richiedono di ragionare solo sui rami che producono LCS ottime. Non basta applicare AND/OR su tutti i sottoproblemi.
+> La parita dei rossi nelle fonti manoscritte ha convenzioni da verificare. Usare $p=0$ pari e $p=1$ dispari solo dichiarandolo.
 

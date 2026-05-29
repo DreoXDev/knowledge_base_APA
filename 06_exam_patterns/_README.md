@@ -3,6 +3,7 @@
 ## Mapping metodi
 
 - [[mapping_appelli_to_SRC_NOTE_001]]
+- [[parte_ii_grafi_np_patterns]]
 
 Contiene famiglie ricorrenti di esercizi e domande teoriche.
 

@@ -15,6 +15,9 @@ Contiene materiale per il ripasso finale.
 - `flashcards_SRC_NOTE_001.md`
 - `checklist_metodi_DP.md`
 - `checklist_grafi_e_np.md`
+- `flashcards_index.md`
+- `study_plan_7_days.md`
+- `varianti_dp_grafi_con_stato.md`
 
 ## Errori da evitare
 

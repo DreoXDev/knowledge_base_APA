@@ -9,7 +9,7 @@ topic:
 difficulty: easy-medium
 status: cataloged
 method:
-  - [[metodo_knapsack_01_dp]]
+  - [[metodo_programmazione_dinamica_zaino_01]]
 ---
 
 # Esercizio 3 — Equazioni di ricorrenza per Knapsack 0/1

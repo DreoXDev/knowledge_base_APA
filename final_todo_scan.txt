@@ -1,0 +1,58 @@
+.\TODO.md:1:# TODO
+.\AI_CONTEXT.md:71:- If an instruction in an ingestion report is unclear, create a TODO entry instead of guessing.
+.\AI_CONTEXT.md:81:Before answering from this KB, read [[AI_USAGE_GUIDE]]. Do not invent formulas where handwritten sources contain warnings; preserve uncertainty and point to TODOs when needed.
+.\08_review\checklist_pre_exam.md:39:- [ ] Ho controllato [[TODO]] per warning non risolti.
+.\00_meta\repo_quality_check.md:23:- TODO
+.\00_meta\workflow.md:9:5. Creare `TODO.md`.
+.\plans\continuity_context_knowledge_base_APA_after_part1.md:108:4. aggiornare indici, pattern, `PROJECT_STATUS.md` e `TODO.md`;
+.\plans\continuity_context_knowledge_base_APA_after_part1.md:603:Fare solo controllo qualità su link, nomi file, indici, pattern, metodi, teoria, accenti, PROJECT_STATUS e TODO.
+.\plans\continuity_context_knowledge_base_APA_after_part1.md:762:## 10. Aggiornare TODO.md
+.\plans\continuity_context_knowledge_base_APA_after_part1.md:796:TODO.md
+.\plans\continuity_context_knowledge_base_APA_after_part1.md:911:5. il piano deve indicare file da creare, file da aggiornare, pattern da modificare, TODO e stato progetto;
+.\plans\piano_codex_ingestion_APA_2025_01_13_part1.md:101:TODO.md
+.\plans\piano_codex_ingestion_APA_2025_01_13_part1.md:698:## 10. Aggiornare TODO.md
+.\plans\piano_codex_ingestion_APA_2025_01_13_part2.md:141:Aggiornare stato progetto e TODO:
+.\plans\piano_codex_ingestion_APA_2025_01_13_part2.md:145:TODO.md
+.\plans\piano_codex_ingestion_APA_2025_01_13_part2.md:975:## 14. Aggiornare TODO.md
+.\plans\piano_codex_ingestion_APA_2025_01_13_part2.md:980:# TODO — Appello 2025-01-13 Parte II
+.\plans\piano_codex_ingestion_APA_2025_01_13_part2.md:1028:- PROJECT_STATUS.md e TODO.md riflettono il nuovo stato.
+.\plans\piano_codex_ingestion_APA_2025_02_11_part1_completo.md:99:TODO.md
+.\plans\piano_codex_ingestion_APA_2025_02_11_part1_completo.md:715:## 10. Aggiornare TODO.md
+.\09_ingestion_reports\ingestion_report_exam_2025_02_11_part2_completo_recupero.md:91:* Status & Avanzamento: `source_inventory.md`, `PROJECT_STATUS.md`, `TODO.md`
+.\plans\piano_codex_ingestion_APA_2025_02_11_part1_recupero.md:105:TODO.md
+.\plans\piano_codex_ingestion_APA_2025_02_11_part1_recupero.md:800:## 11. Aggiornare TODO.md
+.\09_ingestion_reports\ingestion_report_exam_2025_06_09_part1.md:969:13. Aggiornare `TODO.md`:
+.\09_ingestion_reports\ingestion_report_exam_2025_06_09_part1.md:999:- [ ] aggiornato `TODO.md`;
+.\plans\piano_codex_ingestion_APA_2025_02_11_part2_completo_recupero.md:86:TODO.md
+.\plans\piano_codex_ingestion_APA_2025_02_11_part2_completo_recupero.md:873:## 14. Aggiornare TODO.md
+.\plans\piano_codex_ingestion_APA_2025_02_11_part2_completo_recupero.md:875:Aggiungere TODO operativi:
+.\plans\piano_codex_ingestion_APA_2025_02_11_part2_completo_recupero.md:878:## TODO dopo ingestion 2025-02-11 Parte II completo/recupero
+.\plans\piano_codex_ingestion_APA_2025_02_11_part2_completo_recupero.md:917:- TODO e PROJECT_STATUS coerenti;
+.\plans\piano_codex_ingestion_APA_2025_06_09_part2.md:70:- `TODO.md`
+.\09_ingestion_reports\ingestion_report_exam_2025_07_03_part1.md:67:> Inoltre `TODO.md` e `PROJECT_STATUS.md` risultano ancora abbastanza generici: aggiornarli con i prossimi step specifici dei due appelli catalogati.
+.\09_ingestion_reports\ingestion_report_exam_2025_07_03_part1.md:836:11. Aggiornare `TODO.md`:
+.\09_ingestion_reports\ingestion_report_exam_2025_07_03_part1.md:864:- [ ] aggiornato `TODO.md`;
+.\plans\piano_codex_ingestion_APA_2025_07_03_part2.md:70:- `TODO.md`
+.\plans\piano_codex_ingestion_APA_2025_09_17_part1.md:113:TODO.md
+.\plans\piano_codex_ingestion_APA_2025_09_17_part1.md:762:## 11. Aggiornare TODO.md
+.\plans\piano_codex_ingestion_APA_2025_09_17_part2.md:116:Aggiornare stato progetto e TODO:
+.\plans\piano_codex_ingestion_APA_2025_09_17_part2.md:120:TODO.md
+.\plans\piano_codex_ingestion_APA_2025_09_17_part2.md:851:## 13. Aggiornare TODO.md
+.\plans\piano_codex_ingestion_APA_2025_09_17_part2.md:856:# TODO — Appello 2025-09-17 Parte II
+.\plans\piano_codex_ingestion_APA_2025_09_17_part2.md:901:- PROJECT_STATUS.md e TODO.md sono coerenti con il nuovo stato.
+.\plans\piano_codex_ingestion_APA_2025_11_10_part1_tema_a.md:96:TODO.md
+.\plans\piano_codex_ingestion_APA_2025_11_10_part1_tema_a.md:576:## 10. Aggiornare TODO.md
+.\09_ingestion_reports\ingestion_report_exam_2025_11_10_part2.md:75:* Status & Avanzamento: `source_inventory.md`, `PROJECT_STATUS.md`, `TODO.md`
+.\plans\piano_codex_ingestion_APA_2025_11_10_part2.md:73:TODO.md
+.\plans\piano_codex_ingestion_APA_2025_11_10_part2.md:704:## 13. Aggiornare TODO.md
+.\plans\piano_codex_ingestion_APA_2025_11_10_part2.md:709:## TODO — Parte II
+.\plans\piano_codex_ingestion_APA_2025_11_10_part2.md:748:- TODO e PROJECT_STATUS aggiornati.
+.\plans\piano_codex_quality_check_APA.md:223:## Step 6 — Verificare PROJECT_STATUS.md e TODO.md
+.\plans\piano_codex_quality_check_APA.md:233:`TODO.md` deve contenere task concreti per:
+.\plans\piano_codex_quality_check_APA.md:279:- TODO
+.\plans\piano_codex_quality_check_APA.md:305:- [ ] `TODO.md` contiene task attuali;
+.\09_ingestion_reports\ingestion_report_exam_2026_01_12.md:1220:11. Aggiornare `TODO.md`:
+.\09_ingestion_reports\ingestion_report_exam_2026_01_12.md:1248:- [ ] aggiornato `TODO.md`;
+.\09_ingestion_reports\ingestion_report_extra_esercizi_APA_SRC_EXTRA_001.md:49:- [[TODO]]
+.\09_ingestion_reports\ingestion_report_extra_esercizi_APA_SRC_EXTRA_001.md:79:## TODO residui
+.\09_ingestion_reports\ingestion_report_note_analisi_e_progettazione_algoritmi.md:132:- Aggiornare teoria, review, mapping, inventario fonti, TODO e stato progetto.

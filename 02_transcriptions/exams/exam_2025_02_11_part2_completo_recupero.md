@@ -10,7 +10,7 @@ status: transcribed
 
 # Appello APA — Parte II (scritto completo e recupero) — 11 febbraio 2025
 
-Fonte: [[parteII-11feb25-completo-recupero.pdf]]
+Fonte: `parteII-11feb25-completo-recupero.pdf`
 
 ---
 

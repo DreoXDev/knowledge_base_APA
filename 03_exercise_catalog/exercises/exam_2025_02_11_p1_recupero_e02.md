@@ -159,5 +159,5 @@ Se $D[n,i,j,1] = +\infty$, non esiste alcun cammino valido.
 - [[floyd_warshall]]
 - [[grafi_colorati]]
 - [[metodo_cammini_minimi_vincoli_colori_parita]]
-- [[metodo_floyd_warshall_stato_esteso]]
+- [[dp_grafi_floyd_warshall_stato_esteso]]
 - [[parte_i_dynamic_programming_patterns]]
