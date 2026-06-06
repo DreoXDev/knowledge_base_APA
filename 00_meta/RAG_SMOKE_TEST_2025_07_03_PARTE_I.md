@@ -1,23 +1,29 @@
-# Prompt RAG APA - Parte I, Esercizio 1: LCS con ingombro
+# RAG Smoke Test - Parte I 2025-07-03
 
-Modulo specifico per l'esercizio:
+Fonte:
 
-> Date due sequenze `X = <x_1,...,x_m>` e `Y = <y_1,...,y_n>`, una funzione di ingombro `w:S -> N` e un budget `W`, determinare una piu lunga sottosequenza comune di `X` e `Y` con ingombro complessivo minore o uguale a `W`.
+- `02_transcriptions/exams/exam_2025_07_03_part1.md`
+- `03_exercise_catalog/exercises/exam_2025_07_03_p1_e01.md`
+- `03_exercise_catalog/exercises/exam_2025_07_03_p1_e02.md`
 
-Questo modulo e gia integrato in `Prompt Chat Esame.md`.
+## Test 1 - Esercizio 1
 
-## Riconoscimento
+Pattern riconosciuto:
 
-Usare quando la traccia contiene:
+`LCS con budget di ingombro`.
 
-- piu lunga sottosequenza comune;
-- ingombro complessivo minore o uguale a `W`;
-- funzione `w:S -> N`;
-- richieste su coefficienti, caso base, ricorrenza, bottom-up e ricostruzione.
+Card recuperata:
 
-Card RAG: `10_rag/RAG_METHOD_CARDS/dp_lcs_ingombro.md`.
+`10_rag/RAG_METHOD_CARDS/dp_lcs_ingombro.md`.
 
-## Risposta da copiare
+Controllo chiave:
+
+- usa la formulazione primaria `C[i,j,k]` con ingombro `<= k`;
+- non usa la variante "esattamente b" come default;
+- coefficiente finale `C[m,n,W]`;
+- risposta divisa nei 6 punti della traccia.
+
+### Output atteso
 
 ```text
 1)
@@ -97,9 +103,55 @@ STAMPA-LCS-INGOMBRO(C, X, Y, i, j, k)
                 STAMPA-LCS-INGOMBRO(C, X, Y, i, j-1, k)
 ```
 
-## Accortezze
+Esito: superato.
 
-- Non usare la variante "ingombro esattamente b" come default.
-- Non usare `-infinito` nei casi base.
-- La cella finale e `C[m,n,W]`.
-- Se viene chiesta la complessita: tempo `O(mnW)`, spazio `O(mnW)`.
+## Test 2 - Esercizio 2
+
+Pattern riconosciuto:
+
+`DP/Floyd-Warshall con stato esteso su grafi colorati`.
+
+Card recuperata:
+
+`10_rag/RAG_METHOD_CARDS/dp_grafi_stato_esteso.md`.
+
+Controllo chiave:
+
+- risposta divisa nei 4 punti della traccia;
+- stato esteso con conteggi di rossi e blu;
+- soluzione finale per ogni coppia `(i,j)` con esattamente 2 rossi e 2 blu.
+
+### Output atteso
+
+```text
+1)
+C[k,i,j,r,b] = true se esiste un cammino da i a j che usa solo vertici intermedi in {1,...,k} e contiene esattamente r archi rossi e b archi blu.
+
+Indici:
+- 0 <= k <= |V|
+- 0 <= r <= 2
+- 0 <= b <= 2
+
+2)
+Per k = 0:
+- C[0,i,i,0,0] = true per ogni i.
+- Se (i,j) in E e col(i,j)=R, allora C[0,i,j,1,0] = true.
+- Se (i,j) in E e col(i,j)=B, allora C[0,i,j,0,1] = true.
+- Se (i,j) in E e col(i,j)=N, allora C[0,i,j,0,0] = true.
+- Tutti gli altri coefficienti sono false.
+
+3)
+Per k >= 1:
+
+C[k,i,j,r,b] =
+C[k-1,i,j,r,b] OR
+OR su r1+r2=r, b1+b2=b di
+(C[k-1,i,k,r1,b1] AND C[k-1,k,j,r2,b2]).
+
+4)
+Per ogni coppia (i,j), esiste un cammino richiesto se e solo se:
+
+C[|V|,i,j,2,2] = true.
+```
+
+Esito: superato.

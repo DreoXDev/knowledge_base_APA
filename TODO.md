@@ -1,17 +1,17 @@
 # TODO RAG
 
-## Problemi bloccanti per RAG
+## Bloccanti per uso da esame
 
-- [ ] Verificare manualmente i warning delle fonti manoscritte `SRC-NOTE-001` e `SRC-EXTRA-001` prima di usarli come fonte primaria.
-- [ ] Completare o confermare gli esempi by-exam Parte I ancora catalogati ma non trasformati in soluzione completa.
-- [ ] Rieseguire `python scripts/check_wikilinks.py` dopo ogni modifica strutturale del layer `10_rag/`.
+- [ ] Eseguire un test reale da telefono copiando `RAG Interface/Prompt Chat Esame.md` in una chat nuova.
+- [ ] Se la chat fallisce sul recupero, accorciare ulteriormente il prompt unico e tenere solo le sezioni Parte I 03 luglio 2025.
 
-## Miglioramenti utili ma non essenziali
+## Non bloccanti ma utili
 
-- [ ] Convertire gradualmente gli esempi Parte I piu ricorrenti in soluzioni complete in `07_solved_examples/by_exam/`.
-- [ ] Ridurre i doppioni tra metodi `dp_*` e `metodo_*` solo dopo un ciclo di uso reale della RAG.
-- [ ] Aggiungere esempi numerici solo quando derivano chiaramente da appelli, note o materiali gia ingestiti.
-- [ ] Integrare le card RAG con ulteriori query probabili osservate durante simulazioni d'esame.
+- [ ] Aggiungere smoke test per Kruskal, NP-completezza, matroidi e Dijkstra.
+- [ ] Integrare nel prompt unico solo i moduli specifici gia testati.
+- [ ] Verificare manualmente warning manoscritti quando riguardano esercizi probabili.
+- [ ] Completare esempi by-exam Parte I piu ricorrenti, senza bloccare l'uso RAG.
+- [ ] Ridurre i doppioni tra metodi `dp_*` e `metodo_*` dopo un ciclo di uso reale della RAG.
 
 ## Materiale da non usare come fonte primaria durante l'esame
 

@@ -52,6 +52,14 @@ Questi file sono draft, scaffold o contengono warning. Vanno usati solo dopo le 
 - `final_todo_scan.txt`: rigenerato con occorrenze di TODO, draft, scaffold, placeholder, warning e completamenti.
 - `final_warning_scan.txt`: rigenerato con warning e punti ambigui.
 
+## Fix finali applicati
+
+- Markdown RAG controllato e mantenuto in formato leggibile per Obsidian.
+- Card `dp_lcs_ingombro.md` allineata alla formulazione primaria `<= k`.
+- `RAG Interface/Prompt Chat Esame.md` popolato con prompt unico da telefono.
+- Modulo `RAG Interface/prompt_rag_apa_parteI_esercizio1_lcs_ingombro.md` normalizzato.
+- Smoke test Parte I 03 luglio 2025 eseguito e salvato in `00_meta/RAG_SMOKE_TEST_2025_07_03_PARTE_I.md`.
+
 ## Validazione
 
 Comando eseguito:
@@ -60,7 +68,7 @@ Comando eseguito:
 
 Risultato:
 
-- Markdown controllati: 263.
+- Markdown controllati: 265.
 - Wikilink rotti: 0.
 - Note importanti orfane: 0.
 - Duplicati nome nota: 2.
@@ -74,6 +82,7 @@ Il duplicato `matroidi` e accettato perche il piano RAG richiede esplicitamente 
 
 ## Prossime azioni
 
-1. Eseguire smoke test su 5 tracce: LCS colori, LCS ingombro, grafi con colori, Kruskal, NP-completezza.
-2. Verificare manualmente i warning delle fonti manoscritte.
-3. Completare gli esempi Parte I by-exam piu ricorrenti.
+1. Usare `RAG Interface/Prompt Chat Esame.md` come prompt unico iniziale da telefono.
+2. Estendere il prompt unico solo con moduli gia verificati.
+3. Verificare manualmente i warning manoscritti quando emergono in esercizi probabili.
+4. Aggiungere smoke test futuri per Kruskal, NP-completezza e matroidi.

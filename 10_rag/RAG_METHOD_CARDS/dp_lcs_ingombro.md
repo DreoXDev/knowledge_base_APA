@@ -27,54 +27,67 @@ Frasi tipiche:
 
 ### 1. Definizione sottoproblema
 
-`DP[i][j][b]` = lunghezza massima di una sottosequenza comune tra `X[1..i]` e `Y[1..j]` con ingombro totale esattamente `b`.
+Siano `X_i = <x_1,...,x_i>` e `Y_j = <y_1,...,y_j>`.
 
-Se serve "al massimo B", si prende il massimo finale su `b <= B`.
+`C[i,j,k]` = lunghezza di una LCS di `X_i` e `Y_j` con ingombro complessivo `<= k`.
+
+Indici: `0 <= i <= m`, `0 <= j <= n`, `0 <= k <= W`.
+
+> [!Info]
+> Esiste anche una formulazione alternativa con ingombro esattamente `b` e valore `-infinito` per stati impossibili.
+> Per risposte d'esame compatte usare come default la formulazione `<= k`.
 
 ### 2. Casi base
 
-`DP[0][j][0] = DP[i][0][0] = 0`.
+`C[0,j,k] = 0` per ogni `j,k`.
 
-`DP[0][j][b] = DP[i][0][b] = -infty` per `b > 0`.
+`C[i,0,k] = 0` per ogni `i,k`.
 
 ### 3. Ricorrenza / transizione
 
-Se `X[i] != Y[j]`:
+Se `x_i != y_j`:
 
-`DP[i][j][b] = max(DP[i-1][j][b], DP[i][j-1][b])`.
+`C[i,j,k] = max(C[i-1,j,k], C[i,j-1,k])`.
 
-Se `X[i] = Y[j] = a`, con peso `w(a)`:
+Se `x_i = y_j` e `w(x_i) <= k`:
 
-`DP[i][j][b] = max(DP[i-1][j][b], DP[i][j-1][b], 1 + DP[i-1][j-1][b-w(a)])`.
+```text
+C[i,j,k] =
+max(
+  C[i-1,j,k],
+  C[i,j-1,k],
+  1 + C[i-1,j-1,k-w(x_i)]
+)
+```
 
-Il terzo termine e valido solo se `b >= w(a)`.
+Se `x_i = y_j` e `w(x_i) > k`:
+
+`C[i,j,k] = max(C[i-1,j,k], C[i,j-1,k])`.
 
 ### 4. Ordine di calcolo
 
-Calcolare `i = 0..n`, `j = 0..m`, `b = 0..B`.
+Calcolare `i = 0..m`, `j = 0..n`, `k = 0..W`.
 
 ### 5. Soluzione finale
 
-`max_{0 <= b <= B} DP[n][m][b]`.
-
-Se la traccia chiede ingombro esattamente `B`, usare `DP[n][m][B]`.
+`C[m,n,W]`.
 
 ### 6. Ricostruzione, se richiesta
 
-Risalire dalla cella finale. Quando viene scelta la diagonale, inserire il simbolo e diminuire `b` di `w(a)`.
+Risalire da `C[m,n,W]`. Quando viene scelta la diagonale, chiamare prima la ricorsione su `(i-1,j-1,k-w(x_i))` e poi stampare `x_i`.
 
 ### 7. Complessita
 
-Tempo: `O(n m B)`.
+Tempo: `O(m n W)`.
 
-Spazio: `O(n m B)`, ottimizzabile se non serve ricostruzione.
+Spazio: `O(m n W)`, ottimizzabile se non serve ricostruzione.
 
 ### 8. Correttezza breve
 
-Ogni LCS vincolata o ignora uno degli ultimi due simboli, oppure li usa entrambi quando coincidono e il budget residuo lo consente. La ricorrenza enumera esattamente questi casi. Per induzione sui prefissi e sul budget, ogni cella e ottima; il massimo finale sui budget ammessi risolve il vincolo "al massimo".
+Ogni LCS vincolata o ignora uno degli ultimi due simboli, oppure li usa entrambi quando coincidono e il budget residuo lo consente. La ricorrenza enumera esattamente questi casi. Per induzione sui prefissi e sul budget, ogni cella e ottima; `C[m,n,W]` risolve il vincolo "al massimo W".
 
 ## Errori da evitare
 
-- Non usare `DP[n][m][B]` se la traccia dice "al massimo B".
+- Non usare la variante "esattamente b" come default quando la traccia dice "al massimo W".
 - Non sottrarre il peso quando i due simboli non vengono presi.
-- Non trattare gli stati impossibili come soluzioni valide.
+- Non scrivere `-infinito` nei casi base della formulazione `<= k`.
