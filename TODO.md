@@ -2,7 +2,7 @@
 
 ## Bloccanti per uso da esame
 
-- [ ] Eseguire un test reale da telefono copiando `RAG Interface/Prompt Chat Esame.md` in una chat nuova.
+- [ ] Eseguire un test reale da telefono copiando `AI Chat during Exam/Final Prompt.md` in una chat nuova.
 - [ ] Se la chat fallisce sul recupero, accorciare ulteriormente il prompt unico e tenere solo le sezioni Parte I 03 luglio 2025.
 
 ## Non bloccanti ma utili

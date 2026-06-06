@@ -56,9 +56,11 @@ Questi file sono draft, scaffold o contengono warning. Vanno usati solo dopo le 
 
 - Markdown RAG controllato e mantenuto in formato leggibile per Obsidian.
 - Card `dp_lcs_ingombro.md` allineata alla formulazione primaria `<= k`.
-- `RAG Interface/Prompt Chat Esame.md` popolato con prompt unico da telefono.
-- Modulo `RAG Interface/prompt_rag_apa_parteI_esercizio1_lcs_ingombro.md` normalizzato.
+- Prompt unico migrato in `AI Chat during Exam/Final Prompt.md`.
+- Modulo `AI Chat during Exam/prompt_rag_apa_parteI_esercizio1_lcs_ingombro.md` normalizzato.
 - Smoke test Parte I 03 luglio 2025 eseguito e salvato in `00_meta/RAG_SMOKE_TEST_2025_07_03_PARTE_I.md`.
+- Cartella finale `AI Chat during Exam/` creata con `Final Prompt.md`, README e sezioni modulari.
+- Smoke test del prompt finale salvato in `AI Chat during Exam/SMOKE_TEST_FINAL_PROMPT.md`.
 
 ## Validazione
 
@@ -68,21 +70,21 @@ Comando eseguito:
 
 Risultato:
 
-- Markdown controllati: 265.
+- Markdown controllati: 270.
 - Wikilink rotti: 0.
 - Note importanti orfane: 0.
 - Duplicati nome nota: 2.
 
 Duplicati rilevati:
 
-- `README`: `README.md`, `RAG Interface/README.md`.
+- `README`: `README.md`, `AI Chat during Exam/README.md`.
 - `matroidi`: `05_theory/matroidi.md`, `10_rag/RAG_METHOD_CARDS/matroidi.md`.
 
 Il duplicato `matroidi` e accettato perche il piano RAG richiede esplicitamente la card `10_rag/RAG_METHOD_CARDS/matroidi.md`. In caso di uso Obsidian con wikilink non qualificati, preferire link espliciti con path.
 
 ## Prossime azioni
 
-1. Usare `RAG Interface/Prompt Chat Esame.md` come prompt unico iniziale da telefono.
+1. Usare `AI Chat during Exam/Final Prompt.md` come prompt unico iniziale da telefono.
 2. Estendere il prompt unico solo con moduli gia verificati.
 3. Verificare manualmente i warning manoscritti quando emergono in esercizi probabili.
 4. Aggiungere smoke test futuri per Kruskal, NP-completezza e matroidi.

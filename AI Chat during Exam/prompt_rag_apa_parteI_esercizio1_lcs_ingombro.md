@@ -4,7 +4,7 @@ Modulo specifico per l'esercizio:
 
 > Date due sequenze `X = <x_1,...,x_m>` e `Y = <y_1,...,y_n>`, una funzione di ingombro `w:S -> N` e un budget `W`, determinare una piu lunga sottosequenza comune di `X` e `Y` con ingombro complessivo minore o uguale a `W`.
 
-Questo modulo e gia integrato in `Prompt Chat Esame.md`.
+Questo modulo e gia integrato in `Final Prompt.md`.
 
 ## Riconoscimento
 
