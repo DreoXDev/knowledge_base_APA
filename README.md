@@ -2,63 +2,69 @@
 
 ## Scopo
 
-Questa repository contiene la Knowledge Base Obsidian per preparare l'esame di **Analisi e Progettazione di Algoritmi** (APA). 
+Questa repository contiene una Knowledge Base per preparare l'esame di Analisi e Progettazione di Algoritmi (APA) e usarla come base RAG durante studio, simulazioni ed esercizi.
 
-Obiettivi principali:
-* **Studio personale** strutturato per pattern ed esercizi;
-* **Risoluzione rapida degli esercizi** durante le simulazioni e lo studio;
-* **Recupero immediato dei metodi** risolutivi standard;
-* **Supporto RAG** (Retrieval-Augmented Generation) per assistenti AI;
-* **Preparazione delle domande teoriche** aperte dell'esame.
+## Stato attuale
 
----
+La repo contiene:
 
-## Struttura della Repository
+- appelli/esami passati;
+- appunti e trascrizioni;
+- PDF ufficiali di esercizi;
+- teoria prioritaria;
+- metodi operativi per esercizi;
+- solved examples e schemi d'esame;
+- method card RAG;
+- prompt finale per AI.
+
+## Struttura
 
 | Cartella | Contenuto |
 |---|---|
-| [`01_sources/`](file:///c:/Users/User/Desktop/Knowledge%20Bases/knowledge_base_APA/01_sources) | PDF originali ed inventario delle fonti (da non modificare) |
-| [`04_methods/`](file:///c:/Users/User/Desktop/Knowledge%20Bases/knowledge_base_APA/04_methods) | Metodi operativi standardizzati per la risoluzione degli esercizi |
-| [`05_theory/`](file:///c:/Users/User/Desktop/Knowledge%20Bases/knowledge_base_APA/05_theory) | Teoria compatta focalizzata sulle domande tipiche d'esame |
-| [`06_exam_patterns/`](file:///c:/Users/User/Desktop/Knowledge%20Bases/knowledge_base_APA/06_exam_patterns) | Pattern ricorrenti e variazioni identificate tra gli appelli |
-| [`07_solved_examples/`](file:///c:/Users/User/Desktop/Knowledge%20Bases/knowledge_base_APA/07_solved_examples) | Schemi d'esecuzione ed esempi svolti passo-passo |
-| [`09_ingestion_reports/`](file:///c:/Users/User/Desktop/Knowledge%20Bases/knowledge_base_APA/09_ingestion_reports) | Report di ingestion delle fonti e audit finale |
-| [`10_rag/`](file:///c:/Users/User/Desktop/Knowledge%20Bases/knowledge_base_APA/10_rag) | Entrypoint RAG, prompt da telefono, indici di ricerca e method card |
-| [`AI Chat during Exam/`](file:///c:/Users/User/Desktop/Knowledge%20Bases/knowledge_base_APA/AI%20Chat%20during%20Exam) | Prompt pre-configurato e sezioni per l'uso dell'AI |
+| `01_sources/` | PDF originali, appelli, appunti raw e inventario fonti |
+| `02_transcriptions/` | Trascrizioni lavorate di esami, appunti e materiali extra |
+| `03_exercise_catalog/` | Catalogo esercizi per appello, topic e difficolta |
+| `04_methods/` | Metodi operativi per risolvere esercizi |
+| `05_theory/` | Teoria compatta per domande d'esame |
+| `06_exam_patterns/` | Pattern ricorrenti e varianti osservate negli appelli |
+| `07_solved_examples/` | Esempi svolti e schemi copiabili |
+| `09_ingestion_reports/` | Report di ingestion e audit |
+| `10_rag/` | Entrypoint RAG, retrieval index, pattern map, method card e policy |
+| `AI Chat during Exam/` | Prompt finale e sezioni operative per assistente AI |
 
----
+## Come usare la repo
 
-## Come Studiare e Utilizzare la KB
+1. Per esercizi: partire da `04_methods/` o `10_rag/RAG_RETRIEVAL_INDEX.md`.
+2. Per teoria: partire da `05_theory/`.
+3. Per pattern d'esame: usare `06_exam_patterns/`.
+4. Per esempi/schemi: usare `07_solved_examples/`.
+5. Per AI/RAG: usare `10_rag/` e `AI Chat during Exam/Final Prompt.md`.
 
-1. **Punto d'Ingresso**: Partire da [`10_rag/RAG_ENTRYPOINT.md`](file:///c:/Users/User/Desktop/Knowledge%20Bases/knowledge_base_APA/10_rag/RAG_ENTRYPOINT.md) per l'interazione RAG, o da [`00_meta/STUDY_DASHBOARD.md`](file:///c:/Users/User/Desktop/Knowledge%20Bases/knowledge_base_APA/00_meta/STUDY_DASHBOARD.md) per un ripasso sistematico.
-2. **Esercizi**: Usare le guide in [`04_methods/`](file:///c:/Users/User/Desktop/Knowledge%20Bases/knowledge_base_APA/04_methods) per comprendere gli algoritmi operativi.
-3. **Teoria**: Consultare [`05_theory/`](file:///c:/Users/User/Desktop/Knowledge%20Bases/knowledge_base_APA/05_theory) per formule, definizioni e proof sketch di teoremi.
-4. **Schemi d'Esame**: Riferirsi a [`07_solved_examples/`](file:///c:/Users/User/Desktop/Knowledge%20Bases/knowledge_base_APA/07_solved_examples) per vedere come strutturare la scrittura sul foglio protocollo.
-5. **Retrieval Veloce**: Consultare [`10_rag/RAG_RETRIEVAL_INDEX.md`](file:///c:/Users/User/Desktop/Knowledge%20Bases/knowledge_base_APA/10_rag/RAG_RETRIEVAL_INDEX.md) per associare immediatamente una parola chiave d'esame al file corretto della repo.
+## Entrypoint consigliati
 
----
+- `10_rag/RAG_RETRIEVAL_INDEX.md`: associa query d'esame ai file piu utili.
+- `10_rag/RAG_PATTERN_MAP.md`: riconosce il pattern e sceglie il metodo.
+- `10_rag/RAG_ENTRYPOINT.md`: ordine di consultazione per un modello AI.
+- `AI Chat during Exam/Final Prompt.md`: prompt generale per risposte da esame.
+- `09_ingestion_reports/final_repo_audit.md`: stato finale della pulizia.
 
-## Gerarchia di Affidabilità delle Fonti
+## Fonti e affidabilita
 
-In caso di incongruenze, fare sempre riferimento alle fonti secondo questa priorità (si veda anche la RAG Trust Policy):
-1. **PDF ufficiali del Professore** (es. lezioni e dispense caricate in `01_sources/`);
-2. **Testi d'appello ufficiali** (formulazioni storiche degli esercizi);
-3. **Appunti manoscritti** (interpretati con warning se ambigui);
-4. **Integrazioni e inferenze Codex/AI** (da verificare).
+In caso di incongruenze, usare questo ordine:
 
----
+1. PDF ufficiali del professore;
+2. appelli ufficiali;
+3. appunti della compagna se coerenti;
+4. KB/RAG consolidata;
+5. inferenze del modello.
 
-## Stato del Progetto
+## Warning residui
 
-La repo è completamente integrata e aggiornata con gli esercizi passati, le trascrizioni degli appunti manoscritti e tutte le dispense ufficiali per i blocchi di programmazione dinamica, Floyd-Warshall, matroidi, Kruskal/Prim e NP-completezza.
+- OCR e appunti manoscritti non sono sempre perfetti.
+- Alcuni file raw non sono stati analizzati in profondita.
+- Il RAG punta ai file consolidati, non necessariamente a ogni PDF sorgente.
+- I file generali o draft vanno usati come supporto, non come fonte primaria se esiste una method card specifica.
 
-I risultati dettagliati del controllo di navigabilità e consistenza sono disponibili nel report:
-👉 **[`09_ingestion_reports/final_repo_audit.md`](file:///c:/Users/User/Desktop/Knowledge%20Bases/knowledge_base_APA/09_ingestion_reports/final_repo_audit.md)**
+## Regola guida
 
----
-
-## Regola Guida d'Esame
-
-> [!TIP]
-> **Workflow RAG**: Traccia d'esame $\to$ Retrieval Index $\to$ Method Card $\to$ Esempio Svolto $\to$ Risposta compatta da copiare.
-
+Traccia d'esame -> `RAG_RETRIEVAL_INDEX.md` -> method card -> metodo/esempio collegato -> risposta compatta da esame.
