@@ -38,3 +38,21 @@ Usare `templates/method_template.md`.
 - [[dp_knapsack_colori]]
 - [[dp_grafi_floyd_warshall_stato_esteso]]
 - [[np_completezza_schema_dimostrazione]]
+
+## Metodi ufficiali LCS aggiunti da PDF professore
+
+- [[dp_lcs_tre_sequenze]]
+- [[dp_lcs_due_rossi_consecutivi]]
+- [[dp_lcs_dispari_pari_alternati]]
+
+## Metodi ufficiali esercizi finali
+
+- [[mst_greedy_base]]
+- [[mst_prim]]
+- [[dp_lics_e_varianti]]
+- [[dp_knapsack_vincoli_colore]]
+
+## Metodi ufficiali Floyd-Warshall
+
+- [[fw_base_bottom_up]]
+- [[fw_varianti_vincoli_colori]]

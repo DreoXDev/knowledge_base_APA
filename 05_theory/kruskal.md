@@ -1,7 +1,7 @@
 ---
 type: theory
 topic: kruskal
-status: scaffold
+status: complete
 tags:
   - apa
   - teoria
@@ -9,16 +9,13 @@ tags:
   - topic/mst
 ---
 
-# Teoria - Kruskal
+# Teoria — Kruskal
 
-## Definizione minima
+Questo argomento è trattato nel dettaglio alla pagina principale:
 
-Algoritmo greedy per trovare un minimum spanning tree scegliendo archi in ordine di peso crescente senza creare cicli.
+👉 **[[kruskal_matroide_grafico]]** (Teoria — Kruskal e il Matroide Grafico)
 
-## Collegamenti agli esercizi
-
-- [[exam_2026_01_12_e03]]
-
-> [!Warning]
-> Nota scaffold: completare con prova di correttezza se compare negli appelli.
-
+Si veda anche:
+- Metodo risolutivo: [[metodo_kruskal_mst]]
+- Schema di esecuzione: [[kruskal_schema_esecuzione]]
+- Teorema dell'arco sicuro: [[teorema_arco_sicuro_mst]]

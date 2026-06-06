@@ -26,10 +26,26 @@ Variante di DP su sequenze in cui lo stato tiene traccia di quanti simboli di ce
 
 - [[metodo_programmazione_dinamica_lcs_vincoli_colori]]
 
+## Pattern ufficiale: LCS con al massimo k elementi di un colore
+
+Trigger:
+
+- "LCS(X,Y,3)";
+- "al massimo 3 elementi rossi";
+- funzione `col` sui simboli;
+- sequenze `X`, `Y` e colore dei simboli.
+
+Metodo:
+
+- DP tridimensionale `C[i][j][r]`;
+- `r` = numero massimo ammesso di rossi;
+- risposta `C[m][n][k]`.
+
+Fonte ufficiale: `SRC-LECTURE-001`.
+
 ## Varianti collegate
 
 - [[dp_su_sequenze_con_budget]]
 
 > [!Warning]
-> Verificare se i contatori vanno formulati come "al massimo" o "esattamente".
-
+> Per tracce "al massimo" usare la formulazione ufficiale con stato cumulativo. Per tracce "esattamente" usare invece caso base con stati impossibili.

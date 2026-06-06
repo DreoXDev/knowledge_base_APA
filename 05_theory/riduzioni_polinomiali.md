@@ -1,7 +1,7 @@
 ---
 type: theory
 topic: riduzioni-polinomiali
-status: scaffold
+status: complete
 tags:
   - apa
   - teoria
@@ -9,17 +9,12 @@ tags:
   - topic/np-completezza
 ---
 
-# Teoria - Riduzioni polinomiali
+# Teoria — Riduzioni Polinomiali
 
-## Definizione minima
+Questo argomento è trattato nel dettaglio alla pagina principale:
 
-Trasformazioni calcolabili in tempo polinomiale che preservano la risposta si/no tra problemi decisionali.
+👉 **[[riduzioni_np_completezza]]** (Teoria — Riduzioni Polinomiali e NP-completezza)
 
-## Collegamenti agli esercizi
-
-- [[exam_2026_01_12_e04]]
-- [[exam_2026_01_12_e06]]
-
-> [!Warning]
-> Nota scaffold: completare con esempi del corso.
-
+Si veda anche:
+- Teoria complessità: [[p_np_np_completezza]]
+- Metodo operativo: [[np_completezza_schema_dimostrazione]]

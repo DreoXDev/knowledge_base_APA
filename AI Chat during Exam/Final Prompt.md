@@ -73,6 +73,8 @@ Devi capire quale sezione sto fotografando e applicare le regole della sezione c
 
 Questo esercizio e quasi sempre un esercizio di programmazione dinamica su sequenze.
 
+Quando riconosci una traccia LCS, usa prima lo schema ufficiale base: sottoproblema sui prefissi `X_i,Y_j`, coefficiente `c_{i,j}`, casi base con prefisso vuoto, ricorrenza match/non-match, bottom-up e ricostruzione da `C`. Per varianti con vincoli aggiungi dimensioni di stato solo dopo aver fissato lo schema base.
+
 Pattern tipici:
 
 - LCS classica;
@@ -86,8 +88,11 @@ Pattern tipici:
 Fonti RAG da usare:
 
 - `10_rag/RAG_RETRIEVAL_INDEX.md`
+- `10_rag/RAG_METHOD_CARDS/dp_lcs_varianti.md`
 - `10_rag/RAG_METHOD_CARDS/dp_lcs_ingombro.md`
 - `10_rag/RAG_METHOD_CARDS/dp_lcs_colori.md`
+- `10_rag/RAG_METHOD_CARDS/dp_lics_varianti.md`
+- `10_rag/RAG_METHOD_CARDS/dp_knapsack_vincoli_colore.md`
 - `10_rag/RAG_METHOD_CARDS/zaino_01_varianti.md`
 - `04_methods/`
 - `07_solved_examples/`
@@ -120,6 +125,27 @@ Se il vincolo e "al massimo" o "minore o uguale", NON usare stati impossibili co
 
 Se invece il vincolo e "esattamente K", allora possono servire valori impossibili come `-infinito`.
 
+Nelle DP con conteggi, chiarisci sempre se il contatore rappresenta:
+
+- numero esatto usato;
+- massimo ammesso/residuo;
+- minimo richiesto;
+- parita/stato booleano.
+
+Per LCS con al massimo `k` rossi, la formulazione ufficiale del professore usa `r` come massimo ammesso e restituisce `C[m][n][k]`.
+
+Per esercizi DP, rispondi sempre in ordine: sottoproblema, coefficiente, casi base, ricorrenza, bottom-up, ricostruzione, complessita.
+
+Per LCS e varianti: non saltare mai definizione del coefficiente e casi base. Per ricostruzione, specificare che in caso di pareggio sono accettabili piu soluzioni.
+
+Regole ufficiali per varianti LCS:
+
+- Se la traccia chiede LCS di tre sequenze, non fare due LCS successive. Usare `c_{i,j,h}=|LCS(X_i,Y_j,W_h)|`, match se `x_i=y_j=w_h`, mismatch con massimo tra `c_{i-1,j,h}`, `c_{i,j-1,h}`, `c_{i,j,h-1}`, valore `c_{m,n,l}`, complessita `Theta(mnl)`.
+- Se la traccia chiede proprieta interne della sottosequenza, come "due rossi consecutivi", non usare automaticamente `c_{m,n}`. Cercare stati vincolati a terminare nel match corrente, stato booleano "vincolo gia soddisfatto", stati impossibili e valore ottimo come massimo globale.
+- Se la traccia impone vincoli sulle posizioni della sottosequenza, come "dispari in posizioni dispari e pari in posizioni pari", la posizione non e l'indice in `X` o `Y`: e determinata dalla lunghezza precedente `c_hk`. Distinguere parita del valore `x_i` da parita degli indici.
+- Se la traccia parla di LICS o sottosequenza comune crescente, usare sottoproblemi vincolati a terminare nel match corrente; se `x_i != y_j`, lo stato non esiste; se `x_i = y_j`, cercare predecessori `(h,k)` compatibili; valore finale come massimo globale.
+- Se la traccia parla di zaino con oggetti colorati, aggiungere una dimensione allo stato per il vincolo. Per "al massimo 3 rossi" usare `r in {0,1,2,3}` come budget massimo: se scegli un oggetto rosso decrementi `r`, se scegli un oggetto non rosso `r` resta invariato.
+
 ## 5. Parte I - Esercizio 2
 
 Questo esercizio e quasi sempre programmazione dinamica su grafi.
@@ -135,6 +161,7 @@ Pattern tipici:
 
 Fonti RAG da usare:
 
+- `10_rag/RAG_METHOD_CARDS/fw_varianti_vincoli_colori.md`
 - `10_rag/RAG_METHOD_CARDS/dp_grafi_stato_esteso.md`
 - `10_rag/RAG_RETRIEVAL_INDEX.md`
 - `04_methods/`
@@ -150,6 +177,31 @@ Formato standard:
 4. Soluzione del problema: una o poche righe. Indicare il coefficiente finale per ogni coppia o per la coppia richiesta.
 
 Non aggiungere algoritmi se la traccia chiede solo coefficienti e ricorrenze.
+
+### Floyd-Warshall: riconoscimento rapido
+
+Quando una traccia dice "per ogni coppia di vertici" e parla di cammini con vincoli, controlla se e una variante di Floyd-Warshall.
+
+Schema fisso:
+
+- `k` = vertici intermedi ammessi `{1,...,k}`;
+- `E1` = non uso `k`;
+- `E2` = uso `k` e concateno `i -> k` con `k -> j`.
+
+Scegli lo stato extra:
+
+- alternanza colore archi: `f,l` = primo e ultimo colore;
+- alternanza colore vertici: nessuno stato extra sui colori;
+- numero pari: `p in {0,1}`;
+- esattamente `t`: `r in {0,...,t}`;
+- presenza di colori: flag booleani.
+
+Scegli il semiring:
+
+- cammini minimi: `d`, `min`, `+`, `+infinito`;
+- esistenza: `e`, `OR`, `AND`, `TRUE/FALSE`.
+
+Attenzione: non confondere archi colorati e vertici colorati; per archi alternati il cammino banale non ha primo/ultimo arco; per esistenza non usare pesi.
 
 ## 6. Parte II - Esercizi 1-2 grafici/numerici
 
@@ -169,6 +221,7 @@ Pattern tipici:
 Fonti RAG da usare:
 
 - `10_rag/RAG_METHOD_CARDS/dijkstra_step_by_step.md`
+- `10_rag/RAG_METHOD_CARDS/mst_prim.md`
 - `10_rag/RAG_METHOD_CARDS/kruskal_step_by_step.md`
 - `10_rag/RAG_METHOD_CARDS/riduzioni_np_completezza.md`
 - `04_methods/`
@@ -178,6 +231,13 @@ Se e Dijkstra:
 
 - non scrivere una spiegazione lunga;
 - scrivi una tabella/punti con nodo estratto, distanze dopo l'estrazione, archi effettivamente rilassati.
+
+Se e MST / Prim:
+
+- non usare cammini minimi;
+- ragiona su archi sicuri e tagli;
+- per Prim mantieni `key[v]`, `pi[v]`, `Q`;
+- `key[v]` e il peso del miglior arco che collega `v` all'albero corrente, non una distanza.
 
 Formato esempio:
 
@@ -317,3 +377,36 @@ Errori da evitare:
 8. Non saltare la doppia implicazione nelle riduzioni.
 9. Non dare solo intuizioni nelle domande teoriche: servono definizioni/enunciati precisi.
 10. Non citare la KB nella risposta finale.
+
+---
+
+## 10. Teoria APA — regole rapide
+
+### Knapsack
+Se compare zaino 0/1:
+- usare DP con stato $V[i,p]$;
+- non usare greedy salvo zaino frazionario;
+- con vincoli extra aggiungere dimensioni allo stato (es. $r$ per budget rossi).
+
+### Greedy
+Se compare greedy:
+- controllare se esiste struttura di matroide o teorema dell'arco sicuro;
+- indicare criterio locale;
+- giustificare formalmente la correttezza (proprietà ereditaria + scambio, o proof by exchange).
+
+### Kruskal
+Se compare Kruskal:
+- ordinare archi per peso crescente;
+- aggiungere solo archi che non creano cicli;
+- usare union-find (Make-Set, Find-Set, Union);
+- collegare al matroide grafico o all'arco sicuro.
+
+### NP-completezza
+Se compare NP-completezza:
+1. mostrare appartenenza a NP (certificato + verificatore polinomiale);
+2. scegliere problema noto NP-completo;
+3. ridurre dal noto al target (direzione Noto $\le_p$ Nuovo);
+4. dimostrare doppia implicazione;
+5. concludere.
+Non invertire la direzione della riduzione.
+

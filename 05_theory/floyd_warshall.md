@@ -21,6 +21,8 @@ La sua formulazione standard si basa su un coefficiente $d_{i,j}^{(k)}$ che rapp
 
 Nei problemi di esame APA, l'algoritmo viene spesso esteso aggiungendo indici di stato per tracciare proprietà accumulative (es. parità modulo 2, conteggio esatto, o consecutività locali), che consentono di filtrare i cammini intermedi validi in base a vincoli aggiuntivi.
 
+Per la formulazione ufficiale completa di base, alternanza archi/vertici, conteggi, parita e presenza, usare [[fw_varianti_vincoli_colori]] e [[fw_base_bottom_up]].
+
 ## Collegamenti agli esercizi
 
 - [[exam_2025_02_11_p1_recupero_e02]]
@@ -37,6 +39,8 @@ Nei problemi di esame APA, l'algoritmo viene spesso esteso aggiungendo indici di
 - [[metodo_dp_cammini_colori_conteggi]]
 - [[metodo_dp_cammini_colori_precedenze]]
 - [[metodo_equazioni_ricorrenza_chiusura_transitiva]]
+- [[fw_base_bottom_up]]
+- [[fw_varianti_vincoli_colori]]
 
 > [!Warning]
 > Nota scaffold: completare con la ricorrenza standard per il confronto nei riassunti di teoria.

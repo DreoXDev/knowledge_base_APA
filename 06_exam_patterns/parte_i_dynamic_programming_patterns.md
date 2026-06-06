@@ -49,6 +49,16 @@ dove:
     *   *Appello*: [[exam_2025_11_10_p1_tema_a_e01]]
 *   **LCS a tre sequenze con budget massimo**: $C[i,j,k,r]$ = lunghezza LCS a tre sequenze con al più $r$ rossi.
     *   *Appelli*: [[exam_2025_02_11_p1_completo_e01]], [[exam_2025_02_11_p1_recupero_e01]], [[exam_2025_09_17_p1_e01]]
+*   **LCS di 3 sequenze senza altri vincoli**: DP tridimensionale `c_{i,j,h}`, casi base su ogni prefisso vuoto, match solo se gli ultimi tre elementi coincidono, valore finale `c_{m,n,l}`.
+    *   *Fonte ufficiale*: [[dp_lcs_tre_sequenze]]
+*   **LCS con due rossi consecutivi**: stati vincolati a terminare nel match corrente, `c_ij1` per vincolo gia soddisfatto e `c_ij0` per vincolo non ancora soddisfatto; valore finale come massimo globale.
+    *   *Fonte ufficiale*: [[dp_lcs_due_rossi_consecutivi]]
+*   **LCS con dispari/pari per posizione**: vincolo sulle posizioni della sottosequenza; `x_i mod 2` controlla il valore, `c_hk mod 2` controlla la posizione successiva; valore finale come massimo globale.
+    *   *Fonte ufficiale*: [[dp_lcs_dispari_pari_alternati]]
+*   **LICS e varianti simili**: sottoproblema vincolato a terminare nel match corrente, `c_ij=0` se `x_i != y_j`, massimo sui predecessori compatibili e valore finale come massimo globale.
+    *   *Fonte ufficiale*: [[dp_lics_e_varianti]]
+*   **Zaino con al massimo 3 rossi**: stato `d_{i,c,r}` con `r` budget massimo di rossi; se si prende un rosso si decrementa `r`, se si prende un non rosso `r` resta invariato.
+    *   *Fonte ufficiale*: [[dp_knapsack_vincoli_colore]]
 
 ---
 
@@ -97,7 +107,7 @@ Pattern operativi aggiunti:
 - LCS con alternanza pari/dispari: [[metodo_lcs_alternanza_pari_dispari]]
 
 > [!Warning]
-> Restano draft Hateville e LCS alternanza pari/dispari per ambiguita nella fonte manoscritta.
+> Restano draft Hateville e LCS alternanza pari/dispari da fonte manoscritta. Per la variante ufficiale "dispari in posizioni dispari e pari in posizioni pari" usare [[dp_lcs_dispari_pari_alternati]].
 
 ## 5. Integrazione SRC-NOTE-001
 
@@ -108,3 +118,25 @@ Fonte: [[source_inventory]] / SRC-NOTE-001 / `Analisi E Progettazione Di Algorit
 - Zaino: [[dp_knapsack_colori]]
 - Grafi: [[dp_grafi_floyd_warshall_stato_esteso]]
 - Mapping appelli: [[mapping_appelli_to_SRC_NOTE_001]]
+
+## 6. Integrazione PDF ufficiali Floyd-Warshall
+
+Fonte: PDF ufficiali `SRC-OFFICIAL-EX-003` ... `SRC-OFFICIAL-EX-011`.
+
+Metodo primario: [[fw_varianti_vincoli_colori]].
+
+Regola fissa:
+
+- `k` indica i vertici intermedi ammessi `{1,...,k}`;
+- `E1`: il cammino non usa `k`;
+- `E2`: il cammino usa `k` e concatena `i -> k` con `k -> j`;
+- cammini minimi: `d`, `min`, `+`, `+infinito`;
+- esistenza: `e`, `OR`, `AND`, `FALSE`.
+
+Scelta dello stato extra:
+
+- alternanza archi: `f,l`;
+- alternanza vertici: nessuno stato `f,l`;
+- conteggio esatto: `r`;
+- parita: `p`;
+- presenza: flag booleani.

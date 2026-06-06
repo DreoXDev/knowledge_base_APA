@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-All known sources ingested. RAG exam layer created in `10_rag/`; final validation and manual warning checks remain.
+All known exam sources ingested. Validation with official professor PDFs is in progress; the primary LCS family, Floyd-Warshall family, MST/Prim, LICS and knapsack-color variants now have official-confirmed RAG coverage.
 
 ## Completed
 
@@ -13,6 +13,13 @@ All known sources ingested. RAG exam layer created in `10_rag/`; final validatio
 - [x] Parte I and Parte II pattern notes created.
 - [x] Final consolidation dashboard, AI guide, coverage matrix and validation workflow in progress.
 - [x] `10_rag/` created with entrypoint, retrieval index, trust policy, prompts, exam style, method cards and templates.
+- [x] `01_sources/source_inventory.md` updated with all local PDFs, SHA256 hashes and page counts.
+- [x] `SRC-LECTURE-001` applied: official PDF `lcs_atmost_red-13ott25.pdf`.
+- [x] `SRC-OFFICIAL-EX-013` applied: official PDF `lcs-6ott25.pdf` for LCS base.
+- [x] `SRC-OFFICIAL-EX-014`, `SRC-OFFICIAL-EX-015`, `SRC-OFFICIAL-EX-016` applied: official LCS variants cumulative plan.
+- [x] `SRC-OFFICIAL-EX-012`, `SRC-OFFICIAL-EX-017`, `SRC-OFFICIAL-EX-018`, `SRC-OFFICIAL-EX-019` applied: final exercises block MST/Prim, LICS, knapsack.
+- [x] `SRC-OFFICIAL-EX-003` ... `SRC-OFFICIAL-EX-011` applied: unified Floyd-Warshall official block.
+- [x] `09_ingestion_reports/official_lectures_workplan.md` created for the remaining official PDFs.
 
 ## In Progress
 
@@ -20,6 +27,7 @@ All known sources ingested. RAG exam layer created in `10_rag/`; final validatio
 - [ ] Completion of full solved examples for remaining Parte I appelli.
 - [ ] Final wikilink cleanup and readiness validation.
 - [ ] RAG smoke test on representative exam prompts.
+- [ ] Plan and apply remaining official PDFs by priority queue.
 
 ## PDF Processing Status
 
@@ -41,6 +49,16 @@ All known sources ingested. RAG exam layer created in `10_rag/`; final validatio
 | SRC-EXAM-014 | `esame_apa_12_01_2026.pdf` | appello | transcribed, cataloged, method-linked, warning | Appello catalogato; zaino e matroidi collegati | Verificare warning degli esercizi catalogati |
 | SRC-NOTE-001 | `Analisi E Progettazione Di Algoritmi.pdf` | appunti | transcribed, method-linked, solved, warning | Trascrizione e metodi integrati | Verifica manuale formule ambigue |
 | SRC-EXTRA-001 | `esercizi APA.pdf` | extra | transcribed, method-linked, solved, warning | Trascrizione e integrazione Parte I | Verifica manuale punti ambigui |
+| SRC-LECTURE-001 | `lcs_atmost_red-13ott25.pdf` | PDF ufficiale | raw, cataloged, method-linked, solved, verified | Formulazione ufficiale LCS con al massimo 3 rossi applicata a RAG/metodi/esempio | Nessuna azione bloccante |
+| SRC-OFFICIAL-EX-013 | `lcs-6ott25.pdf` | PDF ufficiale | raw, cataloged, method-linked, solved, verified | Formulazione ufficiale LCS base applicata a RAG/metodi/esempio | Nessuna azione bloccante |
+| SRC-OFFICIAL-EX-014 | `lcs-atleast-2-consecutive-red.pdf` | PDF ufficiale | raw, cataloged, method-linked, solved, verified | Variante LCS con due rossi consecutivi applicata a RAG/metodi/schema | Nessuna azione bloccante |
+| SRC-OFFICIAL-EX-015 | `lcs-even-odd.pdf` | PDF ufficiale | raw, cataloged, method-linked, solved, verified | Variante LCS dispari/pari per posizione applicata a RAG/metodi/schema | Nessuna azione bloccante |
+| SRC-OFFICIAL-EX-016 | `lcs-three-sequences-20ott25.pdf` | PDF ufficiale | raw, cataloged, method-linked, solved, verified | Variante LCS a tre sequenze applicata a RAG/metodi/schema | Nessuna azione bloccante |
+| SRC-OFFICIAL-EX-012 | `knapsack-atmost-3-red.pdf` | PDF ufficiale | raw, cataloged, method-linked, solved, verified | Zaino con al massimo 3 rossi applicato a RAG/metodi/schema | Nessuna azione bloccante |
+| SRC-OFFICIAL-EX-017 | `mst-prim.pdf` | PDF ufficiale | raw, cataloged, method-linked, solved, verified | Prim applicato a RAG/metodi/schema | Nessuna azione bloccante |
+| SRC-OFFICIAL-EX-018 | `mst.pdf` | PDF ufficiale | raw, cataloged, method-linked, solved, verified | MST base e arco sicuro applicati a RAG/metodi/teoria | Nessuna azione bloccante |
+| SRC-OFFICIAL-EX-019 | `varianti-lics-20ott25.pdf` | PDF ufficiale | raw, cataloged, method-linked, solved, verified | LICS e varianti applicate a RAG/metodi/schema | Nessuna azione bloccante |
+| SRC-OFFICIAL-EX-003..011 | `floyd-warshall-*`, `fw-*` | PDF ufficiali | raw, cataloged, method-linked, solved, verified | Floyd-Warshall base e varianti colori/conteggi/esistenza applicate a RAG/metodi/schema | Nessuna azione bloccante |
 
 ## Stato Fonti Manoscritte
 
@@ -58,7 +76,9 @@ All known sources ingested. RAG exam layer created in `10_rag/`; final validatio
 
 ## Next Actions
 
-1. Usare `10_rag/RAG_ENTRYPOINT.md` come punto di ingresso per RAG da esame.
-2. Verificare manualmente i warning delle fonti manoscritte.
-3. Completare esempi svolti Parte I ancora parziali.
-4. Eseguire `python scripts/check_wikilinks.py` dopo modifiche strutturali.
+1. Usare `AI Chat during Exam/Final Prompt.md` come prompt da telefono.
+2. Per LCS base usare `SRC-OFFICIAL-EX-013`; per LCS con "al massimo k rossi", usare `SRC-LECTURE-001`; per LCS a tre sequenze, due rossi consecutivi e dispari/pari usare `10_rag/RAG_METHOD_CARDS/dp_lcs_varianti.md`.
+3. Per MST/Prim usare `10_rag/RAG_METHOD_CARDS/mst_prim.md`; per LICS usare `dp_lics_varianti.md`; per zaino con colori usare `dp_knapsack_vincoli_colore.md`.
+4. Per Floyd-Warshall base e varianti usare `10_rag/RAG_METHOD_CARDS/fw_varianti_vincoli_colori.md`.
+5. Proseguire con `09_ingestion_reports/official_lectures_workplan.md`.
+6. Eseguire `python scripts/check_wikilinks.py` dopo modifiche strutturali.

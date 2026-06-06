@@ -4,6 +4,9 @@
 
 SRC-NOTE-001, pagina 18; collegato a SRC-EXTRA-001.
 
+> [!Info]
+> Questo esempio riguarda "esattamente K rossi". Non usarlo come fonte primaria per tracce "al massimo K rossi"; per quelle usare `SRC-LECTURE-001` e [[lcs_al_massimo_3_rossi_SRC_LECTURE_001]].
+
 ## Istanza
 
 Sequenze $X,Y$, funzione colore, valore $K$.
@@ -32,4 +35,3 @@ $$
 
 - [[dp_lcs_vincoli_colore]]
 - [[lcs_esattamente_3_rossi_SRC_EXTRA_001]]
-

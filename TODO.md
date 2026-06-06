@@ -7,7 +7,10 @@
 
 ## Non bloccanti ma utili
 
-- [ ] Aggiungere smoke test per Kruskal, NP-completezza, matroidi e Dijkstra.
+- [ ] Generare piani operativi per i PDF ufficiali ancora `da_pianificare` in `09_ingestion_reports/official_lectures_workplan.md`.
+- [ ] Aggiungere smoke test specifico per LCS base da matrice `C`.
+- [ ] Aggiungere smoke test cumulativo per `dp_lcs_varianti.md` su tre sequenze, due rossi consecutivi e dispari/pari.
+- [ ] Aggiungere smoke test per Floyd-Warshall varianti, MST/Prim, LICS, zaino colori, NP-completezza, matroidi e Dijkstra.
 - [ ] Integrare nel prompt unico solo i moduli specifici gia testati.
 - [ ] Verificare manualmente warning manoscritti quando riguardano esercizi probabili.
 - [ ] Completare esempi by-exam Parte I piu ricorrenti, senza bloccare l'uso RAG.

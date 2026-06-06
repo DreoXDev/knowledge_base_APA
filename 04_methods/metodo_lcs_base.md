@@ -1,7 +1,7 @@
 ---
 type: method
-status: complete
-source_id: SRC-EXTRA-001
+status: official_confirmed
+source_id: SRC-OFFICIAL-EX-013
 tags:
   - apa
   - metodo
@@ -11,7 +11,9 @@ tags:
 
 # Metodo - LCS base
 
-Fonte: [[source_inventory]] / SRC-EXTRA-001 / esercizi APA.pdf, pagina 03.
+Fonte ufficiale: `SRC-OFFICIAL-EX-013`, `01_sources/extra_materials/lcs-6ott25.pdf`.
+
+Fonte precedente: [[source_inventory]] / SRC-EXTRA-001 / esercizi APA.pdf, pagina 03.
 
 ## Quando si usa
 
@@ -20,14 +22,18 @@ Quando bisogna trovare la lunghezza di una piu lunga sottosequenza comune tra du
 ## Sottoproblema e coefficienti
 
 $$
-C_{i,j} = \text{lunghezza di una LCS tra } X_i \text{ e } Y_j.
+c_{i,j} = |LCS(X_i,Y_j)|
 $$
+
+dove `X_i=<x_1,...,x_i>` e `Y_j=<y_1,...,y_j>`.
 
 ## Caso base
 
 $$
 C_{i,0}=C_{0,j}=0.
 $$
+
+Equivalente: se `i=0` oppure `j=0`, allora `c_{i,j}=0`.
 
 ## Passo ricorsivo
 
@@ -45,9 +51,27 @@ $$
 C_{m,n}.
 $$
 
+## Schema risposta da esame
+
+1. Definire `LCS(X_i,Y_j)`.
+2. Definire `c_{i,j}=|LCS(X_i,Y_j)|`.
+3. Scrivere `c_{m,n}` come valore ottimo.
+4. Scrivere casi base con prefisso vuoto.
+5. Scrivere ricorrenza match/non-match.
+6. Scrivere bottom-up se richiesto.
+7. Scrivere `Print_LCS` se richiesta ricostruzione.
+
+Per la ricostruzione usare [[metodo_ricostruzione_soluzione_dp]].
+
 ## Algoritmo bottom-up
 
 Riempire la tabella per righe o colonne crescenti: prima riga e prima colonna a $0$, poi $i=1,\dots,m$ e $j=1,\dots,n$.
+
+## Ricostruzione
+
+Se `x_i=y_j`, chiamare ricorsivamente su `(i-1,j-1)` e poi stampare `x_i`.
+
+Se `x_i!=y_j`, seguire una cella precedente con lo stesso valore ottimo. In caso di pareggio sono possibili piu LCS corrette.
 
 ## Varianti collegate
 
@@ -55,4 +79,3 @@ Riempire la tabella per righe o colonne crescenti: prima riga e prima colonna a 
 - [[metodo_programmazione_dinamica_lcs_vincolo_ingombro]]
 - [[metodo_lics]]
 - [[metodo_lcs_alternanza_pari_dispari]]
-

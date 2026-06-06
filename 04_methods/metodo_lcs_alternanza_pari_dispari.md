@@ -14,6 +14,9 @@ tags:
 
 Fonte: [[source_inventory]] / SRC-EXTRA-001 / esercizi APA.pdf, pagine 17-18.
 
+> [!Warning]
+> Nota draft da fonte manoscritta. Per la variante ufficiale "dispari in posizioni dispari e pari in posizioni pari" usare [[dp_lcs_dispari_pari_alternati]].
+
 ## Quando si usa
 
 Quando si cerca una LCS in cui gli elementi scelti alternano parita pari e dispari.
@@ -36,4 +39,4 @@ $$
 > La ricorrenza del manoscritto e incompleta. Questa nota e volutamente draft e non va usata come formula definitiva.
 
 > [!Todo]
-> Verificare la variante nel PDF lungo SRC-NOTE-001 o completare una derivazione autonoma.
+> Mantenere questa nota solo come confronto storico con SRC-EXTRA-001; la fonte primaria RAG e [[dp_lcs_dispari_pari_alternati]].

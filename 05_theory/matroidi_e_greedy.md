@@ -59,6 +59,19 @@ La connessione tra matroidi e algoritmi greedy è formalizzata dal **Teorema di 
 
 Questo teorema stabilisce una corrispondenza biunivoca perfetta: i matroidi sono *esattamente* le strutture per cui l'approccio greedy è garantito essere ottimo per qualsiasi peso.
 
+### Proof Sketch (Schema di Dimostrazione)
+
+La correttezza si dimostra per induzione o per contraddizione confrontando la soluzione greedy con una generica soluzione ottima.
+
+1. Sia $G = \{g_1, g_2, \dots, g_k\}$ l'insieme indipendente ordinato per peso decrescente scelto dall'algoritmo greedy:
+   $$w(g_1) \ge w(g_2) \ge \dots \ge w(g_k)$$
+2. Sia $O = \{o_1, o_2, \dots, o_k\}$ una soluzione ottima (anch'essa ordinata per peso decrescente).
+3. Se $G = O$, allora greedy è ottimo. Se $G \ne O$, consideriamo il primo elemento in cui differiscono, sia esso all'indice $j$ (ovvero $g_j \ne o_j$).
+4. Definiamo gli insiemi $A = \{g_1, \dots, g_{j-1}\}$ e $B = \{o_1, \dots, o_j\}$. Poiché $|B| > |A|$, per la **Proprietà di Scambio** esiste un elemento $x \in B \setminus A$ tale che $A \cup \{x\} \in \mathcal{F}$.
+5. Poiché greedy valuta gli elementi in ordine strettamente decrescente e non ha scelto $x$ al passo $j$ (ma ha scelto $g_j$), deve valere che $w(g_j) \ge w(x)$. Inoltre, poiché $x \in B$, $w(x)$ deve essere almeno pari al peso degli elementi successivi di $O$.
+6. Sostituendo l'elemento divergente in $O$ con $g_j$, costruiamo un nuovo insieme indipendente $O'$ il cui peso $w(O')$ è maggiore o uguale a $w(O)$.
+7. Ripetendo questo processo per ogni divergenza, trasformiamo $O$ in $G$ senza mai diminuire il peso totale. Di conseguenza, $w(G) \ge w(O)$, dimostrando che $G$ è una soluzione ottima.
+
 ---
 
 ## Collegamenti ad Esercizi e Metodi

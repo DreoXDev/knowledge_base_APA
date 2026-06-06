@@ -29,6 +29,11 @@ $$\text{soggetto a } \sum_{i \in S} w_i \le C$$
 
 Il vincolo "0/1" indica che ogni oggetto può essere selezionato al massimo una volta ($i \in S$ oppure $i \notin S$), a differenza del *Fractional Knapsack* (risolvibile in tempo greedy polinomiale) dove gli oggetti possono essere frazionati.
 
+> [!WARNING]
+> **Fallimento del Greedy nello Zaino 0/1**
+> L'approccio greedy (ad esempio ordinando gli oggetti per densità di valore $v_i/w_i$ decrescente) **non** garantisce l'ottimo per lo Zaino 0/1, poiché la indivisibilità degli oggetti può lasciare spazio inutilizzato nello zaino che potrebbe essere riempito meglio da combinazioni di oggetti con densità inferiore ma che saturano meglio la capacità.
+> Il greedy è invece corretto ed efficiente per il **Fractional Knapsack** (Zaino frazionario).
+
 ---
 
 ## Complessità Computazionale

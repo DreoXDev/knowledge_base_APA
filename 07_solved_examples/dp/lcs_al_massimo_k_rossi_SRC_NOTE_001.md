@@ -4,6 +4,9 @@
 
 SRC-NOTE-001, pagine 17-18.
 
+> [!Info]
+> Variante confermata dalla fonte ufficiale `SRC-LECTURE-001` per il caso `LCS(X,Y,3)` con al massimo 3 rossi.
+
 ## Istanza
 
 Sequenze $X,Y$, funzione colore, budget $K$.
@@ -36,3 +39,4 @@ $$
 
 Scalare $k$ anche quando il simbolo non e rosso.
 
+Non usare `max_{r <= K}` se il coefficiente e gia definito come "al massimo k rossi": in quel caso la soluzione e `C[m,n,K]`.

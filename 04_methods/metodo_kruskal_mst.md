@@ -49,10 +49,9 @@ In alcuni appelli (es. *10 novembre 2025*), il testo richiede di mostrare lo sta
 - In $Q_i$ si disegna lo stato dopo il passo $i$. Se l'arco esaminato al passo $i$ viene scartato, lo stato in $Q_i$ rimarrà identico a quello del passo precedente $Q_{i-1}$.
 - Non interrompere la sequenza dei quadrati anche se l'MST è stato completato prima di aver esaurito gli archi: i quadrati successivi conterranno lo stesso MST finale completo, evidenziando che gli ultimi archi esaminati sono stati scartati.
 
----
+## Esercizi e Teoria collegati
 
-## Esercizi collegati
-
+- [[kruskal_matroide_grafico]] (Teoria — Kruskal e il Matroide Grafico)
 - [[exam_2026_01_12_e03]]
 - [[exam_2025_11_10_p2_e01]]
 

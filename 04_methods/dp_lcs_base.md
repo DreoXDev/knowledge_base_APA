@@ -1,78 +1,132 @@
 ---
 type: method
-status: complete
-source_id: SRC-NOTE-001
+status: official_confirmed
+source_id: SRC-OFFICIAL-EX-013
 tags: [apa, metodo, programmazione-dinamica, lcs]
 ---
 
-# DP - LCS base
+# DP - Longest Common Subsequence base
 
-Fonte: [[source_inventory]] / SRC-NOTE-001 / `Analisi E Progettazione Di Algoritmi.pdf`, pagine 1-3.
+## Fonte ufficiale
 
-## Metodo d'esame dagli appunti SRC-NOTE-001
+- `SRC-OFFICIAL-EX-013`: `01_sources/extra_materials/lcs-6ott25.pdf`.
+- Fonti precedenti: `SRC-NOTE-001`, `SRC-EXTRA-001`.
 
-## Istanza
+## Problema
 
-Due sequenze $X=\langle x_1,\dots,x_m\rangle$ e $Y=\langle y_1,\dots,y_n\rangle$.
+Date due sequenze:
 
-## Soluzione
+`X = <x_1,...,x_m>`
 
-Una sottosequenza comune $Z$ di lunghezza massima. La sequenza ottima puo non essere unica, ma la lunghezza ottima e unica.
+`Y = <y_1,...,y_n>`
 
-## Sottoproblema
+trovare una sottosequenza comune di lunghezza massima.
 
-Considero i prefissi $X_i$ e $Y_j$.
+## Definizioni essenziali
 
-## Coefficienti
+- Sequenza: lista ordinata di elementi.
+- Prefisso `X_i`: sequenza `<x_1,...,x_i>`.
+- Sottosequenza: sequenza ottenuta cancellando zero o piu elementi senza cambiare l'ordine relativo.
+- Sottosequenza comune: sottosequenza di entrambe le sequenze.
+- LCS: sottosequenza comune di lunghezza massima.
 
-$$
-C[i,j]=\text{lunghezza di una LCS tra }X_i\text{ e }Y_j.
-$$
+## Formulazione DP
 
-## Caso base
+### Sottoproblema
 
-$$
-C[i,0]=C[0,j]=0.
-$$
+`LCS(X_i,Y_j)`.
 
-## Passo ricorsivo
+### Coefficiente
 
-$$
-C[i,j]=
-\begin{cases}
-C[i-1,j-1]+1 & \text{se }x_i=y_j,\\
-\max(C[i-1,j],C[i,j-1]) & \text{se }x_i\ne y_j.
-\end{cases}
-$$
+`c_{i,j}=|LCS(X_i,Y_j)|`.
 
-## Valore della soluzione
+Il coefficiente contiene la lunghezza ottima, non la sequenza stessa.
 
-$$
-C[m,n].
-$$
+### Valore ottimo
+
+`c_{m,n}`.
+
+### Casi base
+
+Se `i=0` oppure `j=0`, allora:
+
+`LCS(X_i,Y_j)=<>` e `c_{i,j}=0`.
+
+### Passo ricorsivo
+
+Per `i>0`, `j>0`:
+
+```text
+se x_i = y_j:
+    c[i,j] = c[i-1,j-1] + 1
+altrimenti:
+    c[i,j] = max(c[i-1,j], c[i,j-1])
+```
 
 ## Algoritmo bottom-up
 
 ```text
-inizializza riga 0 e colonna 0 a 0
-per i = 1..m:
-  per j = 1..n:
-    se x_i = y_j:
-      C[i,j] = C[i-1,j-1] + 1
-    altrimenti:
-      C[i,j] = max(C[i-1,j], C[i,j-1])
-ritorna C[m,n]
+LCS-LENGTH(X,Y)
+    m = length(X)
+    n = length(Y)
+
+    for i = 0 to m
+        C[i,0] = 0
+    for j = 0 to n
+        C[0,j] = 0
+
+    for i = 1 to m
+        for j = 1 to n
+            if x_i = y_j then
+                C[i,j] = C[i-1,j-1] + 1
+            else
+                C[i,j] = max(C[i-1,j], C[i,j-1])
+
+    return C
 ```
+
+## Ricostruzione
+
+```text
+Print_LCS(C,X,Y,i,j)
+    if i = 0 then
+        return
+    if j = 0 then
+        return
+
+    if x_i = y_j then
+        Print_LCS(C,X,Y,i-1,j-1)
+        print x_i
+    else
+        if C[i,j] = C[i-1,j] then
+            Print_LCS(C,X,Y,i-1,j)
+        else
+            Print_LCS(C,X,Y,i,j-1)
+```
+
+Il `print x_i` va dopo la chiamata ricorsiva, cosi la sottosequenza viene stampata nell'ordine corretto.
+
+In caso di pareggio tra `C[i-1,j]` e `C[i,j-1]`, possono esistere piu LCS corrette.
 
 ## Complessita
 
-Tempo $O(mn)$, spazio $O(mn)$, riducibile a $O(\min(m,n))$ se serve solo la lunghezza.
+- Calcolo valore ottimo: `O(mn)` tempo.
+- Spazio con ricostruzione: `O(mn)`.
+- Ricostruzione: `O(m+n)` visite nel cammino, stampa al piu `min(m,n)` elementi.
+
+## Errori comuni
+
+- Dimenticare la prima riga/colonna a zero.
+- Usare `i,j` invece di `i-1,j-1` quando `x_i=y_j`.
+- Stampare il carattere prima della chiamata ricorsiva.
+- Pensare che la LCS sia unica: in caso di pareggi possono esistere piu soluzioni.
 
 ## Collegamenti
 
 - [[metodo_lcs_base]]
+- [[metodo_ricostruzione_soluzione_dp]]
+- [[lcs_base_6ott25]]
 - [[lcs_base_SRC_NOTE_001]]
 - [[dp_lcs_vincoli_colore]]
 - [[dp_lcs_vincolo_somma_ingombro]]
 - [[dp_lcs_crescente_lics]]
-

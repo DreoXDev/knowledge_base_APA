@@ -77,3 +77,36 @@ Per problemi NP-completi:
 - riduzione polinomiale;
 - doppia implicazione;
 - conclusione.
+
+---
+
+## Teoria APA — regole rapide
+
+### Knapsack
+Se compare zaino 0/1:
+- usare DP con stato $V[i,p]$;
+- non usare greedy salvo zaino frazionario;
+- con vincoli extra aggiungere dimensioni allo stato (es. $r$ per budget rossi).
+
+### Greedy
+Se compare greedy:
+- controllare se esiste struttura di matroide o teorema dell'arco sicuro;
+- indicare criterio locale;
+- giustificare formalmente la correttezza (proprietà ereditaria + scambio, o proof by exchange).
+
+### Kruskal
+Se compare Kruskal:
+- ordinare archi per peso crescente;
+- aggiungere solo archi che non creano cicli;
+- usare union-find (Make-Set, Find-Set, Union);
+- collegare al matroide grafico o all'arco sicuro.
+
+### NP-completezza
+Se compare NP-completezza:
+1. mostrare appartenenza a NP (certificato + verificatore polinomiale);
+2. scegliere problema noto NP-completo;
+3. ridurre dal noto al target (direzione Noto $\le_p$ Nuovo);
+4. dimostrare doppia implicazione;
+5. concludere.
+Non invertire la direzione della riduzione.
+

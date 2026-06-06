@@ -13,7 +13,10 @@ Questo e il punto di ingresso primario per usare la knowledge base come contesto
 
 ## Uso rapido
 
-- Se la traccia contiene LCS, colori, ingombro o somma, cerca prima le card DP su sequenze.
+- Se la traccia contiene LCS, LICS, colori, ingombro, somma, tre sequenze, consecutivita o vincoli pari/dispari, cerca prima le card DP su sequenze.
+- Se la traccia contiene MST, Prim, Kruskal, arco sicuro o tagli, cerca prima `RAG_METHOD_CARDS/mst_prim.md`.
+- Se la traccia contiene zaino o knapsack con oggetti colorati, cerca prima `RAG_METHOD_CARDS/dp_knapsack_vincoli_colore.md`.
+- Se la traccia contiene Floyd-Warshall, "per ogni coppia di vertici", alternanza colori, conteggi o esistenza di cammini con vincoli, cerca prima `RAG_METHOD_CARDS/fw_varianti_vincoli_colori.md`.
 - Se la traccia contiene cammini, colori degli archi o vincoli di stato, cerca prima le card DP su grafi.
 - Se chiede una simulazione, usa le card step-by-step.
 - Se chiede teoria, NP-completezza, matroidi o ricorrenze, usa la card specifica.

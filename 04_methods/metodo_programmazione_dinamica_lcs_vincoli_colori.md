@@ -36,6 +36,72 @@ $$
 c_{i,j,k,r}
 $$
 
+## Caso ufficiale: LCS(X,Y,3) con al massimo 3 rossi
+
+Fonte ufficiale: `SRC-LECTURE-001`, PDF `lcs_atmost_red-13ott25.pdf`.
+
+Da usare quando la traccia chiede esplicitamente `LCS(X,Y,3)` o "al massimo 3 elementi rossi".
+
+Siano:
+
+$$
+X=\langle x_1,\ldots,x_m\rangle,\qquad Y=\langle y_1,\ldots,y_n\rangle.
+$$
+
+Sia:
+
+$$
+col:\Sigma\to\{red, black\}.
+$$
+
+Sottoproblema:
+
+$$
+LCS(X_i,Y_j,r)
+$$
+
+dove `r` e il numero massimo di elementi rossi ammessi.
+
+Coefficiente:
+
+$$
+c_{i,j,r}=\text{lunghezza di una LCS tra }X_i,Y_j\text{ con al massimo }r\text{ rossi}.
+$$
+
+Valore ottimo:
+
+$$
+c_{m,n,3}.
+$$
+
+Pseudocodice bottom-up essenziale:
+
+```text
+LCS-MAX-3-ROSSI(X,Y,col)
+    for i = 0 to m
+        for r = 0 to 3
+            c[i,0,r] = 0
+    for j = 0 to n
+        for r = 0 to 3
+            c[0,j,r] = 0
+
+    for i = 1 to m
+        for j = 1 to n
+            for r = 0 to 3
+                if x_i != y_j then
+                    c[i,j,r] = max(c[i-1,j,r], c[i,j-1,r])
+                else
+                    if col(x_i) != red then
+                        c[i,j,r] = c[i-1,j-1,r] + 1
+                    else
+                        if r = 0 then
+                            c[i,j,r] = c[i-1,j-1,r]
+                        else
+                            c[i,j,r] = c[i-1,j-1,r-1] + 1
+
+    return c[m,n,3]
+```
+
 ## Soluzione finale tipica
 
 Per il caso dell'appello 2025-06-09:

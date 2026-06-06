@@ -1,13 +1,64 @@
 ---
 type: method
-status: complete_with_warnings
+status: official_confirmed_with_notes
 source_id: SRC-NOTE-001
+official_confirmation: SRC-LECTURE-001
 tags: [apa, metodo, programmazione-dinamica, lcs, colori]
 ---
 
 # DP - LCS con vincoli di colore
 
-Fonte: [[source_inventory]] / SRC-NOTE-001, pagine 11-22. Collegato a SRC-EXTRA-001.
+## Fonti
+
+- `SRC-NOTE-001`: appunti compagna, fonte precedente.
+- `SRC-EXTRA-001`: esercizi/appunti extra, fonte precedente.
+- `SRC-LECTURE-001`: PDF ufficiale `lcs_atmost_red-13ott25.pdf`, conferma/corregge la variante "al massimo k rossi".
+
+## Variante ufficiale del professore: al massimo K rossi
+
+Fonte primaria per tracce del tipo `LCS(X,Y,3)` o "al massimo 3 elementi rossi".
+
+$$
+C[i,j,r]=\text{lunghezza di una LCS tra }X_i,Y_j\text{ con al massimo }r\text{ rossi}.
+$$
+
+Il valore ottimo e:
+
+$$
+C[m,n,K].
+$$
+
+Nel PDF ufficiale `K=3`, quindi il valore ottimo e `C[m,n,3]`.
+
+Casi base:
+
+$$
+C[0,j,r]=C[i,0,r]=0 \qquad \forall r\ge 0.
+$$
+
+Passo ricorsivo:
+
+$$
+C[i,j,r]=
+\begin{cases}
+\max(C[i-1,j,r],C[i,j-1,r]) & \text{se } x_i\ne y_j,\\
+C[i-1,j-1,r]+1 & \text{se } x_i=y_j,\ col(x_i)\ne rosso,\\
+C[i-1,j-1,r] & \text{se } x_i=y_j,\ col(x_i)=rosso,\ r=0,\\
+C[i-1,j-1,r-1]+1 & \text{se } x_i=y_j,\ col(x_i)=rosso,\ r>0.
+\end{cases}
+$$
+
+Per `K=3`, il numero totale di stati e `(m+1)(n+1)(3+1)`.
+
+Complessita:
+
+- tempo `O(mnK)`, quindi `O(mn)` per `K=3` fissato;
+- spazio `O(mnK)` se serve ricostruire.
+
+Ricostruzione: seguire i predecessori o confrontare le celle. Decrementare `r` solo quando si stampa/prende un simbolo rosso.
+
+> [!Info]
+> La formulazione robusta con `max` anche nei casi di match resta utile per appelli generici. Quando la traccia segue la notazione ufficiale del professore, usare pero questa sezione come fonte primaria.
 
 ## Variante: al massimo K rossi
 
@@ -81,4 +132,3 @@ Memorizzare un predecessore per ogni cella che realizza il massimo. Durante la s
 - [[metodo_programmazione_dinamica_lcs_vincoli_colori]]
 - [[lcs_al_massimo_k_rossi_SRC_NOTE_001]]
 - [[lcs_esattamente_k_rossi_SRC_NOTE_001]]
-

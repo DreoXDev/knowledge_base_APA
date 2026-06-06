@@ -1,40 +1,80 @@
-ï»¿.\TODO.md:12:- [ ] Verificare manualmente warning manoscritti quando riguardano esercizi probabili.
-.\TODO.md:22:- `07_solved_examples/by_topic/hateville_senza_due_rossi_consecutivi_SRC_EXTRA_001.md`: contiene warning, usare solo con prudenza.
-.\TODO.md:23:- `07_solved_examples/by_topic/lcs_alternanza_pari_dispari_SRC_EXTRA_001.md`: `draft` con warning, non usare come esempio verificato.
+.\TODO.md:15:- [ ] Verificare manualmente warning manoscritti quando riguardano esercizi probabili.
+.\TODO.md:19:## Materiale da non usare come fonte primaria durante l'esame
+.\TODO.md:21:- `04_methods/dynamic_programming.md`: file generale `draft`; usare prima le card DP in `10_rag/RAG_METHOD_CARDS/`.
+.\TODO.md:22:- `04_methods/graph_algorithms.md`: file generale `draft`; usare prima le card grafi in `10_rag/RAG_METHOD_CARDS/`.
+.\TODO.md:23:- `04_methods/recurrence_relations.md`: `draft`; usare `10_rag/RAG_METHOD_CARDS/ricorrenze.md` e verificare se serve.
+.\TODO.md:25:- `07_solved_examples/by_topic/hateville_senza_due_rossi_consecutivi_SRC_EXTRA_001.md`: contiene warning, usare solo con prudenza.
+.\TODO.md:26:- `07_solved_examples/by_topic/lcs_alternanza_pari_dispari_SRC_EXTRA_001.md`: `draft` con warning, non usare come esempio verificato.
+.\templates\theory_template.md:4:status: draft
+.\templates\pattern_template.md:4:status: draft
+.\templates\method_template.md:4:status: draft
 .\templates\method_template.md:59:> [!Warning]
+.\AI_CONTEXT.md:34:- Use Obsidian callouts such as `[!Info]`, `[!Question]`, `[!Warning]`, `[!Todo]`, `[!Summary]`.
+.\AI_CONTEXT.md:69:- Ambiguous interpretation must be marked with `[!Warning]`.
+.\AI_CONTEXT.md:81:Before answering from this KB, read [[AI_USAGE_GUIDE]]. Do not invent formulas where handwritten sources contain warnings; preserve uncertainty and point to TODOs when needed.
+.\README.md:61:Tutte le fonti note sono state ingestite o applicate. Le fonti manoscritte `SRC-NOTE-001` e `SRC-EXTRA-001` contengono warning espliciti dove la lettura e ambigua. La repo non contiene soluzioni ufficiali: contiene metodi, esempi e interpretazioni derivate da appelli e appunti.
 .\templates\handwritten_note_template.md:37:> [!Warning]
+.\PROJECT_STATUS.md:11:- [x] `SRC-EXTRA-001` integrated with transcription, methods, examples and warnings.
+.\PROJECT_STATUS.md:12:- [x] `SRC-NOTE-001` integrated with interpretive transcription, methods, examples and warnings.
+.\PROJECT_STATUS.md:26:- [ ] Manual verification of handwritten-source warnings.
+.\PROJECT_STATUS.md:36:| SRC-EXAM-001 | `parteI-13gen25.pdf` | appello | transcribed, cataloged, method-linked, warning | Parte I catalogata; pattern LCS colori coperto da card | Completare esempio by-exam solo se serve |
+.\PROJECT_STATUS.md:45:| SRC-EXAM-010 | `parteI-17set25.pdf` | appello | transcribed, cataloged, method-linked, warning | Varianti LCS catalogate | Verificare varianti LCS ambigue |
+.\PROJECT_STATUS.md:49:| SRC-EXAM-014 | `esame_apa_12_01_2026.pdf` | appello | transcribed, cataloged, method-linked, warning | Appello catalogato; zaino e matroidi collegati | Verificare warning degli esercizi catalogati |
+.\PROJECT_STATUS.md:50:| SRC-NOTE-001 | `Analisi E Progettazione Di Algoritmi.pdf` | appunti | transcribed, method-linked, solved, warning | Trascrizione e metodi integrati | Verifica manuale formule ambigue |
+.\PROJECT_STATUS.md:51:| SRC-EXTRA-001 | `esercizi APA.pdf` | extra | transcribed, method-linked, solved, warning | Trascrizione e integrazione Parte I | Verifica manuale punti ambigui |
+.\PROJECT_STATUS.md:69:- Stato: applicato con warning.
+.\PROJECT_STATUS.md:75:- Stato: applicato con warning.
 .\templates\exercise_template.md:67:> [!Warning]
 .\02_transcriptions\_README.md:27:- Segnare ambiguita con `[!Warning]`.
-.\01_sources\source_inventory.md:26:| SRC-NOTE-001 | appunti | `01_sources/notes_raw/Analisi E Progettazione Di Algoritmi.pdf` | Appunti della compagna su Analisi e Progettazione di Algoritmi | applicato con warning | `09_ingestion_reports/ingestion_report_note_analisi_e_progettazione_algoritmi.md` | Trascrizione interpretativa e metodi integrati; verificare formule ambigue |
-.\01_sources\source_inventory.md:27:| SRC-EXTRA-001 | extra | `01_sources/extra_materials/esercizi APA.pdf` | Raccolta di esercizi APA o materiale di supporto | applicato con warning | `09_ingestion_reports/ingestion_report_extra_esercizi_APA_SRC_EXTRA_001.md` | Trascrizione e integrazione metodi Parte I; verificare punti ambigui |
+.\02_transcriptions\notes\note_analisi_e_progettazione_algoritmi.md:7:> Stato: trascrizione interpretativa con marcatura delle parti ambigue.
 .\02_transcriptions\notes\note_analisi_e_progettazione_algoritmi.md:9:> [!Warning]
 .\02_transcriptions\notes\note_analisi_e_progettazione_algoritmi.md:95:> [!Warning]
 .\02_transcriptions\notes\note_analisi_e_progettazione_algoritmi.md:171:> [!Warning]
 .\02_transcriptions\notes\note_analisi_e_progettazione_algoritmi.md:186:> [!Warning]
 .\02_transcriptions\notes\note_analisi_e_progettazione_algoritmi.md:201:> [!Warning]
 .\02_transcriptions\notes\note_analisi_e_progettazione_algoritmi.md:441:> [!Warning]
-.\02_transcriptions\notes\note_analisi_e_progettazione_algoritmi.md:442:> Lettura incerta: usare come collegamento metodologico, non come trascrizione ufficiale d'appello.
 .\02_transcriptions\notes\note_analisi_e_progettazione_algoritmi.md:510:> [!Warning]
-.\02_transcriptions\notes\note_analisi_e_progettazione_algoritmi.md:511:> Lettura incerta.
 .\02_transcriptions\notes\note_analisi_e_progettazione_algoritmi.md:519:> [!Warning]
-.\02_transcriptions\notes\note_analisi_e_progettazione_algoritmi.md:520:> Lettura incerta.
-.\README.md:61:Tutte le fonti note sono state ingestite o applicate. Le fonti manoscritte `SRC-NOTE-001` e `SRC-EXTRA-001` contengono warning espliciti dove la lettura e ambigua. La repo non contiene soluzioni ufficiali: contiene metodi, esempi e interpretazioni derivate da appelli e appunti.
-.\PROJECT_STATUS.md:5:All known sources ingested. RAG exam layer created in `10_rag/`; final validation and manual warning checks remain.
-.\PROJECT_STATUS.md:11:- [x] `SRC-EXTRA-001` integrated with transcription, methods, examples and warnings.
-.\PROJECT_STATUS.md:12:- [x] `SRC-NOTE-001` integrated with interpretive transcription, methods, examples and warnings.
-.\PROJECT_STATUS.md:19:- [ ] Manual verification of handwritten-source warnings.
-.\PROJECT_STATUS.md:28:| SRC-EXAM-001 | `parteI-13gen25.pdf` | appello | transcribed, cataloged, method-linked, warning | Parte I catalogata; pattern LCS colori coperto da card | Completare esempio by-exam solo se serve |
-.\PROJECT_STATUS.md:37:| SRC-EXAM-010 | `parteI-17set25.pdf` | appello | transcribed, cataloged, method-linked, warning | Varianti LCS catalogate | Verificare varianti LCS ambigue |
-.\PROJECT_STATUS.md:41:| SRC-EXAM-014 | `esame_apa_12_01_2026.pdf` | appello | transcribed, cataloged, method-linked, warning | Appello catalogato; zaino e matroidi collegati | Verificare warning degli esercizi catalogati |
-.\PROJECT_STATUS.md:42:| SRC-NOTE-001 | `Analisi E Progettazione Di Algoritmi.pdf` | appunti | transcribed, method-linked, solved, warning | Trascrizione e metodi integrati | Verifica manuale formule ambigue |
-.\PROJECT_STATUS.md:43:| SRC-EXTRA-001 | `esercizi APA.pdf` | extra | transcribed, method-linked, solved, warning | Trascrizione e integrazione Parte I | Verifica manuale punti ambigui |
-.\PROJECT_STATUS.md:51:- Stato: applicato con warning.
-.\PROJECT_STATUS.md:57:- Stato: applicato con warning.
-.\PROJECT_STATUS.md:62:2. Verificare manualmente i warning delle fonti manoscritte.
-.\07_solved_examples\priority_examples_index.md:9:- Stato: completo con warning su varianti manoscritte.
-.\07_solved_examples\priority_examples_index.md:17:- Stato: warning.
-.\07_solved_examples\priority_examples_index.md:32:- Stato: completo con warning per varianti.
-.\10_rag\RAG_TRUST_POLICY.md:18:- Se un file contiene warning, riporta internamente il warning e usa la variante piu prudente.
+.\06_exam_patterns\dp_booleana_su_grafi.md:28:> [!Warning]
+.\plans\piano_finale_codex_verifica_completamento_kb_apa.md:243:- warning/errori comuni;
+.\plans\piano_finale_codex_verifica_completamento_kb_apa.md:284:- warning su knapsack 0/1.
+.\plans\piano_finale_codex_verifica_completamento_kb_apa.md:487:- Se la traccia è ambigua, esplicita l’interpretazione scelta.
+.\plans\piano_finale_codex_verifica_completamento_kb_apa.md:499:  4. warning/errori comuni.
+.\06_exam_patterns\dp_booleana_su_grafi_con_conteggi_colori.md:33:> [!Warning]
+.\AI Chat during Exam\SMOKE_TEST_FINAL_PROMPT.md:17:- nessun `-infinito` come default.
+.\06_exam_patterns\dp_con_stato_esteso.md:27:> [!Warning]
+.\plans\piano_codex_teoria_priorita_alta_apa.md:120:5. Aggiungere warning dove c’è rischio di confusione.
+.\plans\piano_codex_teoria_priorita_alta_apa.md:293:## Warning
+.\plans\piano_codex_teoria_priorita_alta_apa.md:326:## Warning da inserire nel RAG
+.\plans\piano_codex_teoria_priorita_alta_apa.md:403:## Warning
+.\plans\piano_codex_teoria_priorita_alta_apa.md:558:## Warning
+.\plans\piano_codex_teoria_priorita_alta_apa.md:597:## Warning da inserire nel RAG
+.\plans\piano_codex_teoria_priorita_alta_apa.md:763:## Warning
+.\plans\piano_codex_teoria_priorita_alta_apa.md:958:## Warning da inserire nel RAG
+.\plans\piano_codex_teoria_priorita_alta_apa.md:1067:Warning:
+.\plans\piano_codex_teoria_priorita_alta_apa.md:1213:- non usare greedy salvo zaino frazionario;
+.\plans\piano_codex_teoria_priorita_alta_apa.md:1250:| Matroidi | massimale confuso con massimo | aggiungere warning |
+.\plans\piano_codex_teoria_priorita_alta_apa.md:1254:| NP-completezza | direzione riduzione invertita | aggiungere warning |
+.\plans\piano_codex_teoria_priorita_alta_apa.md:1274:- Aggiungere warning:
+.\plans\piano_codex_teoria_priorita_alta_apa.md:1324:- una query RAG su “greedy” recupera teoria e warning;
+.\06_exam_patterns\dp_booleana_su_grafi_con_vincoli_locali.md:35:> [!Warning]
+.\plans\piano_codex_quality_check_APA.md:191:> [!Warning]
+.\06_exam_patterns\dp_su_sequenze_con_vincoli_di_conteggio.md:50:> [!Warning]
+.\plans\piano_codex_ingestion_APA_2025_11_10_part2.md:154:> [!Warning]
+.\plans\piano_codex_ingestion_APA_2025_11_10_part2.md:283:> [!Warning]
+.\plans\piano_codex_ingestion_APA_2025_11_10_part2.md:346:- passo ricorsivo con alternativa: non usare k oppure usare k.
+.\plans\piano_codex_ingestion_APA_2025_11_10_part2.md:378:> [!Warning]
+.\plans\piano_codex_ingestion_APA_2025_11_10_part2.md:535:> [!Warning]
+.\06_exam_patterns\dp_su_sequenze_con_budget.md:28:> [!Warning]
+.\plans\piano_codex_ingestion_APA_2025_11_10_part1_tema_a.md:542:> [!Warning]
+.\plans\piano_codex_ingestion_APA_2025_11_10_part1_tema_a.md:546:> [!Warning]
+.\plans\piano_codex_ingestion_APA_2025_11_10_part1_tema_a.md:550:> [!Warning]
+.\plans\piano_codex_ingestion_APA_2025_09_17_part2.md:61:> [!Warning]
+.\plans\piano_codex_ingestion_APA_2025_09_17_part2.md:246:> [!Warning]
+.\plans\piano_codex_ingestion_APA_2025_09_17_part2.md:294:> In presenza di archi con lo stesso peso, possono esistere più ordini validi se il testo non specifica un tie-break. Segnalare eventuali ambiguità.
+.\plans\piano_codex_ingestion_APA_2025_09_17_part2.md:404:> [!Warning]
+.\plans\piano_codex_ingestion_APA_2025_09_17_part2.md:506:> [!Warning]
+.\plans\piano_codex_ingestion_APA_2025_09_17_part2.md:796:> [!Warning]
 .\02_transcriptions\extra\esercizi_APA_SRC_EXTRA_001.md:5:status: transcribed_with_warnings
 .\02_transcriptions\extra\esercizi_APA_SRC_EXTRA_001.md:18:> [!Warning]
 .\02_transcriptions\extra\esercizi_APA_SRC_EXTRA_001.md:19:> La fonte e manoscritta. La trascrizione sotto combina lettura diretta/OCR e normalizzazione controllata. Le parti non pienamente leggibili sono marcate come warning o todo e non vanno considerate formule ufficiali senza verifica manuale.
@@ -48,78 +88,9 @@
 .\02_transcriptions\extra\esercizi_APA_SRC_EXTRA_001.md:366:> [!Warning]
 .\02_transcriptions\extra\esercizi_APA_SRC_EXTRA_001.md:403:> [!Warning]
 .\02_transcriptions\extra\esercizi_APA_SRC_EXTRA_001.md:430:> [!Warning]
-.\00_meta\workflow.md:26:3. Annotare ambiguita e dubbi.
-.\00_meta\workflow.md:33:3. Segnare parti dubbie con `[!Warning]`.
-.\10_rag\RAG_SYSTEM_RULES.md:13:- Mantieni internamente i warning delle fonti manoscritte e scegli la variante piu prudente.
-.\06_exam_patterns\dp_su_sequenze_con_vincoli_di_conteggio.md:33:> [!Warning]
+.\02_transcriptions\extra\esercizi_APA_SRC_EXTRA_001.md:431:> La fonte non e completa/leggibile abbastanza per fissare il metodo. La nota collegata resta in stato draft.
 .\08_review\varianti_lcs_con_vincoli.md:25:## Warning aperti
 .\08_review\varianti_lcs_con_vincoli.md:27:> [!Warning]
-.\00_meta\STUDY_DASHBOARD.md:9:- Fonti con warning: SRC-EXTRA-001, SRC-NOTE-001.
-.\10_rag\RAG_RETRIEVAL_INDEX.md:7:| cammino con vincoli sui colori; archi colorati; precedenze; parita; conteggi | DP/Floyd-Warshall con stato esteso | `10_rag/RAG_METHOD_CARDS/dp_grafi_stato_esteso.md` | `04_methods/dp_grafi_floyd_warshall_stato_esteso.md`, `04_methods/metodo_cammini_minimi_vincoli_colori_parita.md`, `04_methods/metodo_dp_cammini_colori_conteggi.md` | `07_solved_examples/graphs/cammini_colori_floyd_warshall_SRC_NOTE_001.md`, `07_solved_examples/graphs/floyd_warshall_colori_archi_SRC_NOTE_001.md` | complete/warning |
-.\10_rag\RAG_RETRIEVAL_INDEX.md:13:| risolvere ricorrenza; Master theorem; sostituzione; iterazione; chiusura transitiva | ricorrenze | `10_rag/RAG_METHOD_CARDS/ricorrenze.md` | `04_methods/recurrence_relations.md`, `04_methods/metodo_equazioni_ricorrenza_chiusura_transitiva.md` | `03_exercise_catalog/exercises/exam_2025_11_10_p2_e03.md` | warning |
-.\06_exam_patterns\dp_su_sequenze_con_budget.md:28:> [!Warning]
-.\07_solved_examples\graphs\floyd_warshall_colori_archi_SRC_NOTE_001.md:11:> [!Warning]
-.\06_exam_patterns\dp_con_stato_esteso.md:27:> [!Warning]
-.\10_rag\RAG_PATTERN_MAP.md:19:- I pattern `C` richiedono prudenza o verifica, soprattutto se la fonte primaria e `draft`.
-.\06_exam_patterns\riduzione_clique_vertex_cover.md:30:> [!Warning]
-.\06_exam_patterns\dp_booleana_su_grafi_con_vincoli_locali.md:35:> [!Warning]
-.\00_meta\RAG_READINESS_REPORT.md:18:## Utilizzabile con prudenza
-.\00_meta\RAG_READINESS_REPORT.md:20:- DP su grafi con stato esteso: card presente, ma alcune fonti derivano da appunti manoscritti con warning.
-.\00_meta\RAG_READINESS_REPORT.md:34:Questi file sono draft, scaffold o contengono warning. Vanno usati solo dopo le card RAG e solo se servono dettagli secondari.
-.\00_meta\RAG_READINESS_REPORT.md:46:| DP grafi stato esteso | B/C | Usare card, controllare warning |
-.\00_meta\RAG_READINESS_REPORT.md:48:| Ricorrenze | C | Usare con prudenza |
-.\00_meta\RAG_READINESS_REPORT.md:52:- `final_todo_scan.txt`: rigenerato con occorrenze di TODO, draft, scaffold, placeholder, warning e completamenti.
-.\00_meta\RAG_READINESS_REPORT.md:53:- `final_warning_scan.txt`: rigenerato con warning e punti ambigui.
-.\00_meta\RAG_READINESS_REPORT.md:89:3. Verificare manualmente i warning manoscritti quando emergono in esercizi probabili.
-.\06_exam_patterns\dp_booleana_su_grafi_con_conteggi_colori.md:33:> [!Warning]
-.\09_ingestion_reports\_README.md:39:- Se una parte del PDF non e chiara, segnalarla con `[!Warning]`.
-.\06_exam_patterns\dp_booleana_su_grafi.md:28:> [!Warning]
-.\00_meta\FINAL_READINESS_REPORT.md:9:- Warning aperti: 187 occorrenze in `final_warning_scan.txt`, mantenute intenzionalmente dove le fonti manoscritte sono ambigue.
-.\00_meta\FINAL_READINESS_REPORT.md:21:- preservare i warning;
-.\plans\piano_codex_quality_check_APA.md:191:> [!Warning]
-.\05_theory\vincoli_su_colori.md:50:> [!Warning]
-.\00_meta\COVERAGE_MATRIX.md:7:- `C`: metodo parziale o warning.
-.\00_meta\COVERAGE_MATRIX.md:24:Durante l'esame usare prioritariamente pattern `A` e `B`. I pattern `C` sono utilizzabili solo con template prudente e controllo dei warning.
-.\09_ingestion_reports\ingestion_report_template.md:85:> [!Warning]
-.\09_ingestion_reports\ingestion_report_template.md:101:- [ ] Le parti incerte sono marcate con `[!Warning]`.
-.\05_theory\vertex_cover.md:28:> [!Warning]
-.\plans\piano_codex_ingestion_APA_2025_11_10_part2.md:154:> [!Warning]
-.\plans\piano_codex_ingestion_APA_2025_11_10_part2.md:283:> [!Warning]
-.\plans\piano_codex_ingestion_APA_2025_11_10_part2.md:378:> [!Warning]
-.\plans\piano_codex_ingestion_APA_2025_11_10_part2.md:535:> [!Warning]
-.\05_theory\sottosequenze_comuni.md:27:> [!Warning]
-.\05_theory\riduzioni_polinomiali.md:23:> [!Warning]
-.\plans\piano_codex_ingestion_APA_2025_11_10_part1_tema_a.md:542:> [!Warning]
-.\plans\piano_codex_ingestion_APA_2025_11_10_part1_tema_a.md:546:> [!Warning]
-.\plans\piano_codex_ingestion_APA_2025_11_10_part1_tema_a.md:550:> [!Warning]
-.\09_ingestion_reports\ingestion_report_note_analisi_e_progettazione_algoritmi.md:9:- Stato: applicato con warning di lettura
-.\09_ingestion_reports\ingestion_report_note_analisi_e_progettazione_algoritmi.md:35:| 15 | esercizio | LICS decrescente con vincoli colore/parita | warning, collegare a LICS |
-.\09_ingestion_reports\ingestion_report_note_analisi_e_progettazione_algoritmi.md:82:| 62 | appunti | Note miste/facoltativo | trascrizione con warning |
-.\09_ingestion_reports\ingestion_report_note_analisi_e_progettazione_algoritmi.md:83:| 63 | appunti | Note miste/facoltativo | trascrizione con warning |
-.\09_ingestion_reports\ingestion_report_note_analisi_e_progettazione_algoritmi.md:85:| 65 | appunti | Pagina finale / note sparse | trascrizione con warning |
-.\09_ingestion_reports\ingestion_report_note_analisi_e_progettazione_algoritmi.md:114:Le ricorrenze normalizzate sono state inserite nei metodi operativi collegati, mantenendo warning nei punti in cui la lettura OCR/manoscritta non e certa.
-.\09_ingestion_reports\ingestion_report_note_analisi_e_progettazione_algoritmi.md:124:> [!Warning]
-.\05_theory\programmazione_dinamica_su_grafi.md:29:> [!Warning]
-.\00_meta\AI_USAGE_GUIDE.md:3:> [!Warning]
-.\00_meta\AI_USAGE_GUIDE.md:23:6. Se una formula viene da fonte manoscritta ambigua, mantieni il warning.
-.\00_meta\AI_USAGE_GUIDE.md:52:- warning se presenti.
-.\00_meta\AI_USAGE_GUIDE.md:62:## Warning manoscritti
-.\00_meta\AI_USAGE_GUIDE.md:64:Preserva sempre i warning collegati a:
-.\plans\piano_codex_ingestion_APA_2025_09_17_part2.md:61:> [!Warning]
-.\plans\piano_codex_ingestion_APA_2025_09_17_part2.md:246:> [!Warning]
-.\plans\piano_codex_ingestion_APA_2025_09_17_part2.md:294:> In presenza di archi con lo stesso peso, possono esistere piÃ¹ ordini validi se il testo non specifica un tie-break. Segnalare eventuali ambiguitÃ .
-.\plans\piano_codex_ingestion_APA_2025_09_17_part2.md:404:> [!Warning]
-.\plans\piano_codex_ingestion_APA_2025_09_17_part2.md:506:> [!Warning]
-.\plans\piano_codex_ingestion_APA_2025_09_17_part2.md:796:> [!Warning]
-.\09_ingestion_reports\ingestion_report_extra_esercizi_APA_SRC_EXTRA_001.md:4:status: applied_with_warnings
-.\09_ingestion_reports\ingestion_report_extra_esercizi_APA_SRC_EXTRA_001.md:53:## Ambiguita preservate
-.\09_ingestion_reports\ingestion_report_extra_esercizi_APA_SRC_EXTRA_001.md:55:> [!Warning]
-.\09_ingestion_reports\ingestion_report_extra_esercizi_APA_SRC_EXTRA_001.md:58:> [!Warning]
-.\09_ingestion_reports\ingestion_report_extra_esercizi_APA_SRC_EXTRA_001.md:61:> [!Warning]
-.\05_theory\programmazione_dinamica.md:27:> [!Warning]
-.\06_exam_patterns\parte_i_dynamic_programming_patterns.md:99:> [!Warning]
-.\06_exam_patterns\parte_i_dynamic_programming_patterns.md:100:> Restano draft Hateville e LCS alternanza pari/dispari per ambiguita nella fonte manoscritta.
-.\05_theory\grafi_colorati.md:35:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_09_17_part1.md:584:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_09_17_part1.md:587:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_09_17_part1.md:590:> [!Warning]
@@ -127,26 +98,18 @@
 .\plans\piano_codex_ingestion_APA_2025_09_17_part1.md:724:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_09_17_part1.md:728:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_09_17_part1.md:732:> [!Warning]
-.\05_theory\np_completezza.md:22:> [!Warning]
-.\09_ingestion_reports\ingestion_report_exam_2026_01_12.md:192:> [!Warning]
-.\09_ingestion_reports\ingestion_report_exam_2026_01_12.md:307:> [!Warning]
-.\09_ingestion_reports\ingestion_report_exam_2026_01_12.md:394:> [!Warning]
-.\09_ingestion_reports\ingestion_report_exam_2026_01_12.md:593:> [!Warning]
-.\09_ingestion_reports\ingestion_report_exam_2026_01_12.md:875:> [!Warning]
-.\09_ingestion_reports\ingestion_report_exam_2026_01_12.md:1126:> [!Warning]
-.\09_ingestion_reports\ingestion_report_exam_2026_01_12.md:1249:- [ ] lasciato come `Warning` le parti non ancora risolte o da verificare.
-.\05_theory\grafi.md:30:> [!Warning]
-.\05_theory\floyd_warshall.md:41:> [!Warning]
-.\05_theory\minimum_spanning_tree.md:28:> [!Warning]
-.\05_theory\clique.md:29:> [!Warning]
-.\08_review\common_mistakes.md:31:## Warning da fonti manoscritte
-.\08_review\common_mistakes.md:33:> [!Warning]
+.\09_ingestion_reports\_README.md:39:- Se una parte del PDF non e chiara, segnalarla con `[!Warning]`.
+.\05_theory\floyd_warshall.md:45:> [!Warning]
+.\06_exam_patterns\parte_i_dynamic_programming_patterns.md:109:> [!Warning]
+.\06_exam_patterns\parte_i_dynamic_programming_patterns.md:110:> Restano draft Hateville e LCS alternanza pari/dispari da fonte manoscritta. Per la variante ufficiale "dispari in posizioni dispari e pari in posizioni pari" usare [[dp_lcs_dispari_pari_alternati]].
+.\06_exam_patterns\parte_i_dynamic_programming_patterns.md:133:- cammini minimi: `d`, `min`, `+`, `+infinito`;
+.\09_ingestion_reports\official_lcs_variants_cumulative.md:35:Le varianti sono marcate `official_confirmed` perche derivate da PDF ufficiali. Le vecchie note draft su alternanza pari/dispari da `SRC-EXTRA-001` restano non primarie.
 .\plans\piano_codex_ingestion_APA_2025_02_11_part2_completo_recupero.md:67:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_02_11_part2_completo_recupero.md:225:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_02_11_part2_completo_recupero.md:341:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_02_11_part2_completo_recupero.md:814:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_02_11_part2_completo_recupero.md:928:> Per gli esercizi grafici, usa la soluzione proposta solo come supporto operativo e mantieni eventuali assunzioni esplicite con `[!Warning]`.
-.\05_theory\cammini_minimi.md:36:> [!Warning]
+.\05_theory\clique.md:29:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_02_11_part1_recupero.md:522:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_02_11_part1_recupero.md:621:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_02_11_part1_recupero.md:624:> [!Warning]
@@ -157,60 +120,74 @@
 .\plans\piano_codex_ingestion_APA_2025_02_11_part1_recupero.md:763:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_02_11_part1_recupero.md:767:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_02_11_part1_recupero.md:771:> [!Warning]
-.\08_review\checklist_pre_exam.md:39:- [ ] Ho controllato [[TODO]] per warning non risolti.
-.\03_exercise_catalog\exercises\exam_2025_01_13_p2_e04.md:66:> [!WARNING]
-.\02_transcriptions\exams\exam_2026_01_12.md:100:> [!Warning]
+.\05_theory\cammini_minimi.md:36:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_02_11_part1_completo.md:443:> [!Warning]
-.\plans\piano_codex_ingestion_APA_2025_02_11_part1_completo.md:448:Per evitare ambiguitÃ  nella composizione tipo Floyd-Warshall, usare uno stato che memorizza sia primo sia ultimo colore:
+.\plans\piano_codex_ingestion_APA_2025_02_11_part1_completo.md:448:Per evitare ambiguità nella composizione tipo Floyd-Warshall, usare uno stato che memorizza sia primo sia ultimo colore:
 .\plans\piano_codex_ingestion_APA_2025_02_11_part1_completo.md:672:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_02_11_part1_completo.md:676:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_02_11_part1_completo.md:679:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_02_11_part1_completo.md:683:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_02_11_part1_completo.md:687:> [!Warning]
-.\05_theory\lcs.md:34:> [!Warning]
+.\08_review\common_mistakes.md:31:## Warning da fonti manoscritte
+.\08_review\common_mistakes.md:33:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_01_13_part2.md:75:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_01_13_part2.md:287:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_01_13_part2.md:391:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_01_13_part2.md:587:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_01_13_part2.md:906:> [!Warning]
-.\09_ingestion_reports\ingestion_report_exam_2025_07_03_part1.md:63:> [!Warning]
-.\09_ingestion_reports\ingestion_report_exam_2025_07_03_part1.md:308:> [!Warning]
-.\09_ingestion_reports\ingestion_report_exam_2025_07_03_part1.md:404:> [!Warning]
-.\09_ingestion_reports\ingestion_report_exam_2025_07_03_part1.md:473:> [!Warning]
-.\09_ingestion_reports\ingestion_report_exam_2025_07_03_part1.md:529:> [!Warning]
-.\09_ingestion_reports\ingestion_report_exam_2025_07_03_part1.md:677:> [!Warning]
-.\09_ingestion_reports\ingestion_report_exam_2025_07_03_part1.md:738:> [!Warning]
-.\09_ingestion_reports\ingestion_report_exam_2025_07_03_part1.md:865:- [ ] mantenuto `[!Warning]` sulle parti da verificare;
-.\05_theory\kruskal.md:22:> [!Warning]
+.\plans\piano_codex_ingestion_APA_2025_01_13_part2.md:914:Non inventare un disegno ASCII complesso se rischia di essere ambiguo. Meglio:
+.\05_theory\asymptotic_notation.md:4:status: draft
+.\08_review\checklist_pre_exam.md:39:- [ ] Ho controllato [[TODO]] per warning non risolti.
 .\plans\piano_codex_ingestion_APA_2025_01_13_part1.md:653:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_01_13_part1.md:657:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_01_13_part1.md:661:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_01_13_part1.md:665:> [!Warning]
 .\plans\piano_codex_ingestion_APA_2025_01_13_part1.md:669:> [!Warning]
-.\04_methods\metodo_dp_cammini_colori_parita.md:113:> [!Warning]
-.\04_methods\metodo_dp_cammini_colori_parita.md:116:> [!Warning]
-.\04_methods\metodo_dp_cammini_colori_parita.md:119:> [!Warning]
-.\04_methods\metodo_dp_cammini_colori_conteggi.md:64:> [!Warning]
-.\04_methods\metodo_lics.md:3:status: complete_with_warnings
-.\04_methods\metodo_lics.md:55:> [!Warning]
-.\plans\continuity_context_knowledge_base_APA_after_part1.md:110:6. segnare con `[!Warning]` ciÃ² che Ã¨ incerto.
+.\AI Chat during Exam\prompt_rag_apa_parteI_esercizio1_lcs_ingombro.md:103:- Non usare `-infinito` nei casi base.
+.\AI Chat during Exam\prompt_sections\ultima_facciata_teoria_completamento.md:44:3. evita domande con formulazione ambigua;
+.\09_ingestion_reports\ingestion_report_template.md:85:> [!Warning]
+.\09_ingestion_reports\ingestion_report_template.md:101:- [ ] Le parti incerte sono marcate con `[!Warning]`.
+.\plans\continuity_context_knowledge_base_APA_after_part1.md:110:6. segnare con `[!Warning]` ciò che è incerto.
 .\plans\continuity_context_knowledge_base_APA_after_part1.md:140:> [!Warning]
 .\plans\continuity_context_knowledge_base_APA_after_part1.md:694:> [!Warning]
 .\plans\continuity_context_knowledge_base_APA_after_part1.md:823:> [!Warning]
-.\04_methods\metodo_dimostrazione_matroide_grafico.md:66:> [!Warning]
-.\10_rag\RAG_METHOD_CARDS\dp_grafi_stato_esteso.md:4:status: warning
-.\10_rag\RAG_METHOD_CARDS\dp_grafi_stato_esteso.md:86:- Non usare come fonte primaria formule marcate con warning senza verificare il vincolo.
-.\04_methods\metodo_dimostrazione_greedy_matroidi.md:33:> [!Warning]
-.\04_methods\dp_lcs_vincoli_colore.md:3:status: complete_with_warnings
-.\04_methods\dp_lcs_vincoli_colore.md:60:> [!Warning]
-.\AI_CONTEXT.md:34:- Use Obsidian callouts such as `[!Info]`, `[!Question]`, `[!Warning]`, `[!Todo]`, `[!Summary]`.
-.\AI_CONTEXT.md:69:- Ambiguous interpretation must be marked with `[!Warning]`.
-.\AI_CONTEXT.md:81:Before answering from this KB, read [[AI_USAGE_GUIDE]]. Do not invent formulas where handwritten sources contain warnings; preserve uncertainty and point to TODOs when needed.
-.\04_methods\dp_grafi_floyd_warshall_stato_esteso.md:3:status: complete_with_warnings
-.\04_methods\dp_lcs_lunghezza_esatta_booleana.md:3:status: complete_with_warning
-.\04_methods\dp_lcs_lunghezza_esatta_booleana.md:16:> [!Warning]
-.\04_methods\metodo_dimostrare_np_completezza.md:60:> [!Warning]
-.\03_exercise_catalog\exercises\exam_2025_07_03_p1_e02.md:51:> [!Warning]
+.\plans\continuity_context_knowledge_base_APA_after_part1.md:882:draft
+.\06_exam_patterns\riduzione_clique_vertex_cover.md:30:> [!Warning]
+.\AI Chat during Exam\Final Prompt.md:34:9. Se la foto e storta o poco leggibile, prova comunque a risolvere cio che e leggibile e segnala solo le parti davvero ambigue.
+.\AI Chat during Exam\Final Prompt.md:59:Non usare file draft o placeholder come fonte primaria se esiste una method card completa.
+.\AI Chat during Exam\Final Prompt.md:124:Se il vincolo e "al massimo" o "minore o uguale", NON usare stati impossibili con `-infinito` come default. Usare una formulazione con coefficiente che rappresenta direttamente il vincolo `<= k`.
+.\AI Chat during Exam\Final Prompt.md:126:Se invece il vincolo e "esattamente K", allora possono servire valori impossibili come `-infinito`.
+.\AI Chat during Exam\Final Prompt.md:144:- Se la traccia chiede proprieta interne della sottosequenza, come "due rossi consecutivi", non usare automaticamente `c_{m,n}`. Cercare stati vincolati a terminare nel match corrente, stato booleano "vincolo gia soddisfatto", stati impossibili e valore ottimo come massimo globale.
+.\AI Chat during Exam\Final Prompt.md:201:- cammini minimi: `d`, `min`, `+`, `+infinito`;
+.\AI Chat during Exam\Final Prompt.md:204:Attenzione: non confondere archi colorati e vertici colorati; per archi alternati il cammino banale non ha primo/ultimo arco; per esistenza non usare pesi.
+.\AI Chat during Exam\Final Prompt.md:237:- non usare cammini minimi;
+.\AI Chat during Exam\Final Prompt.md:317:3. evita domande con formulazione ambigua;
+.\AI Chat during Exam\Final Prompt.md:371:2. Non usare `-infinito` nei problemi "al massimo" se la formulazione `<= k` e sufficiente.
+.\AI Chat during Exam\prompt_sections\parte_I_esercizio_1.md:53:Se il vincolo e "al massimo" o "minore o uguale", NON usare stati impossibili con `-infinito` come default. Usare una formulazione con coefficiente che rappresenta direttamente il vincolo `<= k`.
+.\AI Chat during Exam\prompt_sections\parte_I_esercizio_1.md:55:Se invece il vincolo e "esattamente K", allora possono servire valori impossibili come `-infinito`.
+.\09_ingestion_reports\ingestion_report_note_analisi_e_progettazione_algoritmi.md:9:- Stato: applicato con warning di lettura
+.\09_ingestion_reports\ingestion_report_note_analisi_e_progettazione_algoritmi.md:35:| 15 | esercizio | LICS decrescente con vincoli colore/parita | warning, collegare a LICS |
+.\09_ingestion_reports\ingestion_report_note_analisi_e_progettazione_algoritmi.md:82:| 62 | appunti | Note miste/facoltativo | trascrizione con warning |
+.\09_ingestion_reports\ingestion_report_note_analisi_e_progettazione_algoritmi.md:83:| 63 | appunti | Note miste/facoltativo | trascrizione con warning |
+.\09_ingestion_reports\ingestion_report_note_analisi_e_progettazione_algoritmi.md:85:| 65 | appunti | Pagina finale / note sparse | trascrizione con warning |
+.\09_ingestion_reports\ingestion_report_note_analisi_e_progettazione_algoritmi.md:114:Le ricorrenze normalizzate sono state inserite nei metodi operativi collegati, mantenendo warning nei punti in cui la lettura OCR/manoscritta non e certa.
+.\09_ingestion_reports\ingestion_report_note_analisi_e_progettazione_algoritmi.md:122:## Dubbi di lettura / parti ambigue
+.\09_ingestion_reports\ingestion_report_note_analisi_e_progettazione_algoritmi.md:124:> [!Warning]
+.\08_review\flashcards_SRC_NOTE_001.md:19:## Meno infinito
+.\09_ingestion_reports\ingestion_report_exam_2025_02_11_part1_completo.md:95:> [!Warning]
+.\09_ingestion_reports\ingestion_report_exam_2025_02_11_part1_completo.md:111:- [x] Le parti incerte sono marcate con `[!Warning]`.
+.\09_ingestion_reports\ingestion_report_extra_esercizi_APA_SRC_EXTRA_001.md:4:status: applied_with_warnings
+.\09_ingestion_reports\ingestion_report_extra_esercizi_APA_SRC_EXTRA_001.md:55:> [!Warning]
+.\09_ingestion_reports\ingestion_report_extra_esercizi_APA_SRC_EXTRA_001.md:58:> [!Warning]
+.\09_ingestion_reports\ingestion_report_extra_esercizi_APA_SRC_EXTRA_001.md:61:> [!Warning]
+.\09_ingestion_reports\ingestion_report_extra_esercizi_APA_SRC_EXTRA_001.md:62:> LCS con alternanza pari/dispari: la fonte non basta per fissare una ricorrenza definitiva. Il metodo e stato creato in stato draft.
+.\09_ingestion_reports\ingestion_report_exam_2026_01_12.md:192:> [!Warning]
+.\09_ingestion_reports\ingestion_report_exam_2026_01_12.md:307:> [!Warning]
+.\09_ingestion_reports\ingestion_report_exam_2026_01_12.md:394:> [!Warning]
+.\09_ingestion_reports\ingestion_report_exam_2026_01_12.md:593:> [!Warning]
+.\09_ingestion_reports\ingestion_report_exam_2026_01_12.md:875:> [!Warning]
+.\09_ingestion_reports\ingestion_report_exam_2026_01_12.md:1126:> [!Warning]
+.\09_ingestion_reports\ingestion_report_exam_2026_01_12.md:1249:- [ ] lasciato come `Warning` le parti non ancora risolte o da verificare.
 .\09_ingestion_reports\ingestion_report_exam_2025_06_09_part1.md:64:> [!Warning]
 .\09_ingestion_reports\ingestion_report_exam_2025_06_09_part1.md:341:> [!Warning]
 .\09_ingestion_reports\ingestion_report_exam_2025_06_09_part1.md:468:> [!Warning]
@@ -219,56 +196,229 @@
 .\09_ingestion_reports\ingestion_report_exam_2025_06_09_part1.md:630:> [!Warning]
 .\09_ingestion_reports\ingestion_report_exam_2025_06_09_part1.md:854:> [!Warning]
 .\09_ingestion_reports\ingestion_report_exam_2025_06_09_part1.md:1000:- [ ] mantenuto `[!Warning]` sulle parti da verificare;
-.\04_methods\metodo_dimostrare_matroide_foreste.md:34:> [!Warning]
-.\04_methods\metodo_lcs_alternanza_pari_dispari.md:35:> [!Warning]
-.\03_exercise_catalog\exercises\exam_2025_07_03_p1_e01.md:55:> [!Warning]
+.\02_transcriptions\exams\exam_2026_01_12.md:100:> [!Warning]
+.\10_rag\RAG_EXAM_ANSWER_STYLE.md:49:2. Specificare stati esistenti e inesistenti (`-infinito` oppure `0`, secondo la variante ufficiale).
+.\09_ingestion_reports\ingestion_report_exam_2025_07_03_part1.md:63:> [!Warning]
+.\09_ingestion_reports\ingestion_report_exam_2025_07_03_part1.md:308:> [!Warning]
+.\09_ingestion_reports\ingestion_report_exam_2025_07_03_part1.md:404:> [!Warning]
+.\09_ingestion_reports\ingestion_report_exam_2025_07_03_part1.md:473:> [!Warning]
+.\09_ingestion_reports\ingestion_report_exam_2025_07_03_part1.md:529:> [!Warning]
+.\09_ingestion_reports\ingestion_report_exam_2025_07_03_part1.md:677:> [!Warning]
+.\09_ingestion_reports\ingestion_report_exam_2025_07_03_part1.md:738:> [!Warning]
+.\09_ingestion_reports\ingestion_report_exam_2025_07_03_part1.md:865:- [ ] mantenuto `[!Warning]` sulle parti da verificare;
+.\07_solved_examples\graphs\floyd_warshall_colori_archi_SRC_NOTE_001.md:11:> [!Warning]
+.\05_theory\vincoli_su_colori.md:50:> [!Warning]
+.\04_methods\complexity_analysis.md:4:status: draft
+.\04_methods\complexity_analysis.md:13:> [!Warning]
+.\04_methods\dp_grafi_floyd_warshall_stato_esteso.md:3:status: complete_with_warnings
+.\05_theory\vertex_cover.md:28:> [!Warning]
+.\04_methods\divide_et_impera.md:4:status: draft
+.\10_rag\RAG_PATTERN_MAP.md:23:- I pattern `C` richiedono prudenza o verifica, soprattutto se la fonte primaria e `draft`.
+.\10_rag\RAG_PATTERN_MAP.md:70:- non usare una tabella bidimensionale;
+.\10_rag\RAG_PATTERN_MAP.md:72:- non usare massimo globale: il valore ottimo e `c_{m,n,l}`;
+.\10_rag\RAG_PATTERN_MAP.md:94:- se `x_i != y_j`, stato inesistente con `-infinito`;
+.\10_rag\RAG_PATTERN_MAP.md:99:- non usare direttamente `c_{m,n}`;
+.\10_rag\RAG_PATTERN_MAP.md:128:- non usare `c_{m,n}`;
+.\10_rag\RAG_PATTERN_MAP.md:157:- non usare la ricorrenza LCS standard;
+.\10_rag\RAG_PATTERN_MAP.md:158:- non usare `c_{m,n}`;
+.\10_rag\RAG_PATTERN_MAP.md:245:- usare `E1` per non usare `k`;
+.\05_theory\sottosequenze_comuni.md:27:> [!Warning]
+.\07_solved_examples\priority_examples_index.md:9:- Stato: completo con warning su varianti manoscritte.
+.\07_solved_examples\priority_examples_index.md:17:- Stato: warning.
+.\07_solved_examples\priority_examples_index.md:32:- Stato: completo con warning per varianti.
+.\05_theory\riduzioni_polinomiali.md:23:> [!Warning]
+.\04_methods\correctness_proofs.md:4:status: draft
+.\04_methods\correctness_proofs.md:13:> [!Warning]
+.\10_rag\RAG_TRUST_POLICY.md:24:- Non usare file con `status: draft` se esiste un metodo specifico `complete`.
+.\10_rag\RAG_TRUST_POLICY.md:25:- Se un file contiene warning, riporta internamente il warning e usa la variante piu prudente.
+.\01_sources\source_inventory.md:34:| SRC-EXTRA-001 | student_notes | `01_sources/extra_materials/esercizi APA.pdf` | Esercizi/appunti extra gia analizzati | 18 | `9e4ae9316e5408de7dfc036edcfb13c48571e22b5be5cc88f60636c676d58289` | applicato_con_warning | `09_ingestion_reports/ingestion_report_extra_esercizi_APA_SRC_EXTRA_001.md` | Esercizi/appunti extra gia analizzati |
+.\01_sources\source_inventory.md:54:| SRC-NOTE-001 | student_notes | `01_sources/notes_raw/Analisi E Progettazione Di Algoritmi.pdf` | Appunti compagna gia analizzati | 65 | `c76f8f3c8ecdd6db9df7e7e075dc5f9c7b871c0bbc65966d82e42d33a930d5fe` | applicato_con_warning | `09_ingestion_reports/ingestion_report_note_analisi_e_progettazione_algoritmi.md` | Appunti compagna gia analizzati |
+.\05_theory\programmazione_dinamica_su_grafi.md:29:> [!Warning]
+.\07_solved_examples\prim_schema_esecuzione.md:22:   - tutti gli altri `key = +infinito`, `pi = NIL`.
+.\10_rag\RAG_SYSTEM_RULES.md:12:- Non usare file `draft`, `scaffold` o `placeholder` come fonte primaria se esiste una card o un metodo completo.
+.\10_rag\RAG_SYSTEM_RULES.md:13:- Mantieni internamente i warning delle fonti manoscritte e scegli la variante piu prudente.
+.\05_theory\programmazione_dinamica_floyd_warshall_varianti.md:20:Per cammini minimi si usano `min`, somma dei pesi e `+infinito`.
+.\10_rag\RAG_METHOD_CARDS\dp_grafi_stato_esteso.md:4:status: warning
+.\10_rag\RAG_METHOD_CARDS\dp_grafi_stato_esteso.md:86:- Non usare come fonte primaria formule marcate con warning senza verificare il vincolo.
+.\04_methods\dp_lcs_dispari_pari_alternati.md:93:Il valore `0` indica che il sottoproblema vincolato a terminare in `x_i` non esiste. In questa variante la sequenza vuota e ammessa, quindi non si usa `-infinito`.
+.\07_solved_examples\lics_schema.md:28:## Warning
+.\10_rag\RAG_METHOD_CARDS\dp_lcs_colori.md:55:> [!Warning]
+.\05_theory\programmazione_dinamica.md:27:> [!Warning]
+.\10_rag\RAG_RETRIEVAL_INDEX.md:8:| LCS due rossi consecutivi; LCS2red; almeno due rossi consecutivi; vincolo consecutivita; `c_ij1`; `c_ij0`; `-infinito` | DP LCS con stati vincolati a terminare | `10_rag/RAG_METHOD_CARDS/dp_lcs_varianti.md`, `10_rag/RAG_METHOD_CARDS/dp_lcs_colori.md` | `04_methods/dp_lcs_due_rossi_consecutivi.md` | `07_solved_examples/dp/lcs_due_rossi_consecutivi_schema.md` | official_confirmed |
+.\10_rag\RAG_RETRIEVAL_INDEX.md:12:| cammino con vincoli sui colori; archi colorati; precedenze; parita; conteggi | DP/Floyd-Warshall con stato esteso | `10_rag/RAG_METHOD_CARDS/dp_grafi_stato_esteso.md` | `04_methods/dp_grafi_floyd_warshall_stato_esteso.md`, `04_methods/metodo_cammini_minimi_vincoli_colori_parita.md`, `04_methods/metodo_dp_cammini_colori_conteggi.md` | `07_solved_examples/graphs/cammini_colori_floyd_warshall_SRC_NOTE_001.md`, `07_solved_examples/graphs/floyd_warshall_colori_archi_SRC_NOTE_001.md` | complete/warning |
+.\10_rag\RAG_RETRIEVAL_INDEX.md:26:| risolvere ricorrenza; Master theorem; sostituzione; iterazione; chiusura transitiva | ricorrenze | `10_rag/RAG_METHOD_CARDS/ricorrenze.md` | `04_methods/recurrence_relations.md`, `04_methods/metodo_equazioni_ricorrenza_chiusura_transitiva.md` | `03_exercise_catalog/exercises/exam_2025_11_10_p2_e03.md` | warning |
 .\04_methods\dp_lcs_crescente_lics.md:3:status: complete_with_warnings
 .\04_methods\dp_lcs_crescente_lics.md:50:> [!Warning]
-.\04_methods\metodo_dijkstra.md:58:> [!Warning]
-.\04_methods\correctness_proofs.md:13:> [!Warning]
-.\04_methods\metodo_kruskal_mst.md:63:> [!Warning]
+.\07_solved_examples\knapsack_al_massimo_3_rossi_schema.md:30:## Warning
+.\05_theory\np_completezza.md:22:> [!Warning]
+.\00_meta\RAG_READINESS_REPORT.md:22:## Utilizzabile con prudenza
+.\00_meta\RAG_READINESS_REPORT.md:24:- DP su grafi con stato esteso: card presente, ma alcune fonti derivano da appunti manoscritti con warning.
+.\00_meta\RAG_READINESS_REPORT.md:26:- Ricorrenze: card presente, ma `04_methods/recurrence_relations.md` resta `draft`; per Warshall usare `04_methods/metodo_equazioni_ricorrenza_chiusura_transitiva.md`.
+.\00_meta\RAG_READINESS_REPORT.md:38:Questi file sono draft, scaffold o contengono warning. Vanno usati solo dopo le card RAG e solo se servono dettagli secondari.
+.\00_meta\RAG_READINESS_REPORT.md:56:| Ricorrenze | C | Usare con prudenza |
+.\00_meta\RAG_READINESS_REPORT.md:60:- `final_todo_scan.txt`: rigenerato con occorrenze di TODO, draft, scaffold, placeholder, warning e completamenti.
+.\00_meta\RAG_READINESS_REPORT.md:61:- `final_warning_scan.txt`: rigenerato con warning e punti ambigui.
+.\05_theory\np_completeness.md:4:status: draft
+.\10_rag\RAG_METHOD_CARDS\dp_knapsack_vincoli_colore.md:68:## Warning
+.\00_meta\FINAL_READINESS_REPORT.md:9:- Warning aperti: 187 occorrenze in `final_warning_scan.txt`, mantenute intenzionalmente dove le fonti manoscritte sono ambigue.
+.\00_meta\FINAL_READINESS_REPORT.md:21:- preservare i warning;
+.\05_theory\minimum_spanning_tree.md:28:> [!Warning]
+.\10_rag\RAG_METHOD_CARDS\fw_varianti_vincoli_colori.md:43:   - `d`, `min`, `+`, `+infinito` per cammini minimi;
+.\10_rag\RAG_METHOD_CARDS\fw_varianti_vincoli_colori.md:83:## Warning da esame
+.\10_rag\RAG_METHOD_CARDS\fw_varianti_vincoli_colori.md:89:- Per esistenza non usare pesi.
+.\00_meta\COVERAGE_MATRIX.md:7:- `C`: metodo parziale o warning.
+.\00_meta\COVERAGE_MATRIX.md:8:- `D`: solo teoria/scaffold, non usare come fonte primaria.
+.\00_meta\COVERAGE_MATRIX.md:28:Durante l'esame usare prioritariamente pattern `A` e `B`. I pattern `C` sono utilizzabili solo con template prudente e controllo dei warning.
+.\05_theory\matroidi.md:4:status: draft
+.\10_rag\RAG_METHOD_CARDS\ricorrenze.md:4:status: warning
+.\10_rag\RAG_METHOD_CARDS\ricorrenze.md:84:- `04_methods/recurrence_relations.md` e draft: usare questa card con prudenza.
+.\10_rag\RAG_METHOD_CARDS\ricorrenze.md:86:- Per Warshall, non usare `R_k` a destra della ricorrenza: servono valori di `R_{k-1}`.
+.\10_rag\RAG_METHOD_CARDS\dp_lics_varianti.md:75:## Warning
+.\05_theory\master_theorem.md:4:status: draft
+.\10_rag\RAG_METHOD_CARDS\mst_prim.md:62:        key[u] <- +infinito
+.\00_meta\workflow.md:26:3. Annotare ambiguita e dubbi.
+.\00_meta\workflow.md:33:3. Segnare parti dubbie con `[!Warning]`.
+.\05_theory\lower_bounds.md:4:status: draft
+.\07_solved_examples\dp\lcs_tre_sequenze_schema.md:30:## Warning
+.\10_rag\RAG_METHOD_CARDS\dp_lcs_varianti.md:76:- non usare tabella bidimensionale;
+.\10_rag\RAG_METHOD_CARDS\dp_lcs_varianti.md:77:- non usare massimo globale: il valore e `c_{m,n,l}`;
+.\10_rag\RAG_METHOD_CARDS\dp_lcs_varianti.md:101:  c_ij1 = c_ij0 = -infinito
+.\10_rag\RAG_METHOD_CARDS\dp_lcs_varianti.md:114:  c_ij1 = max{ c_hk1 != -infinito | h < i, k < j } + 1
+.\10_rag\RAG_METHOD_CARDS\dp_lcs_varianti.md:115:  c_ij0 = max{ c_hk0 != -infinito | h < i, k < j } + 1
+.\10_rag\RAG_METHOD_CARDS\dp_lcs_varianti.md:119:    max{ c_hk0 != -infinito | h < i, k < j, col(x_h) = red } + 1,
+.\10_rag\RAG_METHOD_CARDS\dp_lcs_varianti.md:120:    max{ c_hk1 != -infinito | h < i, k < j } + 1
+.\10_rag\RAG_METHOD_CARDS\dp_lcs_varianti.md:122:  c_ij0 = max{ c_hk0 != -infinito | h < i, k < j, col(x_h) != red } + 1
+.\10_rag\RAG_METHOD_CARDS\dp_lcs_varianti.md:125:Se un massimo per `c_ij1` e vuoto, il valore resta `-infinito`. Se un massimo per `c_ij0` e vuoto e `x_i = y_j`, si puo iniziare una sottosequenza di lunghezza `1`.
+.\10_rag\RAG_METHOD_CARDS\dp_lcs_varianti.md:131:- non usare `c_{m,n}`.
+.\10_rag\RAG_METHOD_CARDS\dp_lcs_varianti.md:183:- non usare direttamente la LCS standard.
+.\00_meta\AI_USAGE_GUIDE.md:3:> [!Warning]
+.\00_meta\AI_USAGE_GUIDE.md:23:6. Se una formula viene da fonte manoscritta ambigua, mantieni il warning.
+.\00_meta\AI_USAGE_GUIDE.md:52:- warning se presenti.
+.\00_meta\AI_USAGE_GUIDE.md:62:## Warning manoscritti
+.\00_meta\AI_USAGE_GUIDE.md:64:Preserva sempre i warning collegati a:
+.\03_exercise_catalog\index_by_difficulty.md:72:- [[lcs_alternanza_pari_dispari_SRC_EXTRA_001]] - metodo draft
+.\05_theory\lcs.md:87:> [!Warning]
 .\04_methods\metodo_cammini_minimi_vincoli_colori_parita.md:75:> [!Warning]
 .\04_methods\metodo_cammini_minimi_vincoli_colori_parita.md:78:> [!Warning]
 .\04_methods\metodo_cammini_minimi_vincoli_colori_parita.md:81:> [!Warning]
-.\04_methods\metodo_hateville_vincoli_colori.md:37:> [!Warning]
-.\04_methods\complexity_analysis.md:13:> [!Warning]
-.\04_methods\metodo_greedy_max_rado.md:75:> [!Warning]
-.\04_methods\dynamic_programming.md:13:> [!Warning]
-.\04_methods\recurrence_relations.md:13:> [!Warning]
+.\10_rag\RAG_METHOD_CARDS\dp_lcs_ingombro.md:37:> Esiste anche una formulazione alternativa con ingombro esattamente `b` e valore `-infinito` per stati impossibili.
+.\10_rag\RAG_METHOD_CARDS\dp_lcs_ingombro.md:93:- Non scrivere `-infinito` nei casi base della formulazione `<= k`.
+.\05_theory\kruskal.md:22:> [!Warning]
+.\04_methods\greedy_algorithms.md:4:status: draft
+.\05_theory\index.md:22:| [[asymptotic_notation]] | Notazione asintotica | ... | draft |
+.\05_theory\index.md:23:| [[master_theorem]] | Master theorem | ... | draft |
+.\05_theory\index.md:24:| [[np_completeness]] | NP-completezza, nome legacy | ... | draft |
+.\05_theory\index.md:25:| [[lower_bounds]] | Lower bounds | ... | draft |
+.\07_solved_examples\dp\lcs_due_rossi_consecutivi_schema.md:25:4. Mettere `-infinito` quando lo stato non esiste, in particolare se `x_i != y_j`.
+.\07_solved_examples\dp\lcs_due_rossi_consecutivi_schema.md:29:## Warning
+.\00_meta\STUDY_DASHBOARD.md:9:- Fonti con warning: SRC-EXTRA-001, SRC-NOTE-001.
+.\05_theory\grafi_colorati.md:35:> [!Warning]
+.\05_theory\grafi.md:30:> [!Warning]
+.\04_methods\graph_algorithms.md:4:status: draft
 .\04_methods\graph_algorithms.md:13:> [!Warning]
-.\04_methods\metodo_dp_cammini_colori_precedenze.md:75:> [!Warning]
-.\03_exercise_catalog\exercises\exam_2025_06_09_p1_e02.md:76:> [!Warning]
-.\09_ingestion_reports\ingestion_report_exam_2025_02_11_part1_completo.md:95:> [!Warning]
-.\09_ingestion_reports\ingestion_report_exam_2025_02_11_part1_completo.md:111:- [x] Le parti incerte sono marcate con `[!Warning]`.
-.\04_methods\metodo_dp_cammini_con_parita.md:44:> [!Warning]
-.\04_methods\metodo_ricostruzione_soluzione_dp.md:36:> [!Warning]
-.\10_rag\RAG_METHOD_CARDS\ricorrenze.md:4:status: warning
-.\10_rag\RAG_METHOD_CARDS\ricorrenze.md:84:- `04_methods/recurrence_relations.md` e draft: usare questa card con prudenza.
-.\04_methods\metodo_equazioni_ricorrenza_chiusura_transitiva.md:64:> [!Warning]
-.\03_exercise_catalog\exercises\exam_2025_06_09_p1_e01.md:65:> [!Warning]
-.\04_methods\metodo_programmazione_dinamica_zaino_01.md:78:> [!Warning]
-.\04_methods\metodo_teorema_arco_sicuro.md:90:> [!Warning]
-.\04_methods\metodo_programmazione_dinamica_lcs_vincolo_ingombro.md:47:> [!Warning]
-.\07_solved_examples\by_topic\lics_SRC_EXTRA_001.md:4:status: complete_with_warnings
+.\04_methods\fw_varianti_vincoli_colori.md:47:| Cammino minimo | `d` | `min` | `+` | `+infinito` |
+.\04_methods\fw_varianti_vincoli_colori.md:107:  d_ij^{0,f,l} = +infinito
+.\04_methods\fw_varianti_vincoli_colori.md:111:  altrimenti:                d_ij^{0,f,l} = +infinito
+.\04_methods\fw_varianti_vincoli_colori.md:114:  d_ij^{0,f,l} = +infinito
+.\04_methods\fw_varianti_vincoli_colori.md:183:i != j and (i,j) in E and Col(i) = Col(j):  d_ij^0 = +infinito
+.\04_methods\fw_varianti_vincoli_colori.md:184:i != j and (i,j) notin E:                    d_ij^0 = +infinito
+.\04_methods\fw_varianti_vincoli_colori.md:231:  d_ij^{0,1} = +infinito
+.\04_methods\fw_varianti_vincoli_colori.md:237:tutti gli altri stati: +infinito
+.\04_methods\fw_varianti_vincoli_colori.md:270:  d_ij^{0,r} = +infinito per r > 0
+.\04_methods\fw_varianti_vincoli_colori.md:274:  altri r: +infinito
+.\04_methods\fw_varianti_vincoli_colori.md:278:  altri r: +infinito
+.\04_methods\fw_varianti_vincoli_colori.md:281:  d_ij^{0,r} = +infinito per ogni r
+.\04_methods\fw_varianti_vincoli_colori.md:311:  d_ij^{0,r} = +infinito per r > 0
+.\04_methods\fw_varianti_vincoli_colori.md:315:  altri r: +infinito
+.\04_methods\fw_varianti_vincoli_colori.md:319:  altri r: +infinito
+.\04_methods\fw_varianti_vincoli_colori.md:322:  d_ij^{0,r} = +infinito per ogni r
+.\04_methods\fw_varianti_vincoli_colori.md:375:## Warning
+.\04_methods\fw_varianti_vincoli_colori.md:379:- Esistenza: non usare pesi.
+.\04_methods\fw_base_bottom_up.md:36:  w_ij = +infinito
+.\04_methods\dynamic_programming.md:4:status: draft
+.\04_methods\dynamic_programming.md:13:> [!Warning]
+.\04_methods\dp_lics_e_varianti.md:123:Warning:
+.\04_methods\dp_lcs_vincoli_colore.md:111:> [!Warning]
+.\04_methods\dp_lcs_vincoli_colore.md:122:## Caso base: quando usare 0, false, -infinito
+.\04_methods\dp_lcs_lunghezza_esatta_booleana.md:3:status: complete_with_warning
+.\04_methods\dp_lcs_lunghezza_esatta_booleana.md:16:> [!Warning]
+.\04_methods\dp_lcs_due_rossi_consecutivi.md:63:c_ij1 = -infinito
+.\04_methods\dp_lcs_due_rossi_consecutivi.md:64:c_ij0 = -infinito
+.\04_methods\dp_lcs_due_rossi_consecutivi.md:76:c_ij1 = max{ c_hk1 != -infinito | 1 <= h < i, 1 <= k < j } + 1
+.\04_methods\dp_lcs_due_rossi_consecutivi.md:82:c_ij1 = -infinito
+.\04_methods\dp_lcs_due_rossi_consecutivi.md:89:  max{ c_hk0 != -infinito | 1 <= h < i, 1 <= k < j, col(x_h) = red } + 1,
+.\04_methods\dp_lcs_due_rossi_consecutivi.md:90:  max{ c_hk1 != -infinito | 1 <= h < i, 1 <= k < j } + 1
+.\04_methods\dp_lcs_due_rossi_consecutivi.md:97:c_ij1 = -infinito
+.\04_methods\dp_lcs_due_rossi_consecutivi.md:112:c_ij0 = max{ c_hk0 != -infinito | 1 <= h < i, 1 <= k < j, col(x_h) != red } + 1
+.\04_methods\dp_lcs_due_rossi_consecutivi.md:126:c_ij0 = max{ c_hk0 != -infinito | 1 <= h < i, 1 <= k < j } + 1
+.\04_methods\dp_lcs_due_rossi_consecutivi.md:141:Se `OPT = -infinito`, non esiste una sottosequenza comune con due rossi consecutivi.
+.\04_methods\dp_lcs_due_rossi_consecutivi.md:162:- Non usare `0` per `c_ij1` e `c_ij0` quando `x_i != y_j`: qui lo stato e inesistente e va rappresentato con `-infinito`.
+.\04_methods\metodo_riduzione_3sat_clique.md:4:status: draft
+.\04_methods\metodo_riduzione_3sat_clique.md:65:> [!Warning]
 .\04_methods\metodo_riduzione_clique_vertex_cover.md:41:> [!Warning]
-.\04_methods\metodo_programmazione_dinamica_lcs_vincoli_colori.md:83:> [!Warning]
-.\04_methods\metodo_programmazione_dinamica_lcs_vincoli_colori.md:118:> [!Warning]
+.\04_methods\metodo_teorema_arco_sicuro.md:4:status: draft
+.\04_methods\metodo_teorema_arco_sicuro.md:90:> [!Warning]
+.\04_methods\metodo_equazioni_ricorrenza_chiusura_transitiva.md:4:status: draft
+.\04_methods\metodo_equazioni_ricorrenza_chiusura_transitiva.md:64:> [!Warning]
+.\04_methods\metodo_dp_cammini_con_parita.md:44:> [!Warning]
+.\04_methods\metodo_ricostruzione_soluzione_dp.md:59:> [!Warning]
+.\04_methods\metodo_lics.md:3:status: complete_with_warnings
+.\04_methods\metodo_lics.md:55:> [!Warning]
+.\04_methods\metodo_lcs_alternanza_pari_dispari.md:3:status: draft
+.\04_methods\metodo_lcs_alternanza_pari_dispari.md:17:> [!Warning]
+.\04_methods\metodo_lcs_alternanza_pari_dispari.md:18:> Nota draft da fonte manoscritta. Per la variante ufficiale "dispari in posizioni dispari e pari in posizioni pari" usare [[dp_lcs_dispari_pari_alternati]].
+.\04_methods\metodo_lcs_alternanza_pari_dispari.md:38:> [!Warning]
+.\04_methods\metodo_lcs_alternanza_pari_dispari.md:39:> La ricorrenza del manoscritto e incompleta. Questa nota e volutamente draft e non va usata come formula definitiva.
+.\04_methods\metodo_programmazione_dinamica_zaino_01.md:78:> [!Warning]
+.\07_solved_examples\by_topic\hateville_senza_due_rossi_consecutivi_SRC_EXTRA_001.md:4:status: draft
+.\07_solved_examples\by_topic\hateville_senza_due_rossi_consecutivi_SRC_EXTRA_001.md:22:> [!Warning]
 .\07_solved_examples\by_topic\lcs_crescente_esempio_SRC_EXTRA_001.md:4:status: complete_with_warnings
 .\07_solved_examples\by_topic\lcs_crescente_esempio_SRC_EXTRA_001.md:40:> [!Warning]
+.\04_methods\metodo_dp_cammini_colori_precedenze.md:75:> [!Warning]
+.\04_methods\mst_prim.md:52:        key[u] <- +infinito
+.\04_methods\metodo_kruskal_mst.md:4:status: draft
+.\04_methods\metodo_kruskal_mst.md:63:> [!Warning]
+.\07_solved_examples\by_topic\lcs_alternanza_pari_dispari_SRC_EXTRA_001.md:4:status: draft
+.\07_solved_examples\by_topic\lcs_alternanza_pari_dispari_SRC_EXTRA_001.md:12:> [!Warning]
+.\07_solved_examples\by_topic\lcs_alternanza_pari_dispari_SRC_EXTRA_001.md:13:> Esempio draft da fonte manoscritta. Per la variante ufficiale "dispari in posizioni dispari e pari in posizioni pari" usare [[lcs_dispari_pari_alternati_schema]] e [[dp_lcs_dispari_pari_alternati]].
+.\07_solved_examples\by_topic\lcs_alternanza_pari_dispari_SRC_EXTRA_001.md:27:> [!Warning]
+.\07_solved_examples\by_topic\lcs_alternanza_pari_dispari_SRC_EXTRA_001.md:31:> Mantenere come confronto storico; non usare come fonte primaria RAG.
+.\04_methods\metodo_dp_cammini_colori_parita.md:113:> [!Warning]
+.\04_methods\metodo_dp_cammini_colori_parita.md:116:> [!Warning]
+.\04_methods\metodo_dp_cammini_colori_parita.md:119:> [!Warning]
+.\04_methods\metodo_programmazione_dinamica_lcs_vincolo_ingombro.md:47:> [!Warning]
+.\04_methods\metodo_programmazione_dinamica_lcs_vincolo_ingombro.md:78:> La forma con massimo a tre termini e prudente: anche quando c'e match, l'ottimo puo non usare quel simbolo.
+.\04_methods\metodo_hateville_vincoli_colori.md:3:status: draft
+.\04_methods\metodo_hateville_vincoli_colori.md:37:> [!Warning]
+.\04_methods\metodo_dp_cammini_colori_conteggi.md:64:> [!Warning]
+.\04_methods\recurrence_relations.md:4:status: draft
+.\04_methods\recurrence_relations.md:13:> [!Warning]
+.\04_methods\metodo_greedy_max_rado.md:4:status: draft
+.\04_methods\metodo_greedy_max_rado.md:75:> [!Warning]
+.\04_methods\metodo_dimostrazione_matroide_grafico.md:4:status: draft
+.\04_methods\metodo_dimostrazione_matroide_grafico.md:66:> [!Warning]
+.\03_exercise_catalog\exercises\exam_2025_02_11_p2_completo_recupero_e02.md:106:> [!Warning]
+.\04_methods\metodo_programmazione_dinamica_lcs_vincoli_colori.md:149:> [!Warning]
+.\04_methods\metodo_programmazione_dinamica_lcs_vincoli_colori.md:184:> [!Warning]
+.\04_methods\metodo_dimostrazione_greedy_matroidi.md:33:> [!Warning]
+.\07_solved_examples\by_topic\lcs_tutte_parita_rossi_SRC_EXTRA_001.md:4:status: draft
+.\07_solved_examples\by_topic\lcs_tutte_parita_rossi_SRC_EXTRA_001.md:32:> [!Warning]
 .\07_solved_examples\by_topic\lds_esempio_SRC_EXTRA_001.md:4:status: complete_with_warnings
 .\07_solved_examples\by_topic\lds_esempio_SRC_EXTRA_001.md:34:> [!Warning]
-.\07_solved_examples\by_topic\lcs_tutte_parita_rossi_SRC_EXTRA_001.md:32:> [!Warning]
-.\07_solved_examples\by_topic\hateville_senza_due_rossi_consecutivi_SRC_EXTRA_001.md:22:> [!Warning]
-.\07_solved_examples\by_topic\lcs_alternanza_pari_dispari_SRC_EXTRA_001.md:24:> [!Warning]
-.\03_exercise_catalog\exercises\exam_2025_02_11_p2_completo_recupero_e02.md:106:> [!Warning]
-.\04_methods\metodo_riduzione_3sat_clique.md:65:> [!Warning]
-.\03_exercise_catalog\exercises\exam_2026_01_12_e04.md:59:> [!Warning]
+.\07_solved_examples\by_topic\lics_SRC_EXTRA_001.md:4:status: complete_with_warnings
+.\03_exercise_catalog\exercises\exam_2025_06_09_p1_e01.md:65:> [!Warning]
 .\07_solved_examples\by_topic\lcs_tutte_almeno_3_rossi_SRC_EXTRA_001.md:4:status: complete_with_warnings
 .\07_solved_examples\by_topic\lcs_tutte_almeno_3_rossi_SRC_EXTRA_001.md:34:> [!Warning]
+.\04_methods\metodo_dimostrare_matroide_foreste.md:34:> [!Warning]
+.\04_methods\metodo_dimostrare_np_completezza.md:4:status: draft
+.\04_methods\metodo_dimostrare_np_completezza.md:60:> [!Warning]
+.\04_methods\metodo_dijkstra.md:4:status: draft
+.\04_methods\metodo_dijkstra.md:58:> [!Warning]
+.\03_exercise_catalog\exercises\exam_2025_06_09_p1_e02.md:76:> [!Warning]
+.\03_exercise_catalog\exercises\exam_2025_07_03_p1_e01.md:55:> [!Warning]
+.\03_exercise_catalog\exercises\exam_2025_07_03_p1_e02.md:51:> [!Warning]
+.\03_exercise_catalog\exercises\exam_2025_09_17_p2_e02.md:47:> [!Warning]
+.\03_exercise_catalog\exercises\exam_2025_11_10_p2_e04.md:44:> [!Warning]
 .\03_exercise_catalog\exercises\exam_2026_01_12_e02.md:47:> [!Warning]
 .\03_exercise_catalog\exercises\exam_2026_01_12_e01.md:49:> [!Warning]
-.\AI Chat during Exam\Final Prompt.md:257:3. evita domande con formulazione ambigua;
-.\03_exercise_catalog\exercises\exam_2025_09_17_p2_e04.md:64:> [!WARNING]
-.\AI Chat during Exam\prompt_sections\ultima_facciata_teoria_completamento.md:44:3. evita domande con formulazione ambigua;
-.\03_exercise_catalog\exercises\exam_2025_11_10_p2_e04.md:44:> [!Warning]
-.\03_exercise_catalog\exercises\exam_2025_09_17_p2_e02.md:47:> [!Warning]
+.\03_exercise_catalog\exercises\exam_2026_01_12_e04.md:59:> [!Warning]
