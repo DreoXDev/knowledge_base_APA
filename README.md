@@ -20,7 +20,7 @@ La repo contiene:
 ## Struttura
 
 | Cartella | Contenuto |
-|---|---|
+| --- | --- |
 | `01_sources/` | PDF originali, appelli, appunti raw e inventario fonti |
 | `02_transcriptions/` | Trascrizioni lavorate di esami, appunti e materiali extra |
 | `03_exercise_catalog/` | Catalogo esercizi per appello, topic e difficolta |

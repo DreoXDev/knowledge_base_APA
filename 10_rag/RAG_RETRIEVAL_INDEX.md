@@ -7,7 +7,7 @@ Usa questa tabella per associare una query o un pattern d'esame ai file piu rile
 ## Index
 
 | Query / Pattern | Keyword utili | File principali |
-|---|---|---|
+| --- | --- | --- |
 | LCS standard | LCS, sottosequenza comune, prefissi, `c_{i,j}`, Print-LCS | `10_rag/RAG_METHOD_CARDS/dp_lcs_base.md`, `04_methods/dp_lcs_base.md`, `07_solved_examples/dp/lcs_base_6ott25.md` |
 | LCS con vincoli colore | al massimo k rossi, esattamente k rossi, colori, `c_{i,j,r}` | `10_rag/RAG_METHOD_CARDS/dp_lcs_colori.md`, `04_methods/dp_lcs_vincoli_colore.md`, `07_solved_examples/dp/lcs_al_massimo_3_rossi_SRC_LECTURE_001.md` |
 | LCS con due rossi consecutivi | due rossi consecutivi, almeno due rossi, stato booleano, massimo globale | `10_rag/RAG_METHOD_CARDS/dp_lcs_varianti.md`, `04_methods/dp_lcs_due_rossi_consecutivi.md`, `07_solved_examples/dp/lcs_due_rossi_consecutivi_schema.md` |

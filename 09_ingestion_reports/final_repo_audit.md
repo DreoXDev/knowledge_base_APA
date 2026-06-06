@@ -47,7 +47,7 @@
 ## Query RAG testate
 
 | Query | Retrieval index | Pattern map | File collegato | Esito |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | LCS con due rossi consecutivi | presente | presente | `04_methods/dp_lcs_due_rossi_consecutivi.md` | OK |
 | LCS tre sequenze | presente | presente | `04_methods/dp_lcs_tre_sequenze.md` | OK |
 | LCS dispari pari | presente | presente | `04_methods/dp_lcs_dispari_pari_alternati.md` | OK |
