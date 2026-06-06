@@ -10,8 +10,19 @@ tags:
 
 # Metodo - Programmazione dinamica
 
+> [!Warning]
+> File generale non consigliato come fonte primaria RAG.
+> Per risposte d'esame usare prima le method card in `10_rag/RAG_METHOD_CARDS/`.
+
 > [!Todo]
 > Completare con segnali di riconoscimento, stato, transizioni e casi base.
+
+## Fonti RAG consigliate
+
+- `10_rag/RAG_METHOD_CARDS/dp_lcs_colori.md`
+- `10_rag/RAG_METHOD_CARDS/dp_lcs_ingombro.md`
+- `10_rag/RAG_METHOD_CARDS/dp_grafi_stato_esteso.md`
+- `10_rag/RAG_METHOD_CARDS/zaino_01_varianti.md`
 
 ## Esercizi collegati
 

@@ -1,35 +1,23 @@
-# TODO
+# TODO RAG
 
-## Stato
+## Problemi bloccanti per RAG
 
-La fase di ingestione delle fonti note e completata. Questo file contiene solo miglioramenti futuri, verifiche manuali e completamenti non bloccanti.
+- [ ] Verificare manualmente i warning delle fonti manoscritte `SRC-NOTE-001` e `SRC-EXTRA-001` prima di usarli come fonte primaria.
+- [ ] Completare o confermare gli esempi by-exam Parte I ancora catalogati ma non trasformati in soluzione completa.
+- [ ] Rieseguire `python scripts/check_wikilinks.py` dopo ogni modifica strutturale del layer `10_rag/`.
 
-## Verifiche manuali da fonti manoscritte
+## Miglioramenti utili ma non essenziali
 
-- [ ] Verificare manualmente la ricorrenza di Hateville senza due rossi consecutivi in `SRC-EXTRA-001`.
-- [ ] Verificare la convenzione di parita dei rossi nelle pagine 8-10 di `SRC-EXTRA-001`.
-- [ ] Verificare e completare LCS con alternanza pari/dispari usando `SRC-NOTE-001`.
-- [ ] Verificare le formule marcate come `Lettura incerta` in [[note_analisi_e_progettazione_algoritmi]].
-- [ ] Verificare le pagine 51-65 di `SRC-NOTE-001` se servono a risolvere appelli specifici.
+- [ ] Convertire gradualmente gli esempi Parte I piu ricorrenti in soluzioni complete in `07_solved_examples/by_exam/`.
+- [ ] Ridurre i doppioni tra metodi `dp_*` e `metodo_*` solo dopo un ciclo di uso reale della RAG.
+- [ ] Aggiungere esempi numerici solo quando derivano chiaramente da appelli, note o materiali gia ingestiti.
+- [ ] Integrare le card RAG con ulteriori query probabili osservate durante simulazioni d'esame.
 
-## Esempi svolti Parte I da completare
+## Materiale da non usare come fonte primaria durante l'esame
 
-- [ ] Completare esempio by-exam per [[exam_2025_06_09_p1_e01]].
-- [ ] Completare esempio by-exam per [[exam_2025_06_09_p1_e02]].
-- [ ] Completare esempio by-exam per [[exam_2025_07_03_p1_e01]].
-- [ ] Completare esempio by-exam per [[exam_2025_07_03_p1_e02]].
-- [ ] Completare esempio by-exam per [[exam_2025_11_10_p1_tema_a_e01]].
-- [ ] Completare esempio by-exam per [[exam_2025_11_10_p1_tema_a_e02]].
-- [ ] Completare esempio by-exam per [[exam_2025_02_11_p1_completo_e01]].
-- [ ] Completare esempio by-exam per [[exam_2025_02_11_p1_completo_e02]].
-- [ ] Completare esempio by-exam per [[exam_2025_02_11_p1_recupero_e02]].
-- [ ] Completare esempio by-exam per [[exam_2025_01_13_p1_e01]].
-- [ ] Completare esempio by-exam per [[exam_2025_01_13_p1_e02]].
-- [ ] Completare esempio by-exam per [[exam_2025_09_17_p1_e02]].
-
-## Consolidamento futuro
-
-- [ ] Convertire gradualmente gli esempi catalogati in soluzioni complete quando il testo e non ambiguo.
-- [ ] Ridurre eventuali doppioni tra metodi `dp_*` e `metodo_*` dopo un ciclo di studio reale.
-- [ ] Aggiungere esercizi svolti numerici solo quando derivano chiaramente da fonti o appelli.
-- [ ] Rieseguire `python scripts/check_wikilinks.py` prima di ogni commit finale.
+- `04_methods/dynamic_programming.md`: file generale `draft`; usare prima le card DP in `10_rag/RAG_METHOD_CARDS/`.
+- `04_methods/graph_algorithms.md`: file generale `draft`; usare prima le card grafi in `10_rag/RAG_METHOD_CARDS/`.
+- `04_methods/recurrence_relations.md`: `draft`; usare `10_rag/RAG_METHOD_CARDS/ricorrenze.md` e verificare se serve.
+- `04_methods/complexity_analysis.md`, `04_methods/correctness_proofs.md`, `04_methods/divide_et_impera.md`: scaffold generali, non sorgenti primarie RAG.
+- `07_solved_examples/by_topic/hateville_senza_due_rossi_consecutivi_SRC_EXTRA_001.md`: contiene warning, usare solo con prudenza.
+- `07_solved_examples/by_topic/lcs_alternanza_pari_dispari_SRC_EXTRA_001.md`: `draft` con warning, non usare come esempio verificato.

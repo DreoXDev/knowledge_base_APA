@@ -4,8 +4,9 @@ Knowledge base Obsidian per preparare l'esame di Analisi e Progettazione di Algo
 
 ## Punto di ingresso
 
-La KB e pronta per lo studio guidato a partire da:
+La KB e pronta per due usi distinti:
 
+- `10_rag/RAG_ENTRYPOINT.md` per uso RAG durante l'esame.
 - [[STUDY_DASHBOARD]] per il percorso di ripasso.
 - [[AI_USAGE_GUIDE]] per usare la repo come contesto AI senza inventare formule o soluzioni.
 
@@ -33,7 +34,19 @@ La base di conoscenza serve a riconoscere rapidamente:
 - `07_solved_examples/`: esempi svolti.
 - `08_review/`: materiale di ripasso.
 - `09_ingestion_reports/`: report intermedi generati dall'analisi dei PDF e usati da Codex per aggiornare la knowledge base.
+- `10_rag/`: layer compatto per retrieval, prompt, policy e method card da esame.
 - `templates/`: template Markdown.
+
+## Uso RAG da esame
+
+Per usare la repo come contesto AI durante l'esame, partire da:
+
+- `10_rag/RAG_ENTRYPOINT.md`
+- `10_rag/RAG_RETRIEVAL_INDEX.md`
+- `10_rag/RAG_SYSTEM_PROMPT.md`
+- `10_rag/RAG_MOBILE_PROMPT.md`
+
+La cartella `10_rag/` contiene materiale compatto e controllato per retrieval. Le cartelle precedenti restano la base estesa, ma non sono il punto di ingresso primario per risposte da copiare in esame.
 
 ## Workflow PDF
 
@@ -50,4 +63,5 @@ Tutte le fonti note sono state ingestite o applicate. Le fonti manoscritte `SRC-
 ## Regola guida
 
 > [!Summary]
-> Appello -> Esercizio -> Pattern -> Metodo -> Teoria -> Esempio svolto -> Errori comuni.
+> RAG: Traccia -> Retrieval index -> Method card -> Esempio svolto -> Risposta breve.
+> Studio: Appello -> Esercizio -> Pattern -> Metodo -> Teoria -> Esempio svolto -> Errori comuni.
