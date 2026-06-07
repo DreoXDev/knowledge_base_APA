@@ -9,6 +9,52 @@ Durante l'esame, la risposta deve essere pronta da copiare a mano.
 - Non scrivere codice eseguibile se basta pseudocodice.
 - Non usare markdown pesante nella risposta finale.
 - Usare sezioni brevi e fisse.
+- Se la traccia e numerata, rispettare l'ordine numerato della traccia.
+- Usare `10_rag/RAG_ANSWER_WRITING_TEMPLATES.md` per la forma della risposta.
+
+## Fonti di stile
+
+Gli appunti della compagna (`SRC-NOTE-001`) possono essere usati solo per imitare la forma di risposta:
+
+- intestazioni;
+- ordine logico;
+- micro-giustificazioni;
+- modo di separare casi base e passo ricorsivo.
+
+Non usare gli appunti della compagna per sovrascrivere una formula validata da PDF ufficiali, appelli, method card o metodi consolidati.
+
+## Regola zero: rileggi la consegna
+
+Prima di scrivere, identifica internamente:
+
+1. tipo di output richiesto: valore, TRUE/FALSE, sequenza/sottoinsieme, completamento, dimostrazione;
+2. quantificatore del vincolo: almeno, al massimo, esattamente, presenza, assenza;
+3. oggetto del vincolo: simboli, archi, vertici, colori, pesi, coppie consecutive, numero di elementi;
+4. forma richiesta: coefficienti, caso base, passo ricorsivo, soluzione finale, bottom-up, ricostruzione, complessita, teoria.
+
+Non stampare questa rilettura nella risposta finale, salvo richiesta esplicita.
+
+## Stile DP da foglio
+
+Per esercizi DP su sequenze, quando la traccia non impone un ordine diverso, usare:
+
+```text
+ISTANZA
+SOLUZIONE
+SOTTOPROBLEMA
+Def. variabile
+SOLUZIONE DEL PROBLEMA
+CASO BASE
+PASSO RICORSIVO
+```
+
+Regole:
+
+- definire prima i prefissi e i domini degli indici;
+- scrivere il coefficiente come soluzione del sottoproblema;
+- scrivere sempre la soluzione finale come riga autonoma;
+- aggiungere micro-giustificazioni solo dove aiutano e non rubano spazio;
+- non introdurre flag, contatori o dimensioni non richieste dalla consegna.
 
 ## Formato standard per DP
 
@@ -57,6 +103,13 @@ Per varianti LCS con vincoli sulla posizione nella sottosequenza:
 2. Non confonderla con l'indice in `X` o `Y`.
 3. Usare la lunghezza precedente per capire la posizione del nuovo elemento.
 4. Indicare se la sequenza vuota e ammessa.
+
+## Stati impossibili
+
+- Se il problema e di massimo e uno stato e impossibile, usare `-infinito`.
+- Se il problema e di minimo e uno stato e impossibile, usare `+infinito`.
+- Se il problema e booleano e uno stato e impossibile, usare `FALSE`.
+- Non usare `-infinito` se il vincolo e "al massimo" e la soluzione vuota e ammessa.
 
 ## Formato standard per grafi
 
@@ -136,3 +189,13 @@ Quando la traccia chiede la NP-completezza:
    - Costruire la trasformazione polinomiale.
    - Dimostrare la correttezza in **entrambi i versi** ($\implies$ e $\impliedby$).
 4. **Concludere**: Usare la formulazione standard di chiusura.
+
+## Completamenti testuali
+
+Per frasi da completare:
+
+- scrivere la frase completa, non solo le parole mancanti;
+- conservare il linguaggio della traccia;
+- se sono richiesti insiemi, dare insieme e cardinalita;
+- se sono richiesti valori, dare il valore da inserire;
+- non aggiungere teoria non richiesta.

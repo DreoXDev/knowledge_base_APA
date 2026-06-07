@@ -4,6 +4,27 @@
 
 Questo file serve a riconoscere rapidamente il tipo di esercizio e scegliere la method card corretta. Ogni path nella sezione `File` e stato verificato rispetto ai file presenti nella repo.
 
+## Answer template
+
+Per la forma della risposta da scrivere sul foglio, usare sempre `10_rag/RAG_ANSWER_WRITING_TEMPLATES.md` insieme alla method card del pattern. Il template di scrittura decide ordine, intestazioni e livello di dettaglio; la method card decide formule e correttezza.
+
+Mappa rapida:
+
+| Macro-pattern | Template di scrittura |
+| --- | --- |
+| LCS standard | `RAG_ANSWER_WRITING_TEMPLATES.md#template-esercizio-1---dp-su-sequenze` |
+| LCS variante con stato extra | `RAG_ANSWER_WRITING_TEMPLATES.md#template-esercizio-1---dp-su-sequenze` |
+| LICS | `RAG_ANSWER_WRITING_TEMPLATES.md#template-esercizio-1---dp-su-sequenze` |
+| Knapsack | `RAG_ANSWER_WRITING_TEMPLATES.md#template-esercizio-1---dp-su-sequenze` |
+| Floyd-Warshall con stato extra | `RAG_ANSWER_WRITING_TEMPLATES.md#template-esercizio-2---dp-su-grafi` |
+| DP su grafi con vincoli | `RAG_ANSWER_WRITING_TEMPLATES.md#template-esercizio-2---dp-su-grafi` |
+| Greedy / Matroidi | `RAG_ANSWER_WRITING_TEMPLATES.md#template-teoria` |
+| MST / Prim / Kruskal numerici | `RAG_ANSWER_WRITING_TEMPLATES.md#disegni-e-parti-grafiche` e method card step-by-step |
+| Dijkstra numerico | `RAG_ANSWER_WRITING_TEMPLATES.md#disegni-e-parti-grafiche` e method card step-by-step |
+| NP-completezza | `RAG_ANSWER_WRITING_TEMPLATES.md#template-teoria` |
+| Riduzioni classiche | `RAG_ANSWER_WRITING_TEMPLATES.md#template-teoria` |
+| Completamenti testuali | `RAG_ANSWER_WRITING_TEMPLATES.md#template-completamento-testuale` |
+
 ## Pattern: LCS standard
 
 Trigger:

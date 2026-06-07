@@ -4,10 +4,16 @@
 
 Usa questa tabella per associare una query o un pattern d'esame ai file piu rilevanti. Ogni entry punta a pochi file principali per ridurre rumore nel retrieval.
 
+## Entrypoint stile risposta
+
+- `10_rag/RAG_ANSWER_WRITING_TEMPLATES.md`: usare quando serve sapere come formattare la risposta da esame.
+- Il file dei template di scrittura e una fonte di stile, non di ground truth matematica.
+
 ## Index
 
 | Query / Pattern | Keyword utili | File principali |
 | --- | --- | --- |
+| Stile risposta da esame | istanza, soluzione, sottoproblema, caso base, passo ricorsivo, completamento testuale | `10_rag/RAG_ANSWER_WRITING_TEMPLATES.md`, `10_rag/RAG_EXAM_ANSWER_STYLE.md`, `09_ingestion_reports/compagna_answer_writing_style_ingestion.md` |
 | LCS standard | LCS, sottosequenza comune, prefissi, `c_{i,j}`, Print-LCS | `10_rag/RAG_METHOD_CARDS/dp_lcs_base.md`, `04_methods/dp_lcs_base.md`, `07_solved_examples/dp/lcs_base_6ott25.md` |
 | LCS con vincoli colore | al massimo k rossi, esattamente k rossi, colori, `c_{i,j,r}` | `10_rag/RAG_METHOD_CARDS/dp_lcs_colori.md`, `04_methods/dp_lcs_vincoli_colore.md`, `07_solved_examples/dp/lcs_al_massimo_3_rossi_SRC_LECTURE_001.md` |
 | LCS con due rossi consecutivi | due rossi consecutivi, almeno due rossi, stato booleano, massimo globale | `10_rag/RAG_METHOD_CARDS/dp_lcs_varianti.md`, `04_methods/dp_lcs_due_rossi_consecutivi.md`, `07_solved_examples/dp/lcs_due_rossi_consecutivi_schema.md` |

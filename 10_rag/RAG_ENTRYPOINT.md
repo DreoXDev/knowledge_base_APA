@@ -10,6 +10,7 @@ Questo e il punto di ingresso primario per usare la knowledge base come contesto
 4. La method card piu vicina in `10_rag/RAG_METHOD_CARDS/`
 5. Eventuali esempi svolti collegati in `07_solved_examples/`
 6. Il formato risposta in `10_rag/RAG_EXAM_ANSWER_STYLE.md`
+7. I template di scrittura in `10_rag/RAG_ANSWER_WRITING_TEMPLATES.md`
 
 ## Uso rapido
 
@@ -24,3 +25,7 @@ Questo e il punto di ingresso primario per usare la knowledge base come contesto
 ## Regola d'esame
 
 La risposta deve essere breve, copiabile e basata sui file recuperati. Se manca un metodo specifico, usare il template piu vicino e trattare la risposta come ricostruzione prudente da pattern.
+
+## Stile di risposta
+
+Per decidere come scrivere sul foglio, usare `10_rag/RAG_ANSWER_WRITING_TEMPLATES.md`. Questo file definisce la forma della risposta, non la correttezza matematica delle formule.
