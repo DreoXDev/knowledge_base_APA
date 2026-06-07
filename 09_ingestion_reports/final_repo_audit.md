@@ -44,6 +44,21 @@
 - La copia PDF `kruskal+matrodi-copia.pdf` e conservata perche non identica all'originale omonimo.
 - I duplicati di nome rilevati da `scripts/check_wikilinks.py` sono dichiarati e non bloccanti: i link RAG usano path espliciti.
 
+## Fix applicato - LCS con ingombro complessivo <= W
+
+E stato aggiunto un guardrail per evitare la confusione tra:
+
+- vincolo di budget totale: somma `w(a) <= W`;
+- vincolo di monotonia: `w(prev) <= w(curr)`.
+
+Il caso LCS con ingombro complessivo punta alla method card:
+
+```text
+10_rag/RAG_METHOD_CARDS/dp_lcs_ingombro.md
+```
+
+La risposta attesa usa `C[i,j,p]`, consuma budget con `p-w(a)` e restituisce `C[m,n,W]`.
+
 ## Query RAG testate
 
 | Query | Retrieval index | Pattern map | File collegato | Esito |

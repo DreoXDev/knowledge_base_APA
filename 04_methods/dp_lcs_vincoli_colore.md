@@ -14,6 +14,26 @@ tags: [apa, metodo, programmazione-dinamica, lcs, colori]
 - `SRC-EXTRA-001`: esercizi/appunti extra, fonte precedente.
 - `SRC-LECTURE-001`: PDF ufficiale `lcs_atmost_red-13ott25.pdf`, conferma/corregge la variante "al massimo k rossi".
 
+## Regola: colore richiesto vs colori presenti
+
+Se la traccia definisce `col:S->{R,B,N}` ma il vincolo riguarda solo il rosso, lo stato deve ricordare solo il requisito sul rosso.
+
+Indicatore corretto:
+
+```text
+rho(a)=1 se a e rosso
+rho(a)=0 altrimenti
+```
+
+oppure, esplicitando il codominio:
+
+```text
+rho(a)=1 se a e rosso
+rho(a)=0 se a e blu o nero
+```
+
+Non scrivere solo `rho(a)=0 se a e blu` quando il nero e ammesso. Blu e nero sono entrambi non-rossi per questo vincolo. Non aggiungere contatori/flag separati per blu o nero salvo richiesta esplicita.
+
 ## Variante ufficiale del professore: al massimo K rossi
 
 Fonte primaria per tracce del tipo `LCS(X,Y,3)` o "al massimo 3 elementi rossi".

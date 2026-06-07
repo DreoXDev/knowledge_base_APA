@@ -30,7 +30,8 @@ Prima di scrivere, identifica internamente:
 1. tipo di output richiesto: valore, TRUE/FALSE, sequenza/sottoinsieme, completamento, dimostrazione;
 2. quantificatore del vincolo: almeno, al massimo, esattamente, presenza, assenza;
 3. oggetto del vincolo: simboli, archi, vertici, colori, pesi, coppie consecutive, numero di elementi;
-4. forma richiesta: coefficienti, caso base, passo ricorsivo, soluzione finale, bottom-up, ricostruzione, complessita, teoria.
+4. forma richiesta: coefficienti, caso base, passo ricorsivo, soluzione finale, bottom-up, ricostruzione, complessita, teoria;
+5. se la traccia definisce una funzione di colore/categoria, tutto il codominio.
 
 Non stampare questa rilettura nella risposta finale, salvo richiesta esplicita.
 
@@ -55,6 +56,12 @@ Regole:
 - scrivere sempre la soluzione finale come riga autonoma;
 - aggiungere micro-giustificazioni solo dove aiutano e non rubano spazio;
 - non introdurre flag, contatori o dimensioni non richieste dalla consegna.
+- per indicatori di presenza, scrivere `1` per la categoria richiesta e `0 altrimenti`.
+- per vincoli di somma totale/budget, introdurre un indice di budget e consumarlo nel ramo "prendo".
+
+Esempio: se `col:S->{R,B,N}` e il vincolo e presenza del rosso, scrivere `rho(a)=1 se a e rosso, rho(a)=0 altrimenti`, cioe se a e blu o nero.
+
+Esempio: se la traccia dice "ingombro complessivo <= W", usare `C[i,j,p]` e il ramo `p-w(a)`. Non usare `w(prev)<=w(curr)` salvo monotonia esplicita.
 
 ## Formato standard per DP
 

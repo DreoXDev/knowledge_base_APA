@@ -9,6 +9,24 @@ tags: [apa, metodo, programmazione-dinamica, lcs, ingombro]
 
 Fonte: [[source_inventory]] / SRC-NOTE-001, pagina 7.
 
+## Regola anti-confusione
+
+La frase "ingombro complessivo <= W" indica una somma totale dei pesi dei simboli scelti. Non indica che i pesi debbano essere crescenti o non decrescenti.
+
+Quindi il metodo corretto usa un indice di budget:
+
+```text
+C[i,j,k]
+```
+
+Non usare una ricorrenza tipo LICS con condizione locale:
+
+```text
+w(prev) <= w(curr)
+```
+
+a meno che la traccia chieda esplicitamente una sottosequenza crescente/non decrescente rispetto al peso.
+
 ## Coefficiente
 
 $$
@@ -52,4 +70,3 @@ $$
 - [[metodo_programmazione_dinamica_lcs_vincolo_ingombro]]
 - [[dp_lcs_base]]
 - [[dp_knapsack_colori]]
-

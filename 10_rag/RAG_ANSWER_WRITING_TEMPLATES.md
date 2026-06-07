@@ -88,6 +88,29 @@ Regole per i coefficienti:
 - Ogni parametro aggiuntivo deve essere richiesto dalla consegna.
 - Per "presenza del rosso" usa un solo flag/parametro per il rosso.
 - Non aggiungere un flag blu solo perche il blu compare nell'alfabeto.
+- Se la traccia elenca piu colori/categorie, l'indicatore deve coprire anche le categorie irrilevanti con il caso `altrimenti`.
+
+### Indicatore per vincolo di presenza
+
+Se il vincolo e "almeno un elemento con proprieta P", definire:
+
+```text
+chi_P(a)=1 se a soddisfa P, chi_P(a)=0 altrimenti.
+```
+
+Esempio con colori:
+
+```text
+rho(a)=1 se a e rosso, rho(a)=0 altrimenti.
+```
+
+Se la traccia elenca esplicitamente le alternative:
+
+```text
+rho(a)=1 se a e rosso, rho(a)=0 se a e blu o nero.
+```
+
+Non scrivere solo `rho(a)=0 se a e blu` se il codominio contiene anche `N`.
 
 Regole per stati impossibili:
 
@@ -132,6 +155,49 @@ Regole:
 - Cammino massimo: usa `max`.
 - Se c'e un budget, dividilo tra i due sottocammini quando passi da `i` a `k` e da `k` a `j`.
 - Se il vincolo riguarda coppie consecutive, controlla dove nasce la coppia nella concatenazione.
+
+## Template - LCS con budget/ingombro complessivo <= W
+
+### Coefficienti
+
+```text
+Definisco C[i,j,p] = lunghezza massima di una sottosequenza comune tra X[1..i]
+e Y[1..j] con ingombro complessivo al piu p.
+
+Indici: i=0,...,m; j=0,...,n; p=0,...,W.
+```
+
+### Caso base
+
+```text
+C[0,j,p]=0 per ogni j,p
+C[i,0,p]=0 per ogni i,p
+```
+
+### Passo ricorsivo
+
+```text
+Se X[i] != Y[j]:
+  C[i,j,p] = max(C[i-1,j,p], C[i,j-1,p])
+
+Se X[i] = Y[j] = a:
+  C[i,j,p] = max(C[i-1,j,p], C[i,j-1,p])
+  se p >= w(a):
+      C[i,j,p] = max(C[i,j,p], 1 + C[i-1,j-1,p-w(a)])
+```
+
+### Soluzione
+
+```text
+C[m,n,W]
+```
+
+Regola anti-errore:
+
+```text
+"ingombro complessivo <= W" = somma dei pesi <= W.
+Non usare w(prev)<=w(curr) salvo richiesta esplicita di monotonia/crescenza.
+```
 
 ## Template bottom-up
 

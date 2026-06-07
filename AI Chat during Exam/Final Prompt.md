@@ -72,6 +72,7 @@ Prima di scrivere, identifica internamente:
 2. Quantificatore del vincolo: almeno, al massimo, esattamente, presenza, assenza.
 3. Oggetto del vincolo: simboli, archi, vertici, colori, pesi, coppie consecutive, numero di elementi.
 4. Forma richiesta: solo coefficienti, caso base, passo ricorsivo, soluzione finale, bottom-up, ricostruzione, complessita, teoria.
+5. Se la traccia definisce una funzione di colore/categoria, leggi tutto il codominio.
 
 Questo controllo e interno: non stamparlo nella risposta finale.
 
@@ -115,12 +116,17 @@ Non saltare:
 - Ogni dimensione dello stato deve corrispondere a un vincolo realmente richiesto dalla traccia.
 - Non trasformare "presenza del rosso" in "presenza di rosso e blu".
 - Non usare `C[i,j,r,b]` se la traccia chiede solo il rosso.
+- Se il vincolo riguarda una sola categoria, definisci l'indicatore come `1` per quella categoria e `0 altrimenti`.
+- Esempio: se `col:S->{R,B,N}` e il vincolo e "presenza del rosso", scrivi `rho(a)=1 se a e rosso, rho(a)=0 altrimenti`, cioe se a e blu o nero.
 - Usa un flag booleano per "almeno un evento" quando basta.
 - Usa un budget residuo per "al massimo k".
+- Se il vincolo e una somma totale/budget (`<= W`, `<= K`, peso totale, costo totale, ingombro complessivo), aggiungi un indice di budget allo stato.
+- "ingombro complessivo <= W" non significa "pesi non decrescenti": significa "somma dei pesi <= W" e richiede uno stato con budget `p`.
 - Usa stati impossibili (`-infinito` o `false`) per "esattamente k" quando serve.
 - Knapsack 0/1 non e greedy.
 - LCS di tre sequenze non si risolve facendo due LCS successive.
 - LICS non usa la ricorrenza LCS standard e il finale e un massimo globale.
+- Non introdurre vincoli locali tra elementi consecutivi, come `w(prev)<=w(curr)`, se la traccia non li richiede esplicitamente.
 - Floyd-Warshall: `k` indica i vertici intermedi ammessi, non la lunghezza.
 - Esistenza su grafi: usa `OR/AND`, non `min/+`.
 - Cammini minimi: usa `min/+`.
@@ -203,6 +209,7 @@ Prima di scrivere lo stato controlla:
 ```text
 Il vincolo e almeno, al massimo o esattamente?
 Riguarda simboli, posizioni, colori, conteggi o lunghezza?
+Riguarda una somma totale/budget oppure una monotonia locale?
 Serve un flag o un contatore?
 Lo stato finale impone solo il vincolo richiesto?
 ```
@@ -230,6 +237,7 @@ Usa questo quando la traccia chiede presenza di almeno un simbolo rosso.
 
 ```text
 Sia rho(a)=1 se a e rosso, 0 altrimenti.
+Se col:S->{R,B,N}, "altrimenti" significa: se a e blu o nero.
 
 C[i,j,r] = lunghezza massima di una sottosequenza comune tra X[1..i] e Y[1..j]
 che soddisfa il requisito residuo r sul rosso, r in {0,1}.
@@ -251,6 +259,35 @@ Soluzione: C[m,n,1]
 ```
 
 Non usare `C[i,j,r,b]` se la traccia chiede solo la presenza del rosso. Usa `C[i,j,r,b]` solo se la traccia chiede esplicitamente rosso e blu.
+Non scrivere `rho(a)=0 se a e blu` quando la traccia ammette anche altri colori, per esempio il nero.
+
+### Trigger: LCS con ingombro complessivo <= W
+
+Se la traccia dice di trovare una LCS con ingombro complessivo, peso totale, costo totale o somma dei pesi `<= W`:
+
+```text
+C[i,j,p] = lunghezza massima di una sottosequenza comune tra X[1..i] e Y[1..j]
+con ingombro complessivo al piu p.
+
+Indici: i=0..m, j=0..n, p=0..W.
+
+Base:
+C[0,j,p]=0 per ogni j,p
+C[i,0,p]=0 per ogni i,p
+
+Se x_i != y_j:
+  C[i,j,p] = max{C[i-1,j,p], C[i,j-1,p]}
+
+Se x_i = y_j = a:
+  C[i,j,p] = max{C[i-1,j,p], C[i,j-1,p]}
+  se p >= w(a):
+    C[i,j,p] = max{C[i,j,p], 1 + C[i-1,j-1,p-w(a)]}
+
+Soluzione:
+C[m,n,W]
+```
+
+Non usare `C[i,j]` con vincolo `w(prev)<=w(curr)`, salvo che la traccia parli di sottosequenza crescente/non decrescente rispetto al peso.
 
 ### LCS di tre sequenze
 
@@ -663,6 +700,10 @@ Controlla internamente e non stampare:
 6. La ricorrenza aggiorna solo cio che cambia davvero?
 7. Ho scritto solo cio che la traccia chiede?
 8. La risposta e copiabile a mano?
+9. Ho controllato tutti i valori possibili del colore/categoria dati dalla traccia?
+10. La funzione indicatrice copre anche i valori irrilevanti con "altrimenti" quando opportuno?
+11. Se compare "complessivo/totale/somma/budget/<=W", ho usato un indice di budget?
+12. Ho evitato condizioni di monotonia tipo `w(prev)<=w(curr)` se non richieste?
 
 ## 14. Esempi canonici mini
 
@@ -670,9 +711,19 @@ Controlla internamente e non stampare:
 
 ```text
 Stato: C[i,j,r], r in {0,1}, requisito residuo di presenza del rosso.
+Indicatore: rho(a)=1 se a e rosso, rho(a)=0 altrimenti.
 Base: prefisso vuoto valido solo per r=0.
 Match a: aggiorno r con max(0,r-rho(a)).
 Soluzione: C[m,n,1].
+```
+
+### LCS con ingombro complessivo
+
+```text
+Stato: C[i,j,p], p=0..W, ingombro complessivo al piu p.
+Quando prendo x_i=y_j=a consumo w(a): p -> p-w(a).
+Soluzione: C[m,n,W].
+Non usare w(prev)<=w(curr) se la traccia non chiede monotonia.
 ```
 
 ### Floyd-Warshall con stato extra

@@ -15,6 +15,10 @@ tags:
 
 Quando si cerca una sottosequenza comune massima tra due sequenze, ma la soluzione deve rispettare un vincolo di costo, peso o ingombro.
 
+Parole chiave forti: "ingombro complessivo", "peso totale", "costo complessivo", "somma dei pesi", "budget W", "`<= W`".
+
+La parola "complessivo" e un trigger per una somma/budget, non per un confronto locale tra pesi consecutivi.
+
 ## Stato tipico
 
 $$
@@ -22,6 +26,8 @@ c_{i,j,k}
 $$
 
 dove $i$ e $j$ indicano i prefissi delle due sequenze e $k$ indica il budget massimo disponibile.
+
+Non usare uno stato solo $c_{i,j}$ con vincolo $w(prev)\le w(curr)$, salvo richiesta esplicita di monotonia/crescenza rispetto al peso.
 
 ## Esercizi collegati
 
@@ -42,6 +48,7 @@ dove $i$ e $j$ indicano i prefissi delle due sequenze e $k$ indica il budget mas
 
 - Dimenticare la dimensione del budget.
 - Usare $w(x_i)$ anche quando $x_i \ne y_j$.
+- Confondere "ingombro complessivo" con "pesi non decrescenti".
 - Ricostruire la sequenza senza controllare se il simbolo e stato effettivamente scelto.
 
 > [!Warning]

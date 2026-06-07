@@ -23,6 +23,31 @@ Questa variante estende la LCS base ufficiale aggiungendo una dimensione di stat
 
 Per varianti di colore che riguardano proprieta interne della sottosequenza, come "due rossi consecutivi", usare anche la card generale [[dp_lcs_varianti]]: in quel caso non basta un contatore `r`.
 
+## Regola: categoria richiesta vs categorie presenti
+
+Se la traccia assegna colori/categorie ai simboli ma il vincolo riguarda solo una categoria, non creare stati per tutti i colori. Usare un indicatore della sola categoria richiesta, con caso `altrimenti` per tutte le categorie non rilevanti.
+
+Esempio:
+
+- colori possibili: `{R,B,N}`;
+- vincolo: presenza di almeno un rosso.
+
+Allora:
+
+```text
+rho(a)=1 se a e rosso
+rho(a)=0 altrimenti
+```
+
+Equivalente, se si vuole esplicitare il codominio:
+
+```text
+rho(a)=1 se a e rosso
+rho(a)=0 se a e blu o nero
+```
+
+Non scrivere solo `rho(a)=0 se a e blu`, perche manca il caso nero. Non aggiungere stati per blu o nero salvo vincoli espliciti su blu/nero.
+
 ## Variante ufficiale - LCS con al massimo k rossi
 
 Fonte ufficiale: `SRC-LECTURE-001`, PDF `01_sources/extra_materials/lcs_atmost_red-13ott25.pdf`.

@@ -60,6 +60,7 @@ Trigger:
 
 - LCS con colori, conteggi, parita, posizioni o vincoli interni;
 - "al massimo", "esattamente", "almeno";
+- "colore in {R,B,N}" + "presenza del rosso";
 - "due rossi consecutivi";
 - "dispari in posizioni dispari e pari in posizioni pari";
 - tre sequenze.
@@ -70,6 +71,7 @@ Metodo:
 - aggiungere solo lo stato necessario al vincolo;
 - chiarire se il contatore e esatto, massimo, residuo, minimo o booleano;
 - scegliere se il valore finale e una cella finale o un massimo globale.
+- per `col:S->{R,B,N}` e presenza del rosso, usare stato `C[i,j,r]`, `r in {0,1}`, e indicatore `rho(a)=1 se rosso, 0 altrimenti`.
 
 File:
 
@@ -83,6 +85,66 @@ Errori da evitare:
 - non usare `-infinito` per ogni problema "al massimo" se una formulazione `<= k` e sufficiente;
 - non usare due LCS successive per tre sequenze;
 - non confondere posizione nella sottosequenza con indice nella sequenza originale.
+- non scrivere `rho(a)=0 se blu` se il codominio include anche nero: blu e nero sono entrambi non-rossi.
+- non aggiungere stati separati per blu/nero salvo vincoli espliciti su blu/nero.
+
+## Disambiguazione LCS con pesi: budget totale vs monotonia
+
+Quando una traccia LCS assegna un peso/ingombro `w(a)` ai simboli, distinguere subito questi due casi.
+
+### Caso A - Budget totale / ingombro complessivo
+
+Parole chiave:
+
+```text
+ingombro complessivo <= W
+peso totale <= W
+costo complessivo <= W
+somma dei pesi <= W
+budget W
+```
+
+Metodo:
+
+```text
+DP con budget: C[i,j,p], p=0,...,W
+```
+
+Soluzione tipica:
+
+```text
+C[m,n,W]
+```
+
+File:
+
+- `10_rag/RAG_METHOD_CARDS/dp_lcs_ingombro.md`
+- `04_methods/dp_lcs_vincolo_somma_ingombro.md`
+- `07_solved_examples/DP_LCS_ingombro_complessivo_W.md`
+
+### Caso B - Monotonia / crescente rispetto a w
+
+Parole chiave:
+
+```text
+pesi non decrescenti
+sottosequenza crescente
+ordine crescente rispetto a w
+w(a_1) <= w(a_2) <= ...
+```
+
+Metodo:
+
+```text
+DP tipo LICS / stato che termina in una coppia di posizioni o in un valore precedente
+```
+
+### Regola anti-errore
+
+```text
+Non usare condizioni come w(prev) <= w(curr) quando la traccia parla solo di
+"ingombro complessivo <= W". In quel caso serve consumare budget p-w(a).
+```
 
 ## Pattern: LICS
 

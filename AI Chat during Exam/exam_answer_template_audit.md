@@ -6,6 +6,7 @@ Questo file mappa i pattern minimi richiesti dal prompt finale. Serve come audit
 | --- | --- | --- | --- | --- |
 | DP LCS base | LCS, sottosequenza comune piu lunga, prefissi | `10_rag/RAG_METHOD_CARDS/dp_lcs_base.md` | Stato `C[i,j]`, base, match/non-match, `C[m,n]` | Confondere sottosequenza e sottostringa; saltare base |
 | DP LCS con colori/vincoli | colori, al massimo, esattamente, almeno, rossi/blu | `10_rag/RAG_METHOD_CARDS/dp_lcs_colori.md` | Stato con soli vincoli richiesti, base, update colore, finale coerente | Aggiungere colori non richiesti; confondere almeno/al massimo/esattamente |
+| DP LCS con ingombro/budget | ingombro complessivo, peso totale, somma dei pesi, budget W | `10_rag/RAG_METHOD_CARDS/dp_lcs_ingombro.md` | Stato `C[i,j,p]`, consumo `p-w(a)`, finale `C[m,n,W]` | Confondere budget totale con monotonia `w(prev)<=w(curr)` |
 | DP LCS tre sequenze | tre sequenze, `LCS(X,Y,Z)` | `10_rag/RAG_METHOD_CARDS/dp_lcs_varianti.md` | Stato `C[i,j,k]`, base con prefisso vuoto, match triplo, max su tre scarti | Fare due LCS successive |
 | DP LICS | LICS, sottosequenza comune crescente | `10_rag/RAG_METHOD_CARDS/dp_lics_varianti.md` | Stato vincolato a terminare nel match, predecessori minori, max globale | Usare ricorrenza LCS standard; finale `C[m,n]` |
 | DP Knapsack | zaino, knapsack, peso, valore, capacita | `10_rag/RAG_METHOD_CARDS/dp_knapsack.md` | Stato `V[i,p]`, include/esclude, `V[n,P]` | Usare greedy sullo 0/1 |
@@ -47,3 +48,18 @@ C[i,j,r,b]
 ```
 
 a meno che la traccia chieda esplicitamente presenza sia del rosso sia del blu.
+
+Se la traccia specifica colori `{R,B,N}`, scrivere:
+
+```text
+rho(a)=1 se a e rosso
+rho(a)=0 altrimenti
+```
+
+oppure:
+
+```text
+rho(a)=0 se a e blu o nero
+```
+
+Non scrivere solo `rho(a)=0 se a e blu`, perche manca il caso nero.

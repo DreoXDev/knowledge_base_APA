@@ -30,6 +30,15 @@ dove:
 - $r$ e il numero massimo di simboli rossi utilizzabili;
 - $b$ e il numero massimo di simboli blu utilizzabili.
 
+Usare questo stato con due contatori solo se la traccia impone vincoli separati su rosso e blu. Se la traccia chiede solo la presenza del rosso, usare un solo flag/parametro per il rosso:
+
+```text
+C[i,j,r], r in {0,1}
+rho(a)=1 se a e rosso, rho(a)=0 altrimenti
+```
+
+Se `col:S->{R,B,N}`, il caso `altrimenti` include sia blu sia nero. Non scrivere solo `rho(a)=0 se a e blu` quando il nero e ammesso.
+
 Nel caso di tre sequenze (vedi [[exam_2025_02_11_p1_completo_e01]]), lo stato si estende aggiungendo un terzo indice di prefisso $k$:
 
 $$
